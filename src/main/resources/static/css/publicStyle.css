@@ -1,0 +1,8506 @@
+	font-family: 'ErasDemiITCRegular';
+	src: url('fonts/erasdemi.eot');
+	src: url('fonts/erasdemi.eot') format('embedded-opentype'),
+		url('fonts/erasdemi.woff') format('woff'), url('fonts/erasdemi.ttf')
+		format('truetype'), url('fonts/erasdemi.svg#ErasDemiITCRegular')
+		format('svg');
+}
+html {
+    font-size: 14px !important;
+    font-family: Arial !important;
+}
+
+
+.dayTaskData {
+	height: 80px;
+	background-color: #b5dcf7;
+}
+.statePublic 
+{
+	width:1150px !important;
+	display:block;
+	clear:both;
+	
+}
+.monthTopHeading {
+	font-size: 18px;
+}
+
+.dayTaskWeekend {
+	background-color: #cccccc;
+	font-weight: bold;
+	height: 20px;
+}
+
+.dayTaskDiv {
+	height: 80px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.dayTaskDiv hr {
+	border-top: solid 1px #62b8e3;
+	border-bottom: 0px;
+}
+
+.taskCalander {
+	width: 1000px;
+	border: solid 1px #999999;
+}
+
+.taskCalander th {
+	padding: 2px;
+	background-color: #818286;
+	color: #ffffff;
+	height: 20px;
+}
+
+.taskCalander .headingMonth {
+	font-size: 14px;
+	padding: 5px;
+	background-color: #5cacc7;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.headingDay {
+	xbackground-color: #bae6fc;
+	background-color: #439fde;
+	font-weight: bold;
+	height: 20px;
+}
+
+.dayTask {
+	height: 80px;
+}
+
+.calenderDay {
+	border: solid 1px #cccccc;
+	background-color: #f3f3f3;
+}
+
+.calenderDay table {
+	padding: 0px;
+}
+
+table.calendar {
+	font-family: Arial;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	background-color: white;
+	border: solid #999999 1px;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	/*prevent user from selecting text in Mozilla & Safari - check calendar constructor for IE code)*/
+	-moz-user-select: none;
+	/*-khtml-user-select: none;*/
+}
+
+table.calendar input, table.calendar select {
+	font-size: 10px;
+}
+
+table.calendar td {
+	border: 0;
+	font-size: 10px;
+	text-align: center;
+}
+
+div.mainheading {
+	margin: 2px;
+}
+
+table.caldayheading {
+	border-collapse: collapse;
+	cursor: pointer;
+	empty-cells: show;
+	margin: 0 6px 0 6px;
+}
+
+table.caldayheading td {
+	border: solid #CCCCCC 1px;
+	text-align: left;
+	color: #0054E3;
+	font-weight: bold;
+	width: 11px; /*should match calendar cell's width*/
+	padding: 3px;
+}
+
+table.caldayheading td.wkhead {
+	border-right: double #CCCCCC 3px;
+}
+
+table.calcells {
+	border-collapse: collapse;
+	cursor: pointer;
+	margin: 0 6px 0 6px;
+}
+
+table.calcells td {
+	border: solid #CCCCCC 1px;
+	vertical-align: top;
+	text-align: left;
+	font-weight: bold;
+	width: 20px;
+	xheight: 20px; /*IE doesn't like ems*/
+	padding: 3px
+}
+
+table.calcells td div {
+	padding: 1px;
+	margin: 0;
+}
+
+table.calcells td.wkhead {
+	background-color: white;
+	text-align: center;
+	border-right: double #CCCCCC 3px;
+	color: #0054E3;
+}
+
+table.calcells td.wkday {
+	background-color: #DDDDDD;
+}
+
+table.calcells td.wkend {
+	background-color: #DDDDDD;
+}
+
+table.calcells td.curdate {
+	
+}
+
+table.calcells td.cell_selected {
+	background-color: #99CCFF;
+	color: black;
+}
+
+table.calcells td.notmnth {
+	background-color: #FFFFFF;
+	color: #CCCCCC;
+}
+
+table.calcells td.notallowed {
+	background-color: white;
+	color: #EEEEEE;
+	font-style: italic;
+}
+
+table.calcells td.hover {
+	background-color: #999999;
+}
+
+.paddingLeft3 {
+	padding-left: 3px !important;
+}
+
+.listReportRow1CSS, .listReportRow1CSS td {
+	xbackground-color: #F3f3f3;
+	background-color: #ffffff;
+	border-bottom: solid 1px #f2f2f2;
+	height: 20px !important;
+	padding: 8px !important;
+}
+
+#generateHierarchyTree_list_data_1 td {
+	xheight: 20px;
+}
+
+.listReportRow2CSS, .listReportRow2CSS td {
+	background-color: #ffffff;
+	height: 20px !important;
+	padding: 8px !important;
+	border-top: solid 1px #f2f2f2;
+}
+
+.border1 listRow1CSS td, .border1 listRow2CSS td {
+	padding: 0px;
+}
+
+
+
+.listRow2CSS td.none tr.listRow2CSS td, .listRow2CSS td.none tr.listRow1CSS td,
+	.listRow1CSS td.none tr.listRow2CSS td, .listRow1CSS td.none tr.listRow1CSS td,
+	.listRow1CSS td.none td.HeaderStyle, .listRow2CSS td.none td.HeaderStyle,
+	.listRow1CSS td.none tr.commSchName td, .listRow2CSS td.none tr.commSchName td,
+	.listRow1CSS td.none tr.subTotal td, .listRow2CSS td.none tr.subTotal td,
+	.listRow1CSS td.none tr.commGrandTotal td, .listRow2CSS td.none tr.commGrandTotal td,
+	.listRow1CSS td.none tr.commGrandTotal td, .listRow2CSS td.none tr.commGrandTotal td
+	{
+	padding: 3px 6px !important;
+}
+
+.listRow2CSS td.none, .listRow2CSS td.none td, .listRow1CSS td.none,
+	.listRow1CSS td.none td {
+	padding: 0px;
+}
+
+.lineHeight20 {
+	line-height: 20px;
+}
+
+.listRow2CSS tr.padding0 td, .listRow1CSS tr.padding0 td {
+	padding: 0px !important;
+}
+
+.listRow2CSS tr.border0 td, .listRow1CSS tr.border0 td {
+	border: 0px;
+}
+
+.listRow2CSS td, .listRowCSSOthers td, .listRow1CSS td,
+	.listRowCSSAppointmentWithoutNIPR td,
+	.listRowCSSRowColorForCopiedFromWithinSystem td,
+	.listRowColorForRetrievedFromNIPRAndImported td,
+	.listRowColorForRetrievedFromNIPRbutnotImported td,
+	.listRowCSSAppointmentWithNIPR td, .listRowCSSAppointmentWithoutNIPR td,
+	.listRowCSSAuthorize td, .listRowCSSTerminationWithNIPR td,
+	.listRowCSSTerminationWithoutNIPR td, .listRowCSSUnauthorize td,
+	.listRowCSSPrimary td, .listRowCSSLocation td, .listRowCSSProducer td,
+	.listRowCSSSuperProducer td, .listRowCSSSubProducer td,
+	.listRowCSSProduct td, listRowCSSUnassigned td {
+	padding: 3px 6px;
+}
+
+.suggest_link {
+	padding: 2px 0px
+}
+
+.suggest_link_over {
+	background-color: #F3f3f3;
+	padding: 2px 0px;
+	xfont-size: 10px;
+}
+
+.listRowCSSRowColorForCopiedFromWithinSystem {
+	background-color: #c9f6c9;
+}
+
+.listRowColorForRetrievedFromNIPRAndImported {
+	background-color: #92d050;
+}
+
+.listRowColorForRetrievedFromNIPRbutnotImported {
+	background-color: #bc8f8f;
+}
+
+.listRowCSSAppointmentWithNIPR {
+	background-color: #f5deb3;
+}
+
+.listRowCSSAppointmentWithoutNIPR {
+	background-color: #fee98d;
+}
+
+.listRowCSSAuthorize {
+	background-color: #f9eebb;
+}
+
+.listRowCSSTerminationWithNIPR {
+	background-color: #fc605c;
+}
+
+.listRowCSSTerminationWithoutNIPR {
+	background-color: #e99e9c;
+}
+
+.listRowCSSUnauthorize {
+	background-color: #e96b68;
+}
+
+.listRowCSSUnassigned {
+	background-color: #ffffff;
+}
+
+.formLabel2 {
+	text-align: left;
+	xpadding: 5px 5px 5px 0px;
+	height: 21px;
+}
+
+.listRow1CSS {
+	xbackground-color: #F3f3f3;
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2;
+	padding: 3px !important;
+}
+
+.listRow2CSS {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2;
+	padding: 3px !important;
+}
+
+.listRow2CSS td, .listRow1CSS td {
+	border-bottom: solid 1px #cccccc;
+	height:32px;
+}
+
+.listRow2CSS td table tbody tr td, .listRow1CSS td table tbody tr td {
+	border: 0px;
+}
+
+.listRowCSSPrimary {
+	background-color: rgb(197, 220, 252);
+	BORDER-TOP: 0px solid;
+	BORDER-RIGHT: 0px solid;
+	BORDER-BOTTOM: #f3f3f3 1px solid;
+	COLOR: #000000;
+	PADDING-BOTTOM: 3px;
+	TEXT-ALIGN: left;
+	PADDING-TOP: 3px;
+	PADDING-LEFT: 3px;
+	BORDER-LEFT: 0px solid;
+	PADDING-RIGHT: 3px;
+	xbackground-color: #FFFFff;
+	xbackground-color: #ffffff;
+	xborder-top: solid 1px #f2f2f2;
+	xheight: 5px !important;
+	xpadding: 3px !important;
+}
+
+.listRowCSSLocation {
+	background-color: rgb(228, 239, 254);
+	BORDER-TOP: 0px solid;
+	BORDER-RIGHT: 0px solid;
+	BORDER-BOTTOM: #f3f3f3 1px solid;
+	COLOR: #000000;
+	PADDING-BOTTOM: 3px;
+	TEXT-ALIGN: left;
+	PADDING-TOP: 3px;
+	PADDING-LEFT: 3px;
+	BORDER-LEFT: 0px solid;
+	PADDING-RIGHT: 3px;
+	xbackground-color: #FFFFff;
+}
+
+.listRowCSSOthers {
+	xbackground-color: rgb(228, 239, 254);
+	BORDER-TOP: 0px solid;
+	BORDER-RIGHT: 0px solid;
+	BORDER-BOTTOM: #f3f3f3 1px solid;
+	COLOR: #000000;
+	PADDING-BOTTOM: 3px;
+	TEXT-ALIGN: left;
+	PADDING-TOP: 3px;
+	PADDING-LEFT: 3px;
+	BORDER-LEFT: 0px solid;
+	PADDING-RIGHT: 3px;
+	xbackground-color: #FFFFff;
+}
+
+.listRowCSSPrimary td, .listRowCSSLocation td, .listRowCSSOthers td {
+	border-bottom: solid 1px #f3f3f3;
+	padding: 0px !important
+}
+
+.listRowCSSPrimary td span, .listRowCSSLocation td span,
+	.listRowCSSOthers td span, .listRowCSSPrimary td span img,
+	.listRowCSSLocation td span img, .listRowCSSOthers td span img,
+	.listRowCSSPrimary td a, .listRowCSSLocation td a, .listRowCSSOthers td a
+	{
+	float: left
+}
+
+.listRowCSSLocation td span {
+	xmargin-left: 3px !important;
+}
+
+.listRowCSSPrimary td a, .listRowCSSLocation td a, .listRowCSSOthers td a
+	{
+	margin-left: 3px;
+	line-height: 17px;
+}
+
+.listRowCSSProducer {
+	background-color: rgb(250, 239, 157);
+}
+
+.listRowCSSSuperProducer {
+	background-color: rgb(254, 235, 114);
+}
+
+.listRowCSSSubProducer {
+	background-color: rgb(251, 245, 209);
+}
+
+.listRowCSSProduct {
+	background-color: rgb(254, 233, 125);
+}
+
+img {
+	border: 0px;
+}
+
+.listRowCSSRequest {
+	background-color: #f5deb3;
+}
+
+.listRowCSSRequest td {
+	xpadding: 3px;
+}
+
+.divUL ul, .divUL0 ul {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	xmargin-right: -2px;
+	border-bottom: 0px !important;
+	border-top: 0px !important;
+}
+
+.divUL {
+	padding-left: 0px !important;
+	float: left;
+	padding-right: 0px !important;
+	border-bottom: 0px !important;
+	border: 0px;
+}
+
+.divUL ul li a {
+	margin-right: 2px !important;
+}
+
+.divUL .noindent {
+	margin: 0px;
+	padding: 0px;
+}
+
+.divUL .noindent li {
+	margin-right: 2px;
+}
+
+.divUL0 {
+	float: left;
+}
+
+.divUL0 .noindent li {
+	margin-right: 0px;
+}
+
+.tab2 li div {
+	margin-right: 0px;
+}
+/* CSS Document */
+div {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.calendar_widget {
+	position: relative;
+	background-color: #ffffff;
+	top: 0px;
+	left: 100px;
+	width: 160px;
+	height: 125px;
+	frame-border: 0px;
+	display: none;
+	border: 0;
+	overflow: hidden;
+	z-index: 100000000;
+}
+
+div.topFix200 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 200px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.topFix200 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.topFix200 table tbody {
+	overflow: visible;
+}
+
+div.topFix250 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 250px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.topFix250 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.topFix250 table tbody {
+	overflow: visible;
+}
+
+div.topFix300 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.topFix300 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.topFix300 table tbody {
+	overflow: visible;
+}
+
+div.topFix350 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 350px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.topFix350 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.topFix350 table tbody {
+	overflow: visible;
+}
+
+div.topFix400 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 400px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.topFix400 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.topFix400 table tbody {
+	overflow: visible;
+}
+/*-------------------------------common-------------------------------------*/
+td {
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	font-weight: normal;
+	word-spacing: 0px;
+	xletter-spacing: 0px;
+	text-decoration: none;
+}
+
+.tdlabel {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+	font-weight: normal;
+	word-spacing: 0px;
+	xletter-spacing: 0px;
+	text-decoration: none;
+}
+
+.welcome {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	height: 22px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.header {
+	background-image: url(../images/topHeader.jpg);
+	background-repeat: no-repeat;
+	height: 65px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 10px;
+}
+
+.headerBg {
+	xbackground-image: url(../images/logoRight.jpg);
+	xbackground-repeat: repeat-x;
+	xheight: 120px;
+}
+
+.header a:link, .header a:visited, .header a:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.note {
+	font-family: Arial;
+	color: #666666;
+	font-size: 10px;
+	font-style: italic;
+}
+
+legend {
+	font-family: Arial;
+	font-size: 16pt;
+	font-weight: bold;
+	xcolor: #000066; color:#1e4663;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+legend label  {
+	font-size: 16pt;
+}
+label {
+	font-family: Arial;
+	font-size: 14px;
+	xheight: 24px;
+}
+
+.top0 {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+fieldset {
+	width: auto;
+	border:none;
+	border-top: solid 2px #d7d7d7;
+	padding: 12px 0px 0px;
+	margin: 0px !important;
+}
+
+fieldset div table {
+	padding-top: 0px;
+}
+
+fieldset legend {
+	padding-bottom: 3px;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.tableHeight {
+	height: 275px;
+}
+
+.button {
+	border-top: solid 1px #cccccc;
+	valign: middle;
+	float: right;
+}
+
+.error {
+	font-family: Arial;
+	font-size: 14px;
+	xfont-weight: bold;
+	color: #ff0000;
+	xpadding-left: 28px;
+	xpadding-bottom: 5px;
+}
+
+.errorSection {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff0000;
+	text-align: center !important;
+	xpadding-left: 28px;
+	xpadding-bottom: 5px;
+	margin: 0px auto;
+}
+
+.errorBold {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff0000;
+	text-align: center !important;
+	xpadding-left: 28px;
+	xpadding-bottom: 5px;
+	margin: 0px auto;
+}
+
+.tr_errors {
+	font-family: Arial;
+	font-size: 14px;
+	xfont-weight: bold;
+	color: #ff0000;
+	xpadding-left: 28px;
+}
+
+.errors_list {
+	color: red;
+}
+
+.errorTop {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff0000;
+	xbackground-color: #FFFFCC;
+	background-color: #f7f7f7;
+	xborder: 1px solid #FC9;
+	border: 1px solid #ececec;
+	padding: 10px;
+	width: 94%;
+	text-align: left;
+	padding-left: 30px;
+	background-image: url(../images/icons/delete_icon.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+}
+
+.confirmationTop {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #017d0a;
+	background-color: #F8fff0;
+	border: 1px solid #bbee77;
+	padding: 10px;
+	width: 94%;
+	text-align: left;
+	padding-left: 30px;
+	background-image: url(../images/icons/ico_Approve.png);
+	background-repeat: no-repeat;
+	background-position: 10px 10px;
+	height: 12px;
+}
+
+.message {
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+/*
+	select {
+	border: #acacac 1px solid;
+	font-size: 11px;
+	color: #000000;
+	font-family: Arial;
+	background-color: #FFFFFF;
+	margin-left: 3px;
+	height: 18px;
+	xline-height: 18px;
+	padding: 0px;
+	
+	-webkit-border-top-right-radius:4px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	x-webkit-box-shadow: #ccc 0px 2px 2px;
+	x-moz-box-shadow: #ccc 0px 2px 2px;
+	xbox-shadow: #ccc 0px 2px 2px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#cccccc));
+	background: -webkit-linear-gradient(#ffffff, #cccccc);
+	background: -moz-linear-gradient(#ffffff, #cccccc);
+	background: -ms-linear-gradient(#ffffff, #cccccc);
+	background: -o-linear-gradient(#ffffff, #cccccc);
+	background: linear-gradient(#ffffff, #cccccc);
+	-pie-background: linear-gradient(#ffffff, #cccccc);
+	behavior: url(css/htc/PIE.htc);
+}
+input[type=text], input[type=password], ajaxToolkit {
+	border: #acacac 1px solid;
+	font-size: 11px;
+	color: #000000;
+	font-family: Arial;
+	background-color: #FFFFFF;
+	margin-left: 3px;
+	height: 14px;
+	xline-height: 18px;
+	padding: 0px;
+	xpadding-left: 8px;
+	padding:2px 5px;
+	
+	
+	
+	-webkit-border-top-right-radius:4px;
+	-webkit-border-top-left-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	border-radius: 4px 4px 4px 4px;
+	x-webkit-box-shadow: #ccc 0px 2px 2px;
+	x-moz-box-shadow: #ccc 0px 2px 2px;
+	xbox-shadow: #ccc 0px 2px 2px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#cccccc));
+	background: -webkit-linear-gradient(#ffffff, #cccccc);
+	background: -moz-linear-gradient(#ffffff, #cccccc);
+	background: -ms-linear-gradient(#ffffff, #cccccc);
+	background: -o-linear-gradient(#ffffff, #cccccc);
+	background: linear-gradient(#ffffff, #cccccc);
+	-pie-background: linear-gradient(#ffffff, #cccccc);
+	behavior: url(css/htc/PIE.htc);
+	
+}
+
+*/
+select {
+	xborder: #d1d1d1 1px solid;
+	font-size: 13px;
+	color: #000000;
+	font-family: Arial;
+	xbackground-color: #FFFFFF;
+	margin-left: 3px;
+	height: 20px;
+	xline-height: 18px;
+	padding: 0px;
+}
+
+input[type=text], input[type=password], ajaxToolkit {
+	xborder: #d1d1d1 1px solid;
+	font-size: 13px;
+	color: #000000;
+	font-family: Arial;
+	xbackground-color: #FFFFFF;
+	margin-left: 3px;
+	height: 18px;
+	xline-height: 18px;
+	padding: 0px;
+	padding-left: 2px;
+}
+
+textarea {
+	xborder: #d1d1d1 1px solid;
+	font-size: 13px;
+	color: #000000;
+	font-family: Arial;
+	xbackground-color: #FFFFFF;
+	margin-left: 3px;
+	line-height: 18px;
+	padding: 0px;
+	margin-top: 2px;
+}
+
+input[type=submit] {
+	font-size: 10px !important;
+	xline-height: 27px;
+	font-family: Arial;
+}
+
+.buttonRow {
+	height: 39px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.formButtonRow {
+	height: 39px;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.appButton {
+	height: 39px;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.frameBody {
+	background-color: #f3f3f3;
+	font-family: Arial;
+	color: #000000;
+	border: 2px solid #3892d1;
+}
+
+.frameHeader {
+	x-webkit-border-top-right-radius: 16px;
+	x-webkit-border-top-left-radius: 16px;
+	x-moz-border-radius: 16px 16px 0px 0px;
+	xborder-radius: 16px 16px 0px 0px;
+	-webkit-text-shadow: #000 0px 1px 2px;
+	-moz-text-shadow: #000 0px 1px 2px;
+	text-shadow: #000 0px 1px 2px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#45a1e0),
+		to(#2b7fba));
+	background: -webkit-linear-gradient(#45a1e0, #2b7fba);
+	background: -moz-linear-gradient(#45a1e0, #2b7fba);
+	background: -ms-linear-gradient(#45a1e0, #2b7fba);
+	background: -o-linear-gradient(#45a1e0, #2b7fba);
+	background: linear-gradient(#45a1e0, #2b7fba);
+	-pie-background: linear-gradient(#45a1e0, #2b7fba);
+	behavior: url(css/htc/PIE.htc);
+	height: 30px;
+	padding-left: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.frameHeader a {
+	-webkit-text-shadow: transparent 0px 1px 2px;
+	-moz-text-shadow: transparent 0px 1px 2px;
+	text-shadow: transparent 0px 1px 2px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.frameHeader a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.frameHeader1 {
+	-webkit-border-top-right-radius: 16px;
+	-webkit-border-top-left-radius: 16px;
+	-moz-border-radius: 16px 16px 0px 0px;
+	border-radius: 16px 16px 0px 0px;
+	x-webkit-box-shadow: #666 0px 5px 5px;
+	x-moz-box-shadow: #666 0px 5px 5px;
+	xbox-shadow: #666 0px 5px 5px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#45a1e0),
+		to(#2b7fba));
+	background: -webkit-linear-gradient(#45a1e0, #2b7fba);
+	background: -moz-linear-gradient(#45a1e0, #2b7fba);
+	background: -ms-linear-gradient(#45a1e0, #2b7fba);
+	background: -o-linear-gradient(#45a1e0, #2b7fba);
+	background: linear-gradient(#45a1e0, #2b7fba);
+	-pie-background: linear-gradient(#45a1e0, #2b7fba);
+	behavior: url(css/htc/PIE.htc);
+	height: 30px;
+	xpadding-left: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.frameSubHeader {
+	xbackground-image: url(../images/bgHomeBoxGray.png);
+	background-color: #c4c4c4;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	height: 25px;
+	padding-left: 5px;
+}
+
+.frameSubHeader td {
+	font-weight: bold;
+	color: #000;
+}
+
+.frameData {
+	x-webkit-border-bottom-right-radius: 16px;
+	x-webkit-border-bottom-left-radius: 16px;
+	x-moz-border-radius: 0px 0px 16px 16px;
+	xborder-radius: 0px 0px 16px 16px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eae9e8),
+		to(#fdf9ea));
+	background: -webkit-linear-gradient(#eae9e8, #fdf9ea);
+	background: -moz-linear-gradient(#eae9e8, #fdf9ea);
+	background: -ms-linear-gradient(#eae9e8, #fdf9ea);
+	background: -o-linear-gradient(#eae9e8, #fdf9ea);
+	background: linear-gradient(#eae9e8, #fdf9ea);
+	-pie-background: linear-gradient(#eae9e8, #fdf9ea);
+	xborder: solid 1px #cccccc;
+	behavior: url(css/htc/PIE.htc);
+	xbackground: -webkit-gradient(linear, 0 0, 0 bottom, from(#dceffd),
+		to(#ffffff));
+	xbackground: -webkit-linear-gradient(#dceffd, #ffffff);
+	xbackground: -moz-linear-gradient(#dceffd, #ffffff);
+	xbackground: -ms-linear-gradient(#dceffd, #ffffff);
+	xbackground: -o-linear-gradient(#dceffd, #ffffff);
+	xbackground: linear-gradient(#dceffd, #ffffff);
+	x-pie-background: linear-gradient(#dceffd, #ffffff);
+	xborder: solid 1px #2f85c0;
+	xbehavior: url(css/htc/PIE.htc);
+}
+
+.boldHeading {
+	font-weight: bold;
+}
+
+.bgLeftTD {
+	width: 34px;
+	vertical-align: top;
+	background-image: url(../images/middleLeftBg.jpg);
+	xbackground-repeat: no-repeat;
+	xbackground-color: #ffd457;
+	xbackground-position: top;
+}
+
+.bgLeft {
+	border: 1px solid #6bc2f8;
+}
+
+.homeActionBgInnerLeft, .homeActionBgInnerRight {
+	xbackground: #ffffff;
+	width: 10px;
+}
+
+.bgCenterTD {
+	background-color: #ffffff;
+	height: 370px;
+}
+
+.bgRightTD {
+	width: 34px;
+	background-image: url(../images/middleRightBg.jpg);
+	xbackground-position: bottom;
+	xbackground-repeat: no-repeat;
+	xbackground-color: #ffd457;
+}
+
+.trigger {
+	cursor: pointer;
+	cursor: hand;
+	font-family: Arial;
+	font-size: 11px;
+	xcolor: #666666;
+	xfont-weight: bold;
+	xpadding: 5px;
+	xpadding-left: 25px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.trigger a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.trigger a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.branchAdv {
+	display: none;
+}
+
+.branch {
+	display: none;
+	text-align: left;
+	background-color: #f3f3f3;
+	border: solid 1px #d2d1d1;
+	padding: 0px;
+}
+
+.triggerHome {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+	padding-left: 5px;
+	border-bottom: 1px solid #ffffff;
+}
+
+.triggerHome a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.triggerHome a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.triggerHome5 {
+	cursor: pointer;
+	cursor: hand;
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+	padding: 5px;
+	border-bottom: 0px solid #ffffff;
+}
+
+.triggerHome5 a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.triggerHome5 a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.branchHome {
+	display: none;
+	text-align: left;
+	background-color: #FDF9EA;
+	border-bottom: solid 1px #d2d1d1;
+	padding: 5px;
+	padding-left: 5px;
+}
+
+.bgBranch {
+	background-color: #fff0c6;
+	xborder: solid 1px #ffd865;
+}
+
+.bottom {
+	font-family: Arial;
+	font-size: 11px;
+	color: #0C303C;
+	text-align: center;
+	height: 30px;
+}
+
+.subTab {
+	margin-bottom: -2px;
+}
+
+.subTabArea {
+	border: 1px solid #0478ab !important;
+	xborder-top: 1px solid #d1d1d1 !important;
+	width: 100%;
+	padding: 10px;
+}
+
+.bottom a {
+	font-family: Arial;
+	font-size: 11px;
+	color: #0C303C;
+	text-decoration: underline;
+}
+
+.bottom a:hover {
+	font-family: Arial;
+	font-size: 11px;
+	color: #0C303C;
+	text-decoration: none;
+}
+
+.modalBackground {
+	background-color: Gray;
+	filter: alpha(opacity = 70);
+	opacity: 0.7;
+}
+
+.popupTop {
+	font-family: Arial;
+	font-size: 13px;
+	text-align: center;
+	background-color: #23769c;
+	padding: 5px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.popupBody {
+	position: relative;
+	font-family: Arial;
+	font-size: 11px;
+	background-color: #ffffff;
+	border: 1px solid #23769c;
+	z-index: 100;
+}
+
+.popupBodyHeight {
+	height: 250px;
+	vertical-align: top;
+}
+
+.txtBlue {
+	font-size: 10px;
+	color: #0268b3;
+	font-family: Arial;
+}
+
+.text {
+	font-size: 11px;
+	color: #ffffff;
+	font-family: Arial;
+}
+
+.text a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.text a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+/*@@@@@@@@@@@@@    Google Style Search Result       @@@@@@@@@@@@@@@@@@*/
+.heading {
+	font-weight: bold;
+	color: #008aaf;
+}
+
+.textBlue {
+	color: #008aaf;
+}
+
+.textBlue a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.textBlue a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+/*@@@@@@@@@@@@@    pbd Colors       @@@@@@@@@@@@@@@@@@*/
+.bgcolorF5DEB3 {
+	background-color: #F5DEB3;
+}
+
+.bgcolor89bbe0 {
+	background-color: #89bbe0;
+}
+
+.bgcolorb6e0ff {
+	background-color: #b6e0ff;
+}
+/*@@@@@@@@@@@@@    Grid View with Skin CSS       @@@@@@@@@@@@@@@@@@*/
+.RowStyle {
+	background-color: #FFFFff;
+	color: #000000;
+	border-bottom: solid 1px #f2f2f2;
+	text-align: left;
+	padding: 3px !important;
+}
+
+.RowStyle a, .AltRowStyle a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.RowStyle a:hover, .AltRowStyle a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.AltRowStyle {
+	background-color: #ffffff;
+	xbackground-color: #f2f8f9;
+	color: #000000;
+	border-bottom: solid 1px #f2f2f2;
+	border: solid 0px;
+	text-align: left;
+	padding: 3px !important;
+}
+
+.EmptyRowStyle td {
+	color: #ff0000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.EmptyRowStyle {
+	color: #ff0000;
+	text-align: center;
+	font-weight: bold;
+	line-height: 25px;
+	xpadding:10px;
+}
+
+.PagerStyle {
+	
+}
+
+.SelectedRowStyle {
+	
+}
+
+.EditRowStyle {
+	
+}
+/*.HeaderStyle, .listRow2CSS td, .listRow1CSS td{
+	border-right:1px solid #000;
+}
+.HeaderStyle:nth-last-child(1), .listRow2CSS td:nth-last-child(1), .listRow1CSS td:nth-last-child(1){
+	border-right:none;
+}
+*/
+
+.HeaderStyle, .gridheading {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 3px 6px;
+	color: #000000 !important;
+	font-family: Arial;
+	height: 34px;
+	background-color: #f2f2f2;
+	text-align: center !important;
+	xtext-decoration: none;
+	border-bottom:1px solid #ccc;
+}
+.HeaderStyle td{
+	border-bottom:1px solid #ccc;
+}
+
+.HeaderStyle a {
+	color: #000;
+}
+
+.HeaderStyle a:link, a:visited, a:active {
+	color: #000;
+}
+
+.HeaderStyle a:hover {
+	text-decoration:underline;
+}
+
+.HeaderStyle br {
+	height: 0px;
+}
+.listRow2CSS td:nth-last-child(1), .listRow1CSS td:nth-last-child(1){
+	border-right:none !important;
+}
+
+.yes-cell, .no-cell {
+	width:30px;
+	text-align:center;
+}
+.add-col{
+	padding-right:10px !important;
+}
+.header-cell{border-right:1px solid #cccccc;}
+.add-cell{padding: 3px 6px !important; border-top: solid 1px #cccccc;}
+.data-cell, .add-cell{
+	border-right:1px solid #cccccc;
+	
+}
+.last-cell{
+	border-right:none;
+}
+.add-error-cell{
+	border-right:0px solid #000;
+}
+.header-cell:nth-last-child(1){
+	border-right:none;
+}
+#hideCaptchaImage .HeaderStyleheading{
+	border-right:none;
+}
+#hideCaptchaImage .freeFormListTd:nth-child(3){
+	vertical-align:top;
+}
+
+
+/*@@@@@@@@@@@@@    EndGrid View with Skin CSS       @@@@@@@@@@@@@@@@@@*/
+
+/*@@@@@@@@@@@@@    Report Grid View with Skin CSS       @@@@@@@@@@@@@@@@@@*/
+.RowStyleReport {
+	background-color: #FFFFff;
+	border-bottom: solid 1px #f2f2f2;
+	color: #000000;
+	border: solid 0px;
+	text-align: left;
+	padding: 3px;
+}
+
+.RowStyleReport a, .AltRowStyleReport a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.RowStyleReport a:hover, .AltRowStyleReport a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.AltRowStyleReport {
+	background-color: #ffffff;
+	xbackground-color: #f2f8f9;
+	border-bottom: solid 1px #f2f2f2;
+	color: #000000;
+	border: solid 0px;
+	text-align: left;
+	padding: 3px;
+}
+
+.EmptyRowStyleReport td {
+	color: #ff0000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.EmptyRowStyleReport {
+	color: #ff0000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.PagerStyleReport {
+	
+}
+
+.SelectedRowStyleReport {
+	
+}
+
+.EditRowStyleReport {
+	
+}
+
+.HeaderStyleReport {
+	border-right: #e7e7e7 0px solid;
+	padding: 3px;
+	border-top: #e7e7e7 0px solid;
+	font-weight: bold;
+	font-size: 11px;
+	border-left: #e7e7e7 0px solid;
+	color: #000000;
+	border-bottom: #e7e7e7 0px solid;
+	font-family: Arial;
+	height: 24px;
+	background-color: #5cacc7;
+	text-align: left;
+	text-decoration: none;
+}
+
+.HeaderStyleReport a {
+	color: #0000ff;
+}
+
+.HeaderStyleReport a:link, a:visited, a:active {
+	color: #0000ff;
+}
+
+.HeaderStyleReport a:hover {
+	color: #ffffff;
+}
+/*@@@@@@@@@@@@@    End Reports Grid View with Skin CSS       @@@@@@@@@@@@@@@@@@*/
+.collapsePanel {
+	width: 640px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.bgbutton {
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+/*---------------------------------------------------------end-----------------------------------------------*/
+.req {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.borderGrid {
+	border: 1px solid #d1d1d1;
+	padding: 3px;
+	background-color: #c6dfef;
+	text-align: left;
+}
+
+.border1 {
+	border: 1px solid #b3d7ed;
+	xpadding: 3px;
+	xbackground-color: #c6dfef;
+	text-align: left;
+}
+/* New Styles Addes on 25-06-09*/
+.updateProgress {
+	background-color: #eeeeee;
+	border: solid 1px #000;
+	display: block;
+	position: absolute;
+	width: 125px;
+	height: 20px;
+	z-index: 99999998;
+}
+
+.BackgroundDivOverlay {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 99999997;
+	display: none;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #f7f7f7;
+	filter: alpha(opacity = 55.00);
+	filter: -moz-opacity:0.55;
+}
+
+.updateProgessSpan {
+	color: Black;
+	margin: 3px;
+	z-index: 99999999;
+	font-weight: bold;
+}
+
+.hide {
+	display: none;
+	width: 100%;
+}
+
+.hideDiv {
+	display: none;
+}
+
+.Confirmation {
+	font-size: 14px;
+	float: left;
+	width: 100%;
+	color: #017d0a;
+	font-weight: bold;
+	font-family: Arial;
+	text-align: center !important;
+}
+
+.Confirmation a {
+	font-size: 11px;
+	float: left;
+	width: 100%;
+	color: #000000;
+	font-weight: bold;
+	font-family: Arial;
+	text-align: center !important;
+}
+
+.home_page_tabs_text {
+	font-size: 10px;
+	float: left;
+	width: 96.1%;
+	color: #000000;
+	font-weight: bold;
+	font-family: Arial;
+	height: 17px;
+}
+
+.home_page_tabs_text a {
+	font-weight: bold;
+	color: #5f6e7a;
+	padding: 3px 0px 3px 15px;
+	float: left;
+	width: 100%;
+}
+
+.home_page_tabs_text a:hover {
+	float: left;
+	color: #3892d1;
+	background-color: #ccc;
+}
+
+.home_page_tabs_subText {
+	font-size: 11px;
+	float: left;
+	width: 100%;
+	color: #000000;
+	font-weight: normal;
+	font-family: Arial;
+	xheight: 16px;
+	padding: 3px 0px;
+}
+
+.home_page_tabs_subText a {
+	font-weight: normal;
+	xcolor: #5f6e7a;
+	color: #000000;
+	xpadding: 3px 0px 3px 15px;
+	float: left;
+	width: 100%;
+}
+
+.home_page_tabs_subText a:hover {
+	float: left;
+	color: #c6643f;
+	xbackground-color: #ccc;
+}
+
+.home_page_tabs_text12 {
+	width: 100%;
+	color: #000000;
+}
+
+.home_page_tabs_text12 A {
+	padding-left: 27px;
+	font-weight: bold;
+	font-size: 10px;
+	float: left;
+	vertical-align: middle;
+	width: 100%;
+	color: #5f6e7a;
+	padding-top: 2px;
+	font-family: Arial;
+	height: 17px;
+}
+
+.home_page_tabs_text12 A:hover {
+	padding-left: 27px;
+	font-weight: bold;
+	font-size: 10px;
+	float: left;
+	vertical-align: middle;
+	width: 100%;
+	color: #0000ff;
+	padding-top: 2px;
+	font-family: Arial;
+	height: 17px;
+	background-color: #91c3d9;
+}
+
+.textarea {
+	border-right: #0066ff 1px solid;
+	border-top: #0066ff 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #0066ff 1px solid;
+	color: #000000;
+	border-bottom: #0066ff 1px solid;
+	font-style: normal;
+	font-family: Arial;
+	background-color: #ddeeff;
+}
+
+.tabs_inactive {
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #8e9488;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.tabs_inactive a {
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #8e9488;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.tabs_inactive a:hover {
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #8e9488;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+div.coveragesContainerBulletinHomeAction {
+	overflow-y: auto;
+	overflow-x: auto;
+	height: 127px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerBulletinHomeAction table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerBulletinHomeAction table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerProdutionReport12 {
+	overflow-y: hidden;
+	overflow-x: auto;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerProdutionReport12 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerProdutionReport12 table tbody {
+	overflow: visible;
+}
+
+.popupHover {
+	margin-top: 200px;
+}
+
+div.coveragesContainerTask {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 170px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerTask table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerTask table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainer1 {
+	overflow-x: auto;
+	overflow-y: hidden;
+	position: relative;
+	margin: 0 auto;
+	width: 844px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainer1 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainer1 table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainer2 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 250px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainer2 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainer2 table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerMna {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 250px;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerMna table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerMna table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerBusinessSegment {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 98%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerBusinessSegment table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerBusinessSegment table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerCampaignDetail {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 270px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerCampaignDetail table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerCampaignDetail table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerLOALOBMAPPING {
+	overflow: auto;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerLOALOBMAPPING table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerLOALOBMAPPING table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerCompanyStateMapping {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerCompanyStateMapping table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerCompanyStateMapping table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerLoa {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerLoa table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerLoa table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainercounty {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainercounty table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainercounty table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerNiprLicenseclass {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerNiprLicenseclass table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerNiprLicenseclass table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerNIPRVerification {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 250px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 760px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerNIPRVerification table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerNIPRVerification table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerTermination {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 350px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerTermination table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerTermination table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerBackGrounCheck {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 150px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerBackGrounCheck table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerBackGrounCheck table tbody {
+	overflow: visible;
+}
+
+.HeaderFreez {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop);
+	z-index: 10;
+}
+
+div.coveragesContainerPendingRequest {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 150px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerPendingRequest table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerPendingRequest table tbody {
+	overflow: visible;
+}
+
+.HeaderFreez {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop);
+	z-index: 10;
+}
+
+div.coveragesContainerreports {
+	overflow-x: auto;
+	overflow-y: auto;
+	position: relative;
+	margin: 0 auto;
+	width: 844px;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerreports table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerreports table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerreportDiaryConversation {
+	overflow-y: auto;
+	overflow-x: hidden; /* must be greater than tbody*/
+	position: relative;
+	margin: 0;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerreportDiaryConversation table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerreportDiaryConversation table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerAppointReportsCarrier {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 0;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerAppointReportsCarrier table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerAppointReportsCarrier table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerNiprAppointmentReportSummary {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 500px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerNiprAppointmentReportSummary table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerNiprAppointmentReportSummary table tbody {
+	overflow: visible;
+}
+
+div.coveragesContainerNiprAppointmentReportDetail {
+	overflow-y: auto;
+	overflow-x: auto;
+	height: 500px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	z-index: 0;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainerNiprAppointmentReportDetail table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainerNiprAppointmentReportDetail table tbody {
+	overflow: visible;
+}
+
+#AutoComplete {
+	width: 153px !important;
+	overflow: visible !important;
+}
+
+#AutoComplete div {
+	font-size: x-small !important;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteagent {
+	width: 153px !important;
+	overflow: visible !important;
+}
+
+#AutoCompleteagent div {
+	font-size: x-small !important;
+	font-style: normal;
+	font-family: Arial;
+}
+
+.textboxstyle {
+	font-size: x-small !important;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteReport {
+	width: 180px !important;
+	overflow: visible !important;
+}
+
+#AutoCompleteReport div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteReportagency div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteReportagency {
+	width: 181px !important;
+	overflow: visible !important;
+	z-index: 1000001;
+}
+
+#AutoCompleteReportAgent {
+	width: 181px !important;
+	overflow: visible !important;
+	z-index: 1000001;
+}
+
+#AutoCompleteReportAgent div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteAgencySearch {
+	width: 120px !important;
+	overflow: visible !important;
+}
+
+#AutoCompleteAgencySearch div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteReportAgentLastName {
+	width: 181px !important;
+	overflow: visible !important;
+	z-index: 1000001;
+}
+
+#AutoCompleteReportAgentLastName div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteAgentSearch {
+	width: 120px !important;
+	overflow: visible !important;
+}
+
+#AutoCompleteAgentSearch div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteagencyreportnipr {
+	width: 172px !important;
+	overflow: visible !important;
+	z-index: 10000;
+}
+
+#AutoCompleteagencyreportnipr div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteagencycarriercompany {
+	width: 180px !important;
+	overflow: visible !important;
+	z-index: 10001;
+}
+
+#AutoCompleteagencycarriercompany div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteagentreportnipr {
+	width: 172px !important;
+	overflow: visible !important;
+}
+
+#AutoCompleteagentreportnipr div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteAgentLastNameSearch {
+	width: 177px !important;
+	overflow: visible !important;
+}
+
+#AutoCompleteAgentLastNameSearch div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+.bgmain {
+	xbackground: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	xbackground: -webkit-linear-gradient(#ffffff, #ffffff);
+	xbackground: -moz-linear-gradient(#ffffff, #ffffff);
+	xbackground: -ms-linear-gradient(#ffffff, #ffffff);
+	xbackground: -o-linear-gradient(#ffffff, #ffffff);
+	xbackground: linear-gradient(#ffffff, #ffffff);
+	x-pie-background: linear-gradient(#ffffff, #ffffff);
+	xbehavior: url(css/htc/PIE.htc);
+	height: 400px;
+	background-color: #ffffff;
+}
+
+.bghome {
+	xbackground-color: #ffd457;
+}
+
+.tabs_active {
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.tabs_active a {
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.tabs_active a:hover {
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #c6643f;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.txtbold {
+	font-weight: bold;
+}
+
+.Header1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.Header2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #5cacc7;
+}
+
+.strip {
+	xbackground-image: url(../images/bgtabsep.jpg);
+	height: 20px;
+	font-size: 11px;
+	color: Red;
+	margin-right: 10px;
+	text-align: right;
+	xfont-weight: bold;
+}
+
+.buttonCell {
+	height: 50px;
+	vertical-align: center;
+}
+
+.borderA {
+	border: 1px solid #5cacc7;
+}
+
+div.coveragesContainer {
+	overflow: auto;
+	height: 350px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesContainer table th {
+	position: relative;
+	z-index: 100;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesContainer table tbody {
+	overflow: visible;
+}
+
+.validationSummary {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.borderFieldset {
+	border: 1px solid #8e8c8d;
+	xpadding: 5px;
+	width: 98%;
+	text-align: center;
+}
+
+.titleButton {
+	width: 0px;
+}
+
+.homeActionDiv {
+	border-bottom: buttonshadow 1px solid;
+	position: absolute;
+	border-left: buttonshadow 1px solid;
+	background-color: window;
+	visibility: hidden;
+	color: windowtext;
+	overflow: hidden;
+	border-top: buttonshadow 1px solid;
+	cursor: default;
+	border-right: buttonshadow 1px solid;
+	unselectable: unselectable;
+	z-index: 9999;
+}
+
+.linkButton1 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #0000ff;
+	padding: 5px;
+	text-align: left;
+	display: none;
+}
+
+.linkButton1 a {
+	color: #0000ff;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.linkButton1 a:hover {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+.collapsePanel {
+	height: auto;
+	overflow: hidden;
+}
+
+.coveragesContainerBulletinHomeAction {
+	height: 125px !important;
+}
+
+div.coveragesSearchProducerno {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 170px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+/* Keep the header cells positioned as we scroll */
+.coveragesSearchProducerno table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.coveragesSearchProducerno table tbody {
+	overflow: visible;
+}
+
+.bold_text {
+	font-family: Arial;
+	color: #008ab0;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.aspgridheader {
+	border-right: #e7e7e7 0px solid;
+	padding-right: 2px;
+	border-top: #e7e7e7 0px solid;
+	padding-left: 7px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-bottom: 2px;
+	border-left: #e7e7e7 0px solid;
+	color: #000000;
+	padding-top: 2px;
+	border-bottom: #e7e7e7 0px solid;
+	font-family: Arial;
+	height: 24px;
+	background-color: #5cacc7;
+	text-align: left;
+	text-decoration: none;
+}
+
+.aspgridheader a:link, .aspgridheader a:active, .aspgridheader a:visited
+	{
+	color: #0000ff;
+}
+
+.aspgridheader a:hover {
+	color: #ffffff;
+}
+
+.gridButton {
+	width: 40px;
+	padding: 2px;
+}
+
+.asplogoutlink {
+	font-weight: bold !important;
+	font-size: 10px;
+	color: #000000;
+	font-family: Arial;
+}
+
+.bgGreen {
+	background-color: #ffd457;
+}
+
+.cursor {
+	cursor: pointer;
+}
+
+.branch1 {
+	display: none;
+	margin-left: 16px;
+	background-color: #f3f3f3;
+	text-align: left;
+	border: solid 1px #d2d1d1;
+}
+/*
+.Button{            
+	font-family:Verdana,  Arial; 
+	font-size:11px; 
+	font-weight:bold; 
+	border:solid 0px gray; 
+	background-image:url(../images/buttons/bggreen.gif); 
+	background-repeat:repeat-x;
+	cursor:pointer;           
+	text-transform:uppercase;
+	line-height:214px
+	color:#ffffff;
+}
+.Button a
+{
+	color:#ffffff;
+}
+
+.Button input{
+	color:#ffffff!important;
+}*/
+.buttonLeft {
+	background-image: url(../images/buttons/leftgreen.gif);
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 13px;
+}
+
+.buttonRight {
+	background-image: url(../images/buttons/rightgreen.gif);
+	background-repeat: no-repeat;
+	width: 13px;
+}
+
+.paginationTxt {
+	font-weight: bold;
+}
+
+.paginationCenter {
+	xfont-weight: bold;
+	text-align: center;
+}
+/*Add by navneeet on date 1/19/2011*/
+/*
+#AutoComplete {
+	width:153px !important;
+	overflow:visible !important;
+}
+#AutoComplete div {
+	font-size:x-small !important;
+	font-style :normal;
+	font-family:Verdana, Arial;
+}
+#AutoCompleteagent {
+	width:153px !important;
+	overflow:visible !important;
+}
+#AutoCompleteagent div {
+	font-size:x-small !important;
+	font-style :normal;
+	font-family:Verdana, Arial;
+}
+*/
+#AutoCompleteBackGroudReport {
+	width: 0px !important;
+	overflow: visible !important;
+	float: right;
+	height: 0px;
+}
+
+#AutoCompleteBackGroudReport div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#AutoCompleteBackGroudReport1 {
+	width: 0px !important;
+	overflow: visible !important;
+	float: right;
+	height: 0px;
+}
+
+#AutoCompleteBackGroudReport1 div {
+	font-size: 11px;
+	font-weight: normal;
+	font-style: normal;
+	font-family: Arial;
+}
+
+#popupAddTask, #popupPendingTask, #popupPendingTask13,
+	#popupPendingTask14, #popupUpload, #popupSample, #deleteConfirmation,
+	#popupNewEntity, #popupEntityHistory, #productValidationWizardStep1,
+	#closedDatePopUp1, #closedDatePopUp2, #popupResponseXML, #popupErrorXML,
+	#popupRequestXML, #deleteIVANSConfirmation, #popupProductionGraph,
+	#popupDashBoard, #popupPersonProdNumberAss, #popupProducerNumberSearch,
+	#InactiveStatusPopupDiv, #popupDuplicateAgency, #divAgencyCompletePopUp,
+	#commissionConfirmation, #popupManageLabelConf, #addProtectedResource,
+	#manageFieldsHideShow, #agencyAssociationSummary,
+	#massAttachmentCompleteConfirmation, #popupAgentHistory,
+	#addConfirmation, #popupGraph, #copyConfirmation, #deleteCoverageLimit,
+	#finishConfirmation, #popuptaxid, #warningMessage, #warningMessageUpdate, #warningMessageSave, #exitConfirmation {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	xbackground: white;
+	padding: 0px;
+	xborder: 1px solid #23769c;
+}
+
+#cover {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0.4;
+	filter: alpha(opacity = 40);
+	background-color: #000000;
+	z-index: 1;
+	width: 100%;
+}
+
+.popUp {
+	position: absolute;
+	width: 500px;
+	z-index: 100;
+}
+
+.popUplarge {
+	position: absolute;
+	width: 650px;
+	z-index: 100;
+	background-color: none;
+}
+
+.popUplar {
+	position: absolute;
+	width: 800px;
+}
+/*  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  New css for new page look    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
+.tableWidth {
+	xwidth: 995px;
+	width: 96%;
+	margin: 0px auto;
+}
+
+.tableWidthHome {
+	xwidth: 1100px;
+	width: 95%;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	background-color: #1e4663; 
+	color:#1e4663;
+	xbackground-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+}
+
+.welcomeArea {
+	padding: 0px 20px;
+}
+
+.welcomeLeft {
+	background-image: url(../images/welcomeLeftBg.png);
+	width: 20px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.welcomeRight {
+	background-image: url(../images/welcomeRightBg.png);
+	width: 20px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+/*--------------------------Header Section---------------------------*/
+#welcomeBg {
+	color: #ffffff;
+	padding: 1px 0px 3px;
+	background-position: bottom;
+	text-align: right;
+	xbackground-color: #d0cece;
+	font-weight: normal;
+}
+
+.welcomeTxt {
+	color: #000000;
+}
+
+#welcomeBg label {
+	color: blue;
+	font-weight: normal;
+}
+
+.topLineBg {
+	background: #ffffff;
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo {
+	padding: 10px;
+	margin: 0px;
+}
+
+.headerLeft {
+	width: 21px;
+	xbackground-image: url(../images/headerLeft.png);
+	xbackground-repeat: no-repeat;
+	background: #ffffff;
+}
+
+.headerRight {
+	width: 0px;
+	xbackground-image: url(../images/headerRight.png);
+	xbackground-repeat: no-repeat;
+	background: #ffffff;
+}
+
+.headerBg {
+	xckground-image: url(../images/logoRight.jpg);
+	xbackground-repeat: no-repeat;
+	height: 65px;
+	xvertical-align: top;
+	xbackground-position: right;
+	background: #ffffff;
+}
+
+.tagLine {
+	background: url(../images/taglineSperator.png) no-repeat left;
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+}
+
+.tagLineNone {
+	display: none;
+}
+
+.tabsRight {
+	vertical-align: bottom;
+}
+
+.topLinkLeft {
+	width: 20px;
+	height: 24px;
+}
+
+.topLinkRight {
+	height: 24px;
+}
+
+.topLinkBg {
+	xfloat: right;
+	height: 30px;
+	padding-top: 5px;
+	padding-right: 21px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 22px;
+	vertical-align: bottom;
+}
+
+.topLinkBg a {
+	padding: 6px 3px 9px 3px;
+	font-size: 11px;
+	vertical-align: bottom;
+}
+
+.topLinkBg a:hover {
+	xcolor: #c6643f;
+	text-decoration: none;
+}
+
+.topLinkBg a.active {
+	padding: 10px 8px;
+	font-weight: normal;
+	xcolor: #1e4663;
+}
+
+.topDetails {
+	background-color: #3b464c;
+	height: 30px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.topDetails span {
+	color: #ffffff;
+}
+
+.topDetails label {
+	font-family: Arial;
+	color: #ffffff !important;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.breadcrumb {
+	background-color: #3b464c;
+	font-family: Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: transparent;
+	xpadding: 2px;
+	height: 3px;
+	display: none;
+}
+
+.breadcrumb span {
+	xbackground: url(../images/breadcrumTopBorder.png) no-repeat top left;
+	xborder-top: 1px solid #ffffff;
+	padding: 5px 0px 0px 0px;
+	color: transparent;
+}
+
+.breadcrumb span span {
+	background: none;
+}
+header .row{
+	padding: 10px 10px !important;
+	border-bottom: 3px solid #3b464c;
+}
+header .public-tag-line{
+	width: 73% !important;
+	font-weight: bold;
+    font-size: 16pt;
+    margin: 10px 0px 0px 0px;
+    padding:0px 0px 0px 10px;
+    text-align: right;
+}
+header .public-tag-line h1{
+	margin: 0px;
+    padding:0px;
+
+	}
+.breadcrumb a:link, .breadcrumb a:active, .breadcrumb a:visited {
+	color: #ffffff;
+	xfont-weight: normal;
+	text-decoration: none;
+	xtext-transform: uppercase;
+}
+
+.breadcrumb a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.breadcrumb .listRow1CSS, .breadcrumb .listRow2CSS {
+	border-top: 0px solid;
+	padding: 0px !important;
+}
+
+.breadcrumb label {
+	color: #ffffff !important;
+	font-size: 14px
+	font-weight: bold !important;
+}
+
+.breadcrumb .listRow1CSS, .breadcrumb .listRow2CSS {
+	background-color: Transparent;
+}
+
+.breadcrumb .listRow1CSS span, .breadcrumb .listRow2CSS span {
+	color: #ffffff;
+}
+
+.topDetailHeader {
+	xbackground-color: #494848;
+	xbackground-color: #6d0000;
+	height: 29px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 14px;
+	padding-left: 20px;
+	font-weight: bold;
+	padding-right: 8px;
+}
+
+.topDetailHeader label {
+	font-family: Arial;
+	color: #000000 !important;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    ROUND TABS CSS    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* @@@@@@@@@@@@@@@@@@@@@@  first level tab  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.tab {
+	height: 33px;
+	vertical-align: bottom;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+	xpadding-left: 25px;
+	border-bottom: 4px solid #0478ab;
+}
+
+ul.roundTab1 {
+	border-bottom: 0px;
+	padding-left: 20px;
+	z-index: 9999;
+	margin-top: 4px !important;
+}
+
+.roundTab1 li {
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+
+.roundTab1 li a span {
+	display: block;
+}
+
+.roundTab1 li a {
+	color: #3d464d;
+	display: block;
+	text-align: center;
+	border-right: #8e8c8d 1px solid;
+	x-webkit-border-top-right-radius: 8px;
+	x-webkit-border-top-left-radius: 8px;
+	x-moz-border-radius: 8px 8px 0 0;
+	xborder-radius: 8px 8px 0 0;
+	x-webkit-box-shadow: #666 0px 5px 5px;
+	x-moz-box-shadow: #666 0px 5px 5px;
+	xbox-shadow: #666 0px 5px 5px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c2c2c2),
+		to(#c2c2c2));
+	background: -webkit-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -moz-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -ms-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -o-linear-gradient(#c2c2c2, #c2c2c2);
+	background: linear-gradient(#c2c2c2, #c2c2c2);
+	-pie-background: linear-gradient(#c2c2c2, #c2c2c2);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #3d464d;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px 10px 5px;
+	margin: 4px 0px 0px 0px;
+	height: 23px;
+}
+
+.roundTab1 li a:hover {
+	xborder-top: 1px solid #acabab;
+	xborder-left: 1px solid #acabab;
+	xborder-right: 1px solid #acabab;
+	x-webkit-border-radius: 8px 8px 0 0;
+	x-moz-border-radius: 8px 8px 0 0;
+	xborder-radius: 8px 8px 0 0;
+	x-webkit-box-shadow: #666 0px 5px 5px;
+	x-moz-box-shadow: #666 0px 5px 5px;
+	xbox-shadow: #666 0px 5px 5px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#b4b4b4),
+		to(#b4b4b4));
+	background: -webkit-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -moz-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -ms-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -o-linear-gradient(#b4b4b4, #b4b4b4);
+	background: linear-gradient(#b4b4b4, #b4b4b4);
+	-pie-background: linear-gradient(#b4b4b4, #b4b4b4);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #0478ab;
+}
+
+.roundTab1 li.active1 a {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#30bae8),
+		to(#30bae8));
+	background: -webkit-linear-gradient(#30bae8, #30bae8);
+	background: -moz-linear-gradient(#30bae8, #30bae8);
+	background: -ms-linear-gradient(#30bae8, #30bae8);
+	background: -o-linear-gradient(#30bae8, #30bae8);
+	background: linear-gradient(#30bae8, #30bae8);
+	-pie-background: linear-gradient(#30bae8, #30bae8);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	xborder-top: 5px solid #f5740e;
+	color: #000000;
+	padding: 3px 10px 5px;
+}
+
+.roundTab1 li.active1 a span {
+	display: block;
+}
+
+.roundTab1 li span.active1 a {
+	border-top: 5px solid #f5740e;
+	xborder-left: 1px solid #cccccc;
+	xborder-right: 1px solid #cccccc;
+	x-webkit-box-shadow: #666 0px 5px 5px;
+	x-moz-box-shadow: #666 0px 5px 5px;
+	xbox-shadow: #666 0px 5px 5px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0478ab),
+		to(#0478ab));
+	background: -webkit-linear-gradient(#0478ab, #0478ab);
+	background: -moz-linear-gradient(#0478ab, #0478ab);
+	background: -ms-linear-gradient(#0478ab, #0478ab);
+	background: -o-linear-gradient(#0478ab, #0478ab);
+	background: linear-gradient(#0478ab, #0478ab);
+	-pie-background: linear-gradient(#0478ab, #0478ab);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #ffffff;
+	padding: 2px 10px 5px;
+	margin: 0px;
+}
+
+.roundTab1 li.active1 a {
+	border-top: 5px solid #f5740e;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0478ab),
+		to(#0478ab));
+	background: -webkit-linear-gradient(#0478ab, #0478ab);
+	background: -moz-linear-gradient(#0478ab, #0478ab);
+	background: -ms-linear-gradient(#0478ab, #0478ab);
+	background: -o-linear-gradient(#0478ab, #0478ab);
+	background: linear-gradient(#0478ab, #0478ab);
+	-pie-background: linear-gradient(#0478ab, #0478ab);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #fff;
+	padding: 2px 10px 5px;
+	margin: 0px;
+}
+
+.roundTab2 li span.active2 a {
+	border-top: 1px solid #50aae4;
+	border-left: 1px solid #50aae4;
+	border-right: 1px solid #50aae4;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	x-webkit-box-shadow: #666 0px 5px 5px;
+	x-moz-box-shadow: #666 0px 5px 5px;
+	xbox-shadow: #666 0px 5px 5px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#68c2f7),
+		to(#3d97d6));
+	background: -webkit-linear-gradient(#68c2f7, #3d97d6);
+	background: -moz-linear-gradient(#68c2f7, #3d97d6);
+	background: -ms-linear-gradient(#68c2f7, #3d97d6);
+	background: -o-linear-gradient(#68c2f7, #3d97d6);
+	background: linear-gradient(#68c2f7, #3d97d6);
+	-pie-background: linear-gradient(#68c2f7, #3d97d6);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #000000;
+	padding: 3px 10px 5px;
+}
+
+.searchSection {
+	background: -webkit-gradient(linear, left 0, right 0, from(#0478ab),
+		to(#0478ab));
+	background: -webkit-linear-gradient(left, #0478ab, #0478ab);
+	background: -moz-linear-gradient(left, #0478ab, #0478ab);
+	background: -ms-linear-gradient(left, #0478ab, #0478ab);
+	background: -o-linear-gradient(left, #0478ab, #0478ab);
+	background: linear-gradient(left, #0478ab, #0478ab);
+	-pie-background: linear-gradient(left, #0478ab, #0478ab);
+	behavior: url(css/htc/PIE.htc);
+	font-size: 10px !important;
+	border-bottom: solid 1px #ffffff;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	height: 45px;
+	vertical-align: top;
+}
+
+.homeActionSearchSection {
+	background: -webkit-gradient(linear, left 0, right 0, from(#0478ab),
+		to(#0478ab));
+	background: -webkit-linear-gradient(left, #0478ab, #0478ab);
+	background: -moz-linear-gradient(left, #0478ab, #0478ab);
+	background: -ms-linear-gradient(left, #0478ab, #0478ab);
+	background: -o-linear-gradient(left, #0478ab, #0478ab);
+	background: linear-gradient(left, #0478ab, #0478ab);
+	-pie-background: linear-gradient(left, #0478ab, #0478ab);
+	behavior: url(css/htc/PIE.htc);
+	font-size: 10px !important;
+	border-bottom: solid 1px #ffffff;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	height: 45px;
+	vertical-align: top;
+}
+
+.searchSection .borderBottom {
+	xborder-bottom: solid 1px #ffffff;
+	height: 37px;
+	font-weight: bold;
+}
+
+.borderBottom a {
+	font-weight: bold;
+	color: #0379ff;
+	text-decoration: underline;
+}
+
+.searchSection .txtBold {
+	font-weight: bold;
+}
+
+.searchSection .searchLabel {
+	font-weight: normal;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	xcolor: #8f8f8f;
+	color: #ffffff !important;
+	xdisplay: none;
+}
+
+.homeActionSearchSection .searchLabel {
+	font-weight: normal;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	xcolor: #8f8f8f;
+	color: #ffffff !important;
+	xdisplay: none;
+}
+
+.searchLabelInner {
+	font-weight: normal;
+	padding-left: 5px;
+	padding-bottom: 2px;
+	xcolor: #8f8f8f;
+	color: #ffffff !important;
+	xdisplay: none;
+}
+
+.borderBottom a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.tabLeft {
+	xbackground-image: url(../images/tabLeft.jpg);
+	width: 19px;
+	height: 6px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	xbackground: #30bae8;
+}
+
+.tabRight {
+	xbackground-image: url(../images/tabRight.jpg);
+	width: 19px;
+	height: 6px;
+	background-repeat: no-repeat;
+	background-position: top Right;
+	xbackground: #30bae8;
+}
+
+.required {
+	text-align: right;
+	color: #ff0000;
+	xline-height: 5px;
+	padding: 0px;
+	margin-top:10px !important;
+	font-size:12px; 
+	font-weight:normal;
+	xbackground: #30bae8;
+	
+	
+}
+
+.tabRoundLeft_WithoutTab {
+	xbackground-image: url(../images/tabLeft.jpg);
+	width: 19px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.tabRoundRight_WithoutTab {
+	xbackground-image: url(../images/tabRight.jpg);
+	width: 19px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-position: top Right;
+}
+
+.tabRoundLeft_WithoutTab1 {
+	xbackground-image: url(../images/tabLeftRound.png);
+	width: 19px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.tabRoundRight_WithoutTab1 {
+	xbackground-image: url(../images/tabRightRound.png);
+	width: 19px;
+	height: 14px;
+	background-repeat: no-repeat;
+	background-position: top Right;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@  second level tab  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.divUL1 ul {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	xmargin-right: -2px;
+	border-bottom: 0px !important;
+	border-top: 0px !important;
+}
+
+.divUL1 {
+	padding-left: 0px !important;
+	float: left;
+	padding-right: 0px !important;
+	border-bottom: 0px !important;
+	border: 0px;
+}
+
+.divUL1 ul li a {
+	margin-right: 1px !important;
+}
+
+.divUL1 .noindent {
+	margin: 0px;
+	padding: 0px;
+}
+
+.divUL1 .noindent li {
+	margin-right: 0px;
+}
+
+#roundTab2 {
+	margin: 0px;
+	padding: 0px;
+	line-height: 15px;
+}
+
+ul.roundTab2 {
+	border-bottom: 1px solid #e7e7e7;
+	xheight: 28px;
+	height: 32px;
+	line-height: 21px;
+	xpadding-left: 27px;
+	z-index: 9999;
+	background: url(../images/icons/tab2Icon.png) no-repeat 20px 0px #f4f4f4;
+}
+
+.roundTab2 li {
+	xmargin-right: 2px;
+	margin-right: 0px;
+	float: left;
+	list-style-type: none;
+	margin-top: 6px;
+	background: url(../images/icons/tab2Icon.png) no-repeat right;
+}
+
+.roundTab2 li a span {
+	display: block;
+}
+
+.roundTab2 li a {
+	color: #5e605f;
+	display: block;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 2px 7px 1px;
+	height: 20px;
+	line-height: 14px;
+}
+
+.roundTab2 li a:hover {
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #0478ab;
+	text-decoration: none;
+	xbackground: url(../images/icons/tab2Icon.png) no-repeat right;
+	border-bottom: 4px solid #0478ab;
+}
+
+.roundTab2 li.active2 a {
+	font-family: Arial;
+	color: #0478ab;
+	font-weight: bold;
+	padding: 2px 7px 1px;
+	margin-top: 0px;
+	border-bottom: 4px solid #0478ab;
+}
+
+.roundTab2 li.active2 a span {
+	xdisplay: block;
+}
+
+.roundTab2 div li {
+	margin: 0px;
+}
+
+.rmm-toggled ul li {
+	border-bottom: 0px !important;
+	padding: 10px 0px 10px 0px;
+}
+
+.rmm-toggled ul li:hover {
+	border-bottom: 0px !important;
+	background-color: #e3f3ff;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@  Third level tab  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+ul.roundTab3 {
+	border-bottom: 0px;
+}
+
+.roundTab3 li {
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+
+.roundTab3 li a span {
+	display: block;
+}
+
+.roundTab3 li a {
+	color: #666666;
+	display: block;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	text-align: center;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-top-left-radius: 8px;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f5f4f3),
+		to(#bfbfbf));
+	background: -webkit-linear-gradient(#f5f4f3, #bfbfbf);
+	background: -moz-linear-gradient(#f5f4f3, #bfbfbf);
+	background: -ms-linear-gradient(#f5f4f3, #bfbfbf);
+	background: -o-linear-gradient(#f5f4f3, #bfbfbf);
+	background: linear-gradient(#f5f4f3, #bfbfbf);
+	-pie-background: linear-gradient(#f5f4f3, #bfbfbf);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	font-size: 14px
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px 10px 5px;
+	height: 20px;
+}
+
+.roundTab3 li a:hover {
+	border-top: 1px solid #acabab;
+	border-left: 1px solid #acabab;
+	border-right: 1px solid #acabab;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dfdfdd),
+		to(#a09e9b));
+	background: -webkit-linear-gradient(#dfdfdd, #a09e9b);
+	background: -moz-linear-gradient(#dfdfdd, #a09e9b);
+	background: -ms-linear-gradient(#dfdfdd, #a09e9b);
+	background: -o-linear-gradient(#dfdfdd, #a09e9b);
+	background: linear-gradient(#dfdfdd, #a09e9b);
+	-pie-background: linear-gradient(#dfdfdd, #a09e9b);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.roundTab3 li.active3 a {
+	border-top: 1px solid #50aae4;
+	border-left: 1px solid #50aae4;
+	border-right: 1px solid #50aae4;
+	-webkit-border-radius: 8px 8px 0 0;
+	-moz-border-radius: 8px 8px 0 0;
+	border-radius: 8px 8px 0 0;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#68c2f7),
+		to(#3d97d6));
+	background: -webkit-linear-gradient(#68c2f7, #3d97d6);
+	background: -moz-linear-gradient(#68c2f7, #3d97d6);
+	background: -ms-linear-gradient(#68c2f7, #3d97d6);
+	background: -o-linear-gradient(#68c2f7, #3d97d6);
+	background: linear-gradient(#68c2f7, #3d97d6);
+	-pie-background: linear-gradient(#68c2f7, #3d97d6);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #000000;
+	padding: 3px 10px 5px;
+	cursor: pointer;
+}
+
+.roundTab3 li.active3 a span {
+	display: block;
+}
+
+ul.roundTab4 {
+	border-bottom: 0px;
+	padding-left: 20px;
+	z-index: 9999;
+	margin-top: 4px !important;
+}
+
+.roundTab4 li {
+	xmargin-right: 2px;
+	xmargin-bottom: -5px;
+	float: left;
+	list-style-type: none;
+}
+
+.roundTab4 li a span {
+	display: block;
+}
+
+.roundTab4 li a {
+	color: #3d464d;
+	display: block;
+	text-align: center;
+	border-right: #8e8c8d 1px solid;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c2c2c2),
+		to(#c2c2c2));
+	background: -webkit-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -moz-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -ms-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -o-linear-gradient(#c2c2c2, #c2c2c2);
+	background: linear-gradient(#c2c2c2, #c2c2c2);
+	-pie-background: linear-gradient(#c2c2c2, #c2c2c2);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #3d464d;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 3px 10px 5px;
+	margin: 4px 0px 0px 0px;
+	height: 23px;
+}
+
+.roundTab4 li a:hover {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#b4b4b4),
+		to(#b4b4b4));
+	background: -webkit-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -moz-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -ms-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -o-linear-gradient(#b4b4b4, #b4b4b4);
+	background: linear-gradient(#b4b4b4, #b4b4b4);
+	-pie-background: linear-gradient(#b4b4b4, #b4b4b4);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.roundTab4 li.active4 a {
+	border-top: 5px solid #f5740e;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0478ab),
+		to(#0478ab));
+	background: -webkit-linear-gradient(#0478ab, #0478ab);
+	background: -moz-linear-gradient(#0478ab, #0478ab);
+	background: -ms-linear-gradient(#0478ab, #0478ab);
+	background: -o-linear-gradient(#0478ab, #0478ab);
+	background: linear-gradient(#0478ab, #0478ab);
+	-pie-background: linear-gradient(#0478ab, #0478ab);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #ffffff;
+	padding: 3px 10px 5px;
+	margin: -1px;
+}
+
+.roundTab4 li.active4 a span {
+	display: block;
+}
+
+.btmTabs .roundTab5 {
+	margin-left: 0px !important;
+}
+
+ul.roundTab5 {
+	border-bottom: 0px;
+	padding-left: 20px;
+	z-index: 9999;
+	margin-top: 4px !important;
+}
+
+.roundTab5 li {
+	xmargin-right: 2px;
+	xmargin-bottom: -5px;
+	float: left;
+	list-style-type: none;
+}
+
+.roundTab5 li a span {
+	display: block;
+}
+
+.roundTab5 li a {
+	color: #3d464d;
+	display: block;
+	text-align: center;
+	border-right: #8e8c8d 1px solid;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c2c2c2),
+		to(#c2c2c2));
+	background: -webkit-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -moz-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -ms-linear-gradient(#c2c2c2, #c2c2c2);
+	background: -o-linear-gradient(#c2c2c2, #c2c2c2);
+	background: linear-gradient(#c2c2c2, #c2c2c2);
+	-pie-background: linear-gradient(#c2c2c2, #c2c2c2);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #3d464d;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 10px 0px;
+	margin: 4px 0px 0px 0px;
+	height: 23px;
+}
+
+.roundTab5 li a:hover {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#b4b4b4),
+		to(#b4b4b4));
+	background: -webkit-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -moz-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -ms-linear-gradient(#b4b4b4, #b4b4b4);
+	background: -o-linear-gradient(#b4b4b4, #b4b4b4);
+	background: linear-gradient(#b4b4b4, #b4b4b4);
+	-pie-background: linear-gradient(#b4b4b4, #b4b4b4);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.roundTab5 li.active4 a {
+	border-top: 5px solid #f5740e;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0478ab),
+		to(#0478ab));
+	background: -webkit-linear-gradient(#0478ab, #0478ab);
+	background: -moz-linear-gradient(#0478ab, #0478ab);
+	background: -ms-linear-gradient(#0478ab, #0478ab);
+	background: -o-linear-gradient(#0478ab, #0478ab);
+	background: linear-gradient(#0478ab, #0478ab);
+	-pie-background: linear-gradient(#0478ab, #0478ab);
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	color: #ffffff;
+	padding: 8px 10px 0px;
+	margin: -1px;
+}
+
+.roundTab5 li.active4 a span {
+	display: block;
+}
+
+/*--------------------------Lable Alignment----------------------------*/
+.labelAlignment {
+	text-align: right;
+	padding-right: 5px;
+}
+
+.inputBox {
+	xwidth: 95%;
+}
+
+.dropDownBox {
+	width: 96%;
+}
+
+.inputBoxImage {
+	width: 90%;
+}
+/*table.lableAlignment input[type=text], input[type=password], input[type=checkbox], input[type=radio]{
+	float:left !important;
+	display:block;
+	margin-left:10px;
+	text-align:left;
+}
+table.lableAlignment select{
+	float:left !important;
+	margin-left:10px;
+}
+
+
+table.lableAlignment a{
+	float:left !important;
+	text-align:right;
+	display:block;
+	margin-left:5px;
+}*/
+
+/*----------------------------Footer Section-----------------------------------*/
+.bgLeftTDB {
+	width: 23px !important;
+	height: 49px;
+	background-image: url(../images/footerLeft.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.bgCenterTDB {
+	background-color: #ffffff !important;
+}
+
+.bgRightTDB {
+	width: 23px !important;
+	background-image: url(../images/footerRight.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 49px;
+}
+
+.footerLine {
+	background-image: url(../images/footerLine.jpg);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	height: 21px;
+}
+
+.footerTxt {
+	background-color: #bad5e8;
+	line-height: 26px;
+	height: 28px;
+}
+
+.dcmBg {
+	background-image: url(../images/headerBgDCM.jpg);
+	height: 75px;
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+	width: 315px;
+	vertical-align: top;
+	text-align: right;
+	padding-right: 0px;
+}
+
+.title {
+	font-family: Arial;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 16px;
+	background-color: #42454a;
+	height: 29px;
+}
+
+.titleAgent {
+	font-family: Arial;
+	color: #f3f3f3;
+	font-size: 12px;
+}
+
+.buttonLeft {
+	background-image: url(../images/buttonLeft.png);
+	width: 13px;
+	height: 27px;
+	background-repeat: no-repeat;
+}
+
+.buttonCenter {
+	background-image: url(../images/buttonBg.png);
+	height: 27px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 26px;
+	white-space: nowrap;
+	text-transform: uppercase;
+}
+
+.buttonCenter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.buttonRight {
+	background-image: url(../images/buttonRight.png);
+	width: 13px;
+	height: 27px;
+	background-repeat: no-repeat;
+}
+
+.tabLeftActive {
+	background-image: url(../images/lftblue.png);
+	height: 28px;
+	width: 9px;
+}
+
+.tabCenterActive {
+	background-image: url(../images/cntblue.png);
+	text-align: center;
+	color: #000000;
+	background-repeat: repeat-x;
+	font-size: 14px
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.tabCenterActive a:link, .tabCenterActive a:active, .tabCenterActive a:visited
+	{
+	color: #000000;
+}
+
+.tabRightActive {
+	background-image: url(../images/rgtblue.png);
+	height: 28px;
+	width: 9px;
+}
+
+.tabLeftInactive {
+	background-image: url(../images/tabs_inactive_left_img.png);
+	height: 28px;
+	width: 9px;
+}
+
+.tabCenterInactive {
+	background-image: url(../images/tabs_inactive_bg.png);
+	text-align: center;
+	color: #000000;
+	background-repeat: repeat-x;
+	font-size: 14px
+	font-weight: bold;
+	text-transform: uppercase;
+	xline-height: 14px;
+}
+
+.tabCenterInactive a:link, .tabCenterInactive a:active,
+	.tabCenterInactive a:visited {
+	color: #666666;
+}
+
+.tabCenterInactive a:hover {
+	color: #0379ff;
+}
+
+.tabRightInactive {
+	background-image: url(../images/tabs_inactive_right_img.png);
+	height: 28px;
+	width: 9px;
+}
+/*  ***   Sub Tab Area   **  */
+.subTab {
+	background-image: url(../images/subTabBg.jpg);
+	background-repeat: repeat-x;
+	height: 32px;
+	padding-left: 20px;
+	width: 100%;
+}
+
+.subTabSpacer {
+	background-image: url(../images/Spacer.gif);
+	width: 2px;
+}
+
+.subTabActiveLeft {
+	background-image: url(../images/subTabActiveLeft.png);
+	width: 13px;
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+.subTabActiveCenter {
+	background-image: url(../images/subTabActiveCenter.png);
+	height: 30px;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 14px
+}
+
+.subTabActiveRight {
+	background-image: url(../images/subTabActiveRight.png);
+	width: 13px;
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+.subTabInactiveLeft {
+	background-image: url(../images/subTabInactiveLeft.png);
+	width: 10px;
+	height: 32px;
+	background-repeat: no-repeat;
+}
+
+.subTabInactiveCenter {
+	background-image: url(../images/subTabInactiveCenter.png);
+	height: 27px;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 9px;
+	text-align: center;
+	line-height: 13px;
+	padding-bottom: 3px;
+}
+
+.subTabInactiveCenter a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.subTabInactiveCenter a:hover {
+	color: #0379ff;
+	text-decoration: none;
+}
+
+.subTabInactiveRight {
+	background-image: url(../images/subTabInactiveRight.png);
+	width: 10px;
+	height: 30px;
+	background-repeat: no-repeat;
+}
+
+.spacerRow {
+	line-height: 10px;
+}
+
+.spacerTd5 {
+	width: 5px;
+	line-height: 5px;
+}
+
+.spacerTd {
+	width: 10px;
+	line-height: 10px;
+}
+
+.spacerGrid {
+	xwidth: 10px;
+	height: 7px;
+}
+
+.spacerGridcol {
+	xwidth: 10px;
+	height: 8px;
+}
+
+.spacerTd16 {
+	width: 16px;
+	line-height: 16px;
+}
+
+.spacerTd6 {
+	width: 6px;
+	line-height: 6px;
+}
+
+.spacerTd20 {
+	width: 20px;
+	xline-height: 26px;
+	xdisplay: none;
+}
+
+.spacerTd22 {
+	zwidth: 10px;
+	xline-height: 26px;
+	xdisplay: none;
+}
+
+.spacerTd40 {
+	width: 100px;
+}
+
+.spacerTd30 {
+	width: 30px;
+}
+
+.spacerTd42 {
+	width: 42px;
+}
+
+.spacerTd60 {
+	width: 60px;
+	line-height: 19px;
+}
+
+.border {
+	border: 1px solid #cccccc;
+}
+.borderTopGrey{border-top: 1px solid #cccccc;}
+.border3 {
+	padding: 10px;
+	border: 1px solid #0478ab;
+}
+
+.border1 {
+	border: 1px solid #cccccc;
+}
+
+.asterisk {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	xcolor: #ff0000;
+	color: transparent
+}
+
+.innerTabActiveLeft {
+	background-image: url(../images/innerTabActiveLeft.png);
+	width: 8px;
+	height: 24px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.innerTabActiveCenter {
+	background-image: url(../images/innerTabActiveCenter.png);
+	height: 24px;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px
+	text-align: center;
+	width: 70px;
+	cursor: pointer;
+}
+
+.innerTabActiveRight {
+	background-image: url(../images/innerTabActiveRight.png);
+	width: 8px;
+	height: 24px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.innerTabInactiveLeft {
+	background-image: url(../images/innerTabInactiveLeft.png);
+	width: 8px;
+	height: 24px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.innerTabInactiveCenter {
+	background-image: url(../images/innerTabInactiveCenter.png);
+	height: 24px;
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	line-height: 14px;
+	text-transform: capitalize;
+	color: #666666;
+	xfont-weight: bold;
+	font-size: 14px
+	text-align: center;
+	width: 70px;
+	cursor: pointer;
+}
+
+.innerTabInactiveCenter a {
+	color: #666666;
+	text-decoration: none;
+}
+
+.innerTabInactiveCenter a:hover {
+	color: #0379ff;
+	text-decoration: none;
+}
+
+.innerTabInactiveRight {
+	background-image: url(../images/innerTabInactiveRight.png);
+	width: 8px;
+	height: 24px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.innerTabSpacer {
+	background-image: url(../images/Spacer.gif);
+	width: 1px;
+}
+/*   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    SubTab Section     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+ul, li {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul {
+	border-bottom: solid 1px #3c96d5;
+	padding-left: 20px;
+}
+
+li {
+	float: left;
+	margin-right: 2px;
+}
+
+/*   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  oval button css    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      */
+a.ovalbutton {
+	background: #3088c6;
+    display: block;
+    float: right;
+    font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+    height: 18px;
+    padding: 5px 15px 4px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    behavior: url(css/htc/PIE.htc);
+    border-radius: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.popupBg a.ovalbutton{float: left !important;} 
+a:link .ovalbutton, a:visited .ovalbutton, a:active .ovalbutton {
+	color: #ffffff; /*button text color*/
+	margin-left: 2px;
+}
+
+a.ovalbutton span {
+	display: block;
+	color:#fff;
+	/*Set 11px below to match value of 'padding-left' value above*/
+}
+
+a.ovalbutton:hover { /* Hover state CSS */
+	background: #666;
+}
+
+a.ovalbutton:hover span { /* Hover state CSS */
+	color: #ffffff;
+}
+
+a.ovalbutton span label {
+	font-size: 14px !important;
+}
+
+.buttonwrapper0 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 0px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper3 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 3px;
+}
+
+.buttonwrapper10 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px
+}
+
+.buttonwrapper2 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 2px;
+}
+
+.buttonwrapper6 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 6px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper8 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 8px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper9 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 9px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper11 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 11px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper22 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 22px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper21 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 22px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapper12 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	float: right;
+	padding-right: 11px;
+}
+
+.buttonwrapper13 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	float: right;
+	padding-right: 13px;
+}
+
+.buttonwrapper15 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	float: right;
+	padding-right: 15px;
+}
+
+.buttonwrapper20 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	float: right;
+	padding-right: 20px;
+}
+
+.buttonwrapper {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	xpadding-right: 5px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapperGrid {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 3px;
+	xpadding-top: 5px;
+	xpadding-bottom: 5px;
+}
+
+.buttonwrapperTB {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	xpadding-right: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.paddingRight5 {
+	padding-right: 5px;
+}
+
+.paddingRight6 {
+	padding-right: 6px;
+}
+
+.paddingRight7 {
+	padding-right: 7px;
+}
+
+.paddingRight11 {
+	padding-right: 11px;
+}
+
+.paddingRight13 {
+	padding-right: 13px;
+}
+
+#popupSample {
+	display: none;
+	position: absolute;
+	z-index: 1001;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 13px;
+	xborder: 1px solid #1f608a;
+}
+/* @@@@@@@@@@@@@@@@@@@@  popup css    @@@@@@@@@@@@@@@@@@@ */
+.popupBg {
+	background-color: #ffffff;
+}
+
+.popupBorder {
+	background-color: #b0afaf;
+	height: 1px;
+}
+
+.popupContent {
+	padding: 20px;
+	height: 200px;
+	vertical-align: top;
+}
+
+.popupContentS {
+	padding: 20px;
+	height: 50px;
+	vertical-align: top;
+}
+
+.popupContentM {
+	padding: 20px;
+	height: 100px;
+	vertical-align: top;
+}
+
+.popupDiv {
+	width: 100%;
+	overflow-y: scroll;
+	min-height: 200px;
+	height: 330px;
+	color: #000000;
+	xborder-right: 1px solid #cccccc;
+}
+
+.popupDivNew {
+	width: 722px;
+	overflow-y: auto;
+	overflow-x: auto;
+	min-height: 200px;
+	height: auto;
+	max-height: 330px;
+	color: #000000;
+	xborder-right: 1px solid #cccccc;
+}
+
+.popupDivSmall {
+	width: 100%;
+	overflow-y: auto;
+	padding: 40px 20px;
+	xfont-weight: bold;
+	color: #000000;
+}
+
+.popupHeader {
+	background-color: #f2f3ed;
+	color: #666666;
+	xheight: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 10px 20px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.popupHeader label {
+	font-size: 14px;
+}
+
+.popupFooter {
+	background-color: #f2f3ed;
+	vertical-align: middle;
+	padding: 5px 10px;
+	border-top: 1px solid #cccccc;
+}
+
+.tabWidth {
+	width: 85%;
+}
+
+#deleteConfirmation, #popupNewEntity, #popupAppointWizardStep2,
+	#popupConfirmSelection, #popupEntityList, #popupSubmitRequest,
+	#popupFail, #popupAprooved, #popupHistory, #popupDelete,
+	#popupProductValidation, #popupDownloadFile, #popupAppointAuthorize,
+	#popupAppointWizard, #popupTerminationWizard, #popupTerminationWizard2,
+	#popupTerminationWizard3, #popupAppointWizard3, #popupSSN, #popuptaxid,
+	#popupProductsDetail, #popupAttachedSchedule, #popupIncentiveSchedule,
+	#commentDiv, #commentDiv1, #popupForEntityFee, #popupNewLocation,
+	#popupActiveAppointmentMsg, #popupActiveEntityAppointmentMsg,
+	#popupInactiveAppointmentPopupMsg, #popupChangePDBLookupMsg,
+	#popupAgentAppointFee, #popupForEntityManualFee,
+	#popupAgentAppointManualFee, #popupPendingRequest, #transferDiv,
+	#unmatchedPopUp, #confirmationPopUp, #popupAprooved1, #popupAprooved2,
+	#popupAprooved3, #transferDiv, #Transfer, #Modify, #PopupSave,
+	#popupSendInvitation, #popupShowActivity, #popupSendInvitationNew,
+	#popupSendInvitationNewLink, #popupSkipAppointments,
+	#divAgencyCommentPopUp, #popupSendForReview,
+	#popupMassReassignConfirmation, #popupExport, #commissionConfirmation,
+	#passConfirmation, #failConfirmation, #reviewConfirmation,
+	#signConfirmation, #cloneConfirmation, #ITApprovePopup,
+	#ITDisApprovePopup, #moveToAgencySetupConfirmation, #popupPolicySearch,
+	#bouncedSelected, #receivedSelected, #writeOffPositiveSelected,
+	#showConfirmationMsgPopup, #skipAppointmentsConfirmation,
+	#popupAuditHistory, #deleteDocument, #searchProducerNumber,
+	#searchAgencyName, #popupGraph, #copyConfirmation,
+	#deleteFlatDeductionConfirmation,
+	#deleteConfirmationForLossRatioAcraGrid,
+	#deleteConfirmationForReductionWPAcraGrid,
+	#deleteConfirmationForMinNetEarnedPremiumAcraGrid,
+	#popupAttachManageRule, #deleteCoverageLimit,
+	#popupAddNewNationalNCombinedCode, #downloadTemplateDiv,
+	#finishConfirmation, #popuptaxid, #warningMessage, #warningMessageUpdate, #warningMessageSave, #exitConfirmation {
+	display: none;
+	position: absolute;
+	z-index: 1001;
+	xbackground: white;
+	padding: 0px;
+	xborder: 1px solid #c0d120;
+	xbackground-color: #ffffff;
+}
+
+.transparent {
+	filter: alpha(opacity = 190);
+	display: none;
+	xwidth: 110px;
+	width: 276px !important;
+	position: absolute;
+	color: black;
+	background-color: white;
+	font-size: 10px;
+	text-align: left;
+	margin-left: 3px;
+	padding-left: 4px;
+}
+
+.homeBranch {
+	display: none;
+	margin-left: 16px;
+	text-align: left;
+}
+
+.content {
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	xbackground-color: #cccccc;
+}
+
+.contentWithoutTabs {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+	padding: 10px;
+	
+	
+	xborder:1px solid #a9a9fd;
+}
+
+#downloadUploadDiv {
+	display: none;
+	position: absolute;
+	z-index: 1009;
+	xbackground: white;
+	padding: 0px;
+	xborder: 1px solid #c0d120;
+	xbackground-color: #b0afaf;
+}
+
+.fix150 {
+	height: 70px;
+	width: 99.4%;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+	xmargin-bottom: 16px;
+}
+
+.fix90 {
+	height: 90px;
+	width: 99.4%;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+	margin-bottom: 16px;
+}
+
+.fixS150 {
+	height: 120px;
+	xwidth: 99.4%;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.fix135 {
+	height: 135px;
+	xwidth: 99.4%;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.fix170 {
+	height: 170px;
+	xwidth: 99.4%;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.fix200 {
+	height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.fix250 {
+	height: 240px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.fix300 {
+	height: 300px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.fix350 {
+	height: 360px;
+	xwidth: 430px;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+	margin-bottom: 16px;
+}
+
+.fix400 {
+	height: 400px;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ new class  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.floatLeft {
+	float: left;
+}
+
+.borderBtm {
+	border-bottom: solid 1px #f3f3f3;
+}
+
+.buttonwrapperLeft {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: left;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.formLabel {
+	text-align: left;
+	xpadding: 5px 5px 5px 20px;
+	height: 21px;
+}
+
+.formLabel span {
+	padding: 0px;
+}
+
+.fieldsetTopMargin {
+	padding-top: 9px !important;
+}
+
+.fieldsetGrid0 {
+	height: 310px !important;
+	padding: 0px;
+}
+
+.dovFieldsetHeight250 {
+	height: 250px;
+}
+
+.formleftpadding {
+	padding-left: 2px;
+	text-align: left;
+}
+
+.pagination {
+	xbackground-color: #d6eaf6;
+	padding: 3px;
+	border-bottom:1px solid #ccc;
+}
+.pagination td {
+	padding: 0px 3px;
+}
+
+.paginationHome {
+	xheight: 30px;
+	xfont-weight: bold;
+	background-color: #a2cae3;
+	padding: 0px 3px;
+}
+
+.blockHeight {
+	xheight: 250px;
+}
+
+.blockHeightCar {
+	height: 260px;
+}
+
+.bg1 {
+	background-color: #808285;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px;
+	height: 20px;
+	padding-left: 17px;
+}
+
+.bg2 {
+	background-color: #f3f3f3;
+}
+
+.Gap {
+	height: 10px;
+}
+
+.bold {
+	color: #C00;
+	font-weight: bold;
+}
+
+.loginBtm {
+	height: 40px;
+	background-color: #f3f3f3;
+	border-top: solid 1px #cccccc;
+}
+
+.borderTop {
+	border-top: solid 1px #6bc2f8;
+}
+
+.borderTop1 {
+	border-top: solid 1px #cccccc;
+}
+
+.borderBottom1 {
+	border-bottom: solid 1px #cccccc;
+}
+
+.mendatoryAsterisk {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	xcolor: #ff0000;
+	color: transparent;
+	width: 10px;
+	text-align: right;
+	xheight: 22px;
+	height: 24px;
+	visibility: hidden;
+}
+
+.mendatoryAsterisk2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ff0000;
+	width: 10px;
+	text-align: right;
+	xheight: 22px;
+	height: 22px;
+}
+
+.mendatoryAsterisk span {
+	padding-left: 0px;
+}
+
+.gridTable {
+	border: 1px solid #ccc;
+}
+
+.gridBorder {
+	border: 1px solid #ccc;
+}
+
+.gridTable td {
+	xpadding: 2px;
+}
+
+.fix50 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 50px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	padding-left: 10px;
+}
+
+h3 {
+	color: #2e7399;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+.borderBtm {
+	border-bottom: solid 1px #6bc2f8;
+}
+
+.blockHeight {
+	height: 150px;
+}
+
+.labelSpace {
+	width: 40px;
+}
+
+graphDescBorder {
+	background-color: #ffc;
+	width: 96%;
+}
+
+.padd5 {
+	padding: 5px;
+}
+
+.listRowCSSForTransfers {
+	background-color: #fee98d;
+}
+
+.listRowCSSForNotTransfers {
+	background-color: #f5deb3;
+}
+
+.listRowCSSTasks {
+	background-color: #fbcbe3;
+}
+
+.listRowCSSTasks td {
+	padding: 3px;
+}
+
+.listRowCSSCloseTasks {
+	background-color: #f3f3f3;
+}
+
+.listRowCSSCloseTasks td {
+	padding: 3px;
+}
+
+.paddingTop2 {
+	padding-top: 2px;
+}
+
+.paddingTop3 {
+	padding-top: 3px;
+}
+
+.paddingTop4 {
+	padding-top: 4px !important;
+}
+
+.paddingTop10 {
+	padding-top: 10px;
+}
+.paddingTop18 {
+	padding-top: 18px;
+}
+
+.overdueTasks {
+	background-color: #fbcbe3;
+	width: 14px;
+	height: 14px;
+}
+
+.gridLegendTxt {
+	padding-left: 5px;
+	color: #666666;
+}
+
+.errorPaddingBtm {
+	padding-bottom: 5px;
+}
+
+.paddingLeftError {
+	padding-left: 3px !important;
+}
+
+.paddingLeft5 {
+	padding-left: 5px;
+}
+
+.paddingLeft10 {
+	padding-left: 10px !important;
+}
+
+.paddingLeft23 {
+	padding-left: 23px !important;
+}
+
+.conformationMsg {
+	text-align: center !important;
+	font-weight: bold !important;
+	color: #369300 !important;
+	line-height: 18px !important;
+	padding: 3px 0px !important;
+}
+
+#pageMsg {
+	text-align: center;
+	font-weight: bold !important;
+	color: #369300;
+}
+
+.InternalRequests {
+	background-color: #f5deb3;
+	width: 14px;
+	height: 14px;
+	xpadding-top: 10px;
+}
+
+.ProducerRequests {
+	background-color: #f9eebb;
+	width: 14px;
+	height: 14px;
+}
+
+.AppointmentWithNIPR {
+	background-color: #f5deb3;
+	width: 14px;
+	height: 14px;
+}
+
+.TerminateWithNIPR {
+	background-color: #fc605c;
+	width: 14px;
+	height: 14px;
+}
+
+.TerminateWithoutNIPR {
+	background-color: #e99e9c;
+	width: 14px;
+	height: 14px;
+}
+
+.AppointmentWithoutNIPR {
+	background-color: #fee98d;
+	width: 14px;
+	height: 14px;
+}
+
+.Authorize {
+	background-color: #f9eebb;
+	width: 14px;
+	height: 14px;
+}
+
+.UnAuthorize {
+	background-color: #e96b68;
+	width: 14px;
+	height: 14px;
+}
+
+.Copiedfromwithinsystem {
+	background-color: #c9f6c9;
+	width: 14px;
+	height: 14px;
+}
+
+.RetrievedfromNIPRandimported {
+	background-color: #92d050;
+	width: 14px;
+	height: 14px;
+}
+
+.RetrievedfromNIPRbutnotimported {
+	background-color: #bc8f8f;
+	width: 14px;
+	height: 14px;
+}
+
+.marginTop3 {
+	margin-top: 3px;
+}
+
+.momDataDiv {
+	max-height: 120px;
+	width: 99.4%;
+	padding-left: 2px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.pgeHeight {
+	line-height: 105px;
+}
+
+.iconpdp1 {
+	vertical-align: bottom;
+}
+
+.gridTopPadding {
+	padding-top: 2px;
+}
+
+.msgHeight {
+	line-height: 20px;
+}
+
+.notImporting {
+	background-color: #F5DEB3;
+	width: 14px;
+	height: 14px;
+}
+
+.newAndImporting {
+	background-color: #d6f9e0;
+	width: 14px;
+	height: 14px;
+}
+
+.oldAndImporting {
+	background-color: #b6e0ff;
+	width: 14px;
+	height: 14px;
+}
+
+.statusLabel {
+	font-weight: bold;
+	xcolor: #48a2df;
+}
+
+.statusData {
+	font-weight: normal;
+}
+
+.requestIdPopUp {
+	position: absolute;
+	visibility: hidden;
+	z-Index: 1001;
+	text-transform: inherit;
+	width: 500px;
+	height: 50px;
+}
+
+.paddingLef {
+	padding-left: 31px;
+}
+
+.paddingLeftt {
+	padding-left: 68px;
+}
+/*   @@@@@@@@@@@@@@@@@ legends colors  @@@@@@@@@@@@@@@@@   */
+.licence {
+	background-color: #b7dee8;
+	width: 14px;
+}
+
+.licence td {
+	border-bottom: solid 1px #caeaf2;
+}
+
+.appointment {
+	background-color: #92d050;
+	width: 14px;
+}
+
+.appointment td {
+	border-bottom: solid 1px #a1dc62;
+}
+
+.authorization {
+	background-color: #b4aff1;
+	width: 14px;
+}
+
+.authorization td {
+	border-bottom: solid 1px #c7c3f7;
+}
+
+.termination {
+	background-color: #bc8f8f;
+	width: 14px;
+}
+
+.termination td {
+	border-bottom: solid 1px #c99e9e;
+}
+
+.legendChar {
+	font-size: 14px;
+	font-weight: bold;
+	color: Blue;
+}
+
+.listRowCSSAppointmentWithNIPRCR66 {
+	background-color: #92d050;
+}
+
+.listRowCSSAppointmentWithoutNIPRCR66 {
+	background-color: #b4aff1;
+}
+
+.listRowCSSUnassignedCR66 {
+	background-color: #b7dee8;
+}
+
+.listRowCSSTerminationCR66 {
+	background-color: #e99e9c;
+}
+
+.errorBoldTB {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold !important;
+	color: #ff0000;
+	xpadding-left: 28px;
+	xpadding-bottom: 5px;
+	xpadding: 5px 0px;
+}
+/* @@@@@@@@@@@@@@@@   LOGIN PAGE WHITE BACKGROUND       @@@@@@@@@@@@@@@@@@@@@ */
+.loginBg {
+	text-align: center;
+	-webkit-border-top-right-radius: 12px;
+	-webkit-border-top-left-radius: 12px;
+	-webkit-border-bottom-right-radius: 12px;
+	-webkit-border-bottom-left-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: #061d2e 0px 0px 20px;
+	-moz-box-shadow: #061d2e 0px 0px 20px;
+	box-shadow: #061d2e 0px 0px 20px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+	height: 320px;
+	width: 675px;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@  Sub Tab level 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.roundSubTab1 {
+	border-bottom: 0px;
+	padding-left: 0px;
+	z-index: 9999;
+	margin-top: 4px !important;
+}
+
+.roundSubTab1 li {
+	float: left;
+	list-style-type: none;
+	
+}
+
+.roundTab6 li a span {
+	display: block;
+}
+
+.roundSubTab1 li a {
+	display: block;
+	text-align: center;
+	border: #999 2px solid;
+	border-bottom:none;
+	border-radius: 4px 4px 0px 0px;
+	background:#dedede;
+	behavior: url(css/htc/PIE.htc);
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #888;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 15px;
+	margin: 4px 0px 0px 0px;
+}
+
+.roundSubTab1 li a:hover {
+	background:#eee;
+}
+
+.roundSubTab1 li.activeSub1 a {
+	background:#fff;
+	
+}
+
+.roundSubTab1 li.activeSub1 a span {
+	display: block;
+}
+
+
+
+
+.homeActionBg {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#24688b),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#24688b, #ffffff);
+	background: -moz-linear-gradient(#24688b, #ffffff);
+	background: -ms-linear-gradient(#24688b, #ffffff);
+	background: -o-linear-gradient(#24688b, #ffffff);
+	background: linear-gradient(#24688b, #ffffff);
+	-pie-background: linear-gradient(#24688b, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+	min-height: 360px;
+	height: auto;
+}
+
+.accordionBg {
+	xbackground-color: #FFC;
+	xborder: 1px solid #FC9;
+	background-color: #f7f7f7;	
+	border: 1px solid #ececec;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.stepBorderBtm {
+	xborder-bottom: solid 1px #ffcc99;
+	border-bottom: solid 1px #ececec;
+}
+
+.divMain {
+	width: 449px;
+	float: left;
+}
+
+.divMain2 {
+	width: 456px;
+	float: left;
+}
+
+.divLabelWidth {
+	width: 118px;
+}
+
+.divAddInfoMain {
+	width: 449px;
+	float: left;
+}
+
+.divMainApp2 {
+	width: 466px;
+	float: left;
+}
+
+.divAddInfoLabel {
+	width: 118px;
+}
+
+div.topFix92 {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: auto;
+	max-height: 92px; /* must be greater than tbody*/
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 2px;
+}
+/* Keep the header cells positioned as we scroll */
+.topFix92 table th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.topFix92 table tbody {
+	overflow: visible;
+}
+
+.stepLabel {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.wizardTitle {
+	background-color: #23769c;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+	padding: 2px 8px 3px;
+}
+
+.heading {
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #20365d;
+	background-image: url(../images/headerArrow.jpg);
+	padding-left: 35px;
+	background-repeat: no-repeat;
+	background-position: left;
+	font-family: Arial;
+	text-align: left;
+}
+
+.heading a {
+	color: #0a2678;
+	text-decoration: none;
+}
+
+.heading a:hover {
+	color: #3f93c0;
+	text-decoration: none;
+}
+
+.borderScoreCard {
+	border-bottom: solid 1px #333333;
+	margin-left: 10px;
+	line-height: 20px;
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.HeaderStyleNormal {
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #000000 !important;
+	font-family: Arial;
+	background-color: #6bc2f8;
+	text-align: left !important;
+	text-decoration: none;
+}
+
+.bulkLabelHeading {
+	font-weight: bold;
+}
+/*   add new classes for New Dashboard page */
+.scratchpad {
+	background: url(../images/scratchpad.png) top no-repeat;
+	width: 223px;
+	height: 145px;
+	xpadding: 2px;
+}
+
+.homeActionGridBg {
+	background: url(../images/headerBgHome.jpg) repeat-x;
+	height: 25px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #ffffff !important;
+	font-family: Arial;
+	margin: 0px;
+	padding-left: 15px;
+}
+
+.homeBorder {
+	border: 1px solid #007bc3;
+	background-color: #FFF;
+}
+
+.headings {
+	background-color: #6bc2f8;
+	margin: 0px;
+	padding: 3px;
+	font-weight: bold;
+	font-size: 11px;
+	border-left: solid 1px #ffffff;
+	text-align: center;
+}
+
+.headings_2 {
+	height: 20px;
+	width: 100%;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #ffffff !important;
+	font-family: Arial;
+	margin: 0px;
+	background-color: #007bc3;
+}
+
+.headings_3 {
+	background-color: #6bc2f8;
+	margin: 0px;
+	padding: 3px;
+	font-weight: bold;
+	font-size: 11px;
+	border-top: solid 1px #ffffff;
+	text-align: left;
+}
+
+.SubHeaderBg {
+	xbackground-image: url(../images/bgHomeBoxGray.png);
+	background-color: #cccccc;
+	font-family: Arial;
+	font-size: 11px;
+	xfont-weight: bold;
+	color: #000;
+	xheight: 25px;
+	xpadding-left: 23px;
+	border-left: solid 1px #e3e3e3;
+	text-align: center;
+}
+
+.SubHeaderBg_2 {
+	xbackground-image: url(../images/bgHomeBoxGray.png);
+	background-color: #cccccc;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	height: 22px;
+	xpadding-left: 23px;
+	border-left: solid 1px #e3e3e3;
+	text-align: left;
+}
+
+.homeRightBar {
+	margin: 10px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000;
+	height: 22px;
+}
+
+.homeRightBar a {
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 4px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #cccccc;
+	text-decoration: none;
+	border: 1px solid #cccccc;
+	border-bottom: none;
+	vertical-align: middle;
+}
+
+.homeRightBar a:hover {
+	background-color: #2d81bc;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.homeRightBar a.hover {
+	background-color: #2d81bc;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+}
+
+.region {
+	font-weight: bold;
+	text-align: left;
+}
+
+/*Calender Css start*/
+table.calendar_widget {
+	font-family: 'Arial';
+	font-size: 10px;
+	cell-padding: 0px;
+	cell-spacing: 0px;
+	background-color: #ffffff;
+}
+
+table.calendar_widget td a:link {
+	text-decoration: none;
+	color: black;
+}
+
+table.calendar_widget td a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+td.month_year_display {
+	text-align: center;
+}
+
+td.button_display {
+	text-align: none;
+	width: 100%;
+}
+
+td.clear_button_display {
+	text-align: left;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+td.clear_button_display a {
+	text-align: left;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+td.close_button_display {
+	text-align: right;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+td.weekday {
+	background-color: #007bc3;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+td.weekend {
+	background-color: #fe0302;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+span.today {
+	background-color: #cccccc;
+	border: 1px solid #999999;
+}
+
+span.other_month {
+	color: #b0b0b0;
+}
+
+span.current_selection {
+	color: #CC0000;
+	font-weight: bold;
+}
+
+td.number {
+	cursor: default;
+}
+
+td.number:hover {
+	background-color: #c0c0c0;
+}
+
+.arrow {
+	background-color: #FFFFFF;
+	cursor: pointer;
+}
+
+.calendar-link {
+	xposition: absolute;
+}
+
+/*Calender Css End*/
+.borderLeftWhite {
+	border-left: solid 1px #ffffff;
+}
+
+.DashboardHeaderStyle {
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #000000 !important;
+	font-family: Arial;
+	xheight: 25px;
+	background-color: #6bc2f8;
+	text-align: center !important;
+	text-decoration: none;
+}
+
+.DashboardHeaderStyle a {
+	color: #0000ff;
+}
+
+.DashboardHeaderStyle a:link, a:visited, a:active {
+	color: #0000ff;
+}
+
+.DashboardHeaderStyle a:hover {
+	color: #ffffff;
+}
+
+.dashboardCalenderHeading {
+	background-color: #999999;
+	color: #ffffff;
+	padding: 5px 10px;
+}
+
+.dashboardCalenderHeading a {
+	background-color: #999999;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.dashboardCalenderHeading a:hover {
+	background-color: #999999;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.gridTopPadding4 {
+	padding-top: 4px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Add new CSS - 10-July, 2012 @@@@@@@@@@@@@@@@@@@@@@@@ */
+.dashboardTop1 {
+	display: none;
+}
+
+.dashboardTop2 {
+	padding: 20px 25px 0px;
+	background-color: #25688b;
+}
+
+.dashboardTop3 {
+	display: none;
+}
+
+.paddingTop8 {
+	padding-top: 8px;
+}
+
+ul.DBroundTab1 {
+	border-bottom: 0px;
+	padding-left: 20px;
+	z-index: 9999;
+}
+
+.DBroundTab1 li {
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+
+.DBroundTab1 li a span {
+	display: block;
+}
+
+.DBroundTab1 li a {
+	color: #666666;
+	display: block;
+	xborder-top: 1px solid #cccccc;
+	xborder-left: 1px solid #cccccc;
+	xborder-right: 1px solid #cccccc;
+	text-align: center;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 3px 10px 5px;
+	xheight: 20px;
+}
+
+.DBroundTab1 li a:hover {
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.DBroundTab1 li.active1 a {
+	xborder-top: 1px solid #cccccc;
+	xborder-left: 1px solid #cccccc;
+	xborder-right: 1px solid #cccccc;
+	font-family: Arial;
+	color: #000000;
+	padding: 3px 10px 5px;
+}
+
+.DBroundTab1 li.active1 a span {
+	display: block;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@  second level tab  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+ul.DBroundTab2 {
+	border-bottom: solid 1px #6bc2f8;
+	height: 0px !important;
+	padding-left: 20px;
+	z-index: 9999;
+}
+
+.DBroundTab2 li {
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+
+.DBroundTab2 li a span {
+	display: block;
+}
+
+.DBroundTab2 li a {
+	color: #666666;
+	display: block;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 3px 10px 5px;
+	xheight: 20px;
+}
+
+.DBroundTab2 li a:hover {
+	border-top: 1px solid #acabab;
+	border-left: 1px solid #acabab;
+	border-right: 1px solid #acabab;
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.DBroundTab2 li.active2 a {
+	border-top: 1px solid #50aae4;
+	border-left: 1px solid #50aae4;
+	border-right: 1px solid #50aae4;
+	font-family: Arial;
+	color: #000000;
+	padding: 3px 10px 5px;
+}
+
+.DBroundTab2 li.active2 a span {
+	display: block;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@  Third level tab  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+ul.DBroundTab3 {
+	border-bottom: 0px;
+}
+
+.DBroundTab3 li {
+	margin-right: 2px;
+	float: left;
+	list-style-type: none;
+}
+
+.DBroundTab3 li a span {
+	display: block;
+}
+
+.DBroundTab3 li a {
+	color: #666666;
+	display: block;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	text-transform: capitalize;;
+	padding: 3px 10px 5px;
+	xheight: 20px;
+}
+
+.DBroundTab3 li a:hover {
+	xborder-top: 1px solid #acabab;
+	border-left: 1px solid #acabab;
+	border-right: 1px solid #acabab;
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.DBroundTab3 li.active3 a {
+	border-top: 1px solid #50aae4;
+	border-left: 1px solid #50aae4;
+	border-right: 1px solid #50aae4;
+	font-family: Arial;
+	color: #000000;
+	padding: 3px 10px 5px;
+	cursor: pointer;
+}
+
+.DBroundTab3 li.active3 a span {
+	display: block;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@  Sub Tab level 1 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+ul.DBroundSubTab1 {
+	border-bottom: 0px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.DBroundSubTab1 li {
+	margin-right: 1px;
+	list-style-type: none;
+	float: left;
+}
+
+.DBroundSubTab1 li a span {
+	display: block;
+}
+
+.DBroundSubTab1 li a {
+	color: #666666;
+	display: block;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 5px;
+	xheight: 14px;
+}
+
+.DBroundSubTab1 li a:hover {
+	border-top: 1px solid #acabab;
+	border-left: 1px solid #acabab;
+	border-right: 1px solid #acabab;
+	font-family: Arial;
+	color: #0379ff;
+}
+
+.DBroundSubTab1 li.activeSub1 a, .DBroundSubTab1 li a:hover {
+	border-top: 1px solid #50aae4;
+	border-left: 1px solid #50aae4;
+	border-right: 1px solid #50aae4;
+	background-color: #50aae4;
+	font-family: Arial;
+	color: #ffffff;
+	padding: 5px;
+	cursor: pointer;
+	xbackground-color: #0099FF
+}
+
+.DBroundSubTab1 li.activeSub1 a span {
+	display: block;
+}
+
+.HeaderStyleDB {
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #000000 !important;
+	font-family: Arial;
+	height: 0px;
+	xbackground-color: #6bc2f8;
+	text-align: left !important;
+	text-decoration: none;
+}
+
+.paddingLeftError2 {
+	padding-left: 2px;
+}
+
+/*   @@@@@@@@@@@@@@@@@  icon @@@@@@@@@@@@@@@@@ */
+.icoAddNew a {
+	background-image: url(../images/icons/ico_AddNew.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoAddNew a:hover {
+	background-image: url(../images/icons/ico_AddNewHover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoEdit a {
+	background-image: url(../images/icons/icon_edit.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoEdit a:hover {
+	background-image: url(../images/icons/icon_editHover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icodownloadUpload a {
+	background-image: url(../images/icons/icon_downloadUpload.png);
+	width: 18px;
+	height: 17px;
+	display: block;
+}
+
+.icodownloadUpload a:hover {
+	background-image: url(../images/icons/icon_downloadUpload_Hover.png);
+	width: 18px;
+	height: 17px;
+}
+
+.icoDelete a {
+	background-image: url(../images/icons/icon_delete.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+	background-repeat: no-repeat;
+}
+
+.icoDelete a:hover {
+	background-image: url(../images/icons/icon_delete_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoAttach a {
+	background-image: url(../images/icons/icon_attach.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoAttach a:hover {
+	background-image: url(../images/icons/icon_attach_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoMailing, .icoMailing a {
+	background-image: url(../images/icons/icon_mailing.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+a:hover.icoMailing, .icoMailing a:hover {
+	background-image: url(../images/icons/icon_mailing_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoReport a {
+	background-image: url(../images/icons/icon_report.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoReport a:hover {
+	background-image: url(../images/icons/icon_report_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoComment a {
+	background-image: url(../images/icons/icon_comment.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoComment a:hover {
+	background-image: url(../images/icons/icon_comment_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoRefresh a {
+	background-image: url(../images/icons/icon_refresh.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoRefresh a:hover {
+	background-image: url(../images/icons/icon_refresh_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+/* add enw css 17-7-2012 */
+.fix200 {
+	height: auto;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.icoEdit a {
+	background-image: url(../images/icons/icon_edit.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoEdit a:hover {
+	background-image: url(../images/icons/icon_editHover.png);
+	width: 16px;
+	height: 16px;
+}
+
+.icoApprove a {
+	background-image: url(../images/icons/icon_approve.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoApprove a:hover {
+	background-image: url(../images/icons/icon_approve_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+a.icoCalendar {
+	background-image: url(../images/icons/icon_calendar.png);
+	width: 10px;
+	height: 12px;
+	xdisplay: block;
+	cursor: pointer;
+}
+
+a:hover.icoCalendar {
+	background-image: url(../images/icons/icon_calendar_Hover.png);
+	width: 14px;
+	height: 14px;
+}
+
+a.icoRequestE {
+	background-image: url(../images/icons/icon_RequestEnable.png);
+	width: 16px;
+	height: 16px;
+	xdisplay: block;
+	cursor: pointer;
+}
+
+a:hover.icoRequestE {
+	background-image: url(../images/icons/icon_RequestEnable_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+a.icoRequestD {
+	background-image: url(../images/icons/icon_RequestDisable.png);
+	width: 16px;
+	height: 16px;
+	xdisplay: block;
+	cursor: pointer;
+}
+
+a:hover.icoRequestD {
+	background-image: url(../images/icons/icon_RequestDisable_Hover.png);
+	width: 16px;
+	height: 16px;
+}
+
+a.icoPrimary {
+	background-image: url(../images/icons/icon_primary.png);
+	width: 16px;
+	height: 16px;
+	xdisplay: block;
+	cursor: pointer;
+}
+
+a:hover.icoPrimary {
+	background-image: url(../images/icons/icon_primary.png);
+	width: 16px;
+	height: 16px;
+}
+
+a.icoLocation {
+	background-image: url(../images/icons/locationOrg.png);
+	width: 16px;
+	height: 16px;
+	xdisplay: block;
+	cursor: pointer;
+}
+
+a:hover.icoLocation {
+	background-image: url(../images/icons/locationOrg.png);
+	width: 16px;
+	height: 16px;
+}
+
+.gridTopPadding4 {
+	padding-top: 4px;
+}
+
+.bgAccordion {
+	xbackground-color: #fbfcd2;
+    background-color: #f7f7f7;
+    xborder: solid 1px #fbe89a;
+}
+
+.branchNone {
+	background-color: #ffffff;
+	margin: 0px 15px;
+}
+
+.branchAdvSearch {
+	background-color: #ffffff;
+	margin: 0px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   report section   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.frameData .seprator {
+	background-image: url(../images/report_seprator.png);
+	width: 1px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.frameData h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	border-bottom: solid 1px #ffd457;
+	height: 24px;
+	text-align: left;
+}
+
+.frameData ul {
+	margin: 0px 0px 0px 0px;
+	padding: 3px 0px 0px 0px;
+	border-bottom: 0px;
+	xborder-top: solid 1px #2f85c0;
+}
+
+.frameData ul li {
+	background-image: url(../images/icons/arrow.png);
+	background-position: 0px 2px;
+	background-repeat: no-repeat;
+	padding-left: 16px;
+	list-style-type: none;
+	line-height: 24px;
+	text-align: left;
+	float: left;
+	clear: both;
+}
+
+.frameData ul li a {
+	color: #000000;
+}
+
+.frameData ul li a:hover {
+	color: #c6643f;
+}
+
+.frameData .readmore {
+	background-image: url(../images/report_seprator_more.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.frameData .readmore a {
+	color: #0000ff;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: right;
+	line-height: 28px;
+	float: right;
+}
+
+.frameData .readmore a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.divFix160 {
+	height: auto;
+	max-height: 160px;
+	overflow: auto;
+	overflow-x: hidden;
+	xborder: 1px solid #cccccc;
+}
+
+.divFix100 {
+	height: auto;
+	max-height: 100px;
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #cccccc;
+}
+
+.divFix100 table  th {
+	position: relative;
+	top: expression(this.offsetParent.scrollTop); /* see note just below */
+}
+/* For alignment of the scroll bar */
+.divFix100 table tbody {
+	overflow: visible;
+}
+
+.divFix48 {
+	height: auto;
+	max-height: 48px;
+	overflow: auto;
+	overflow-x: hidden;
+	border-top: 0px;
+	border: 1px solid #cccccc;
+}
+
+.divFix70 {
+	height: auto;
+	max-height: 70px;
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+.headingBoldBig, .headingBoldBig label {
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.summaryHeadingBold {
+	font-weight: bold;
+}
+
+.summaryHeadingBold label {
+	font-weight: normal;
+}
+
+.summaryHeadingBold span {
+	font-weight: normal;
+}
+
+.innersection {
+	background-color: #989899;
+	height: 20px;
+	color: #FFF;
+}
+
+.trigger1 {
+	cursor: pointer;
+	cursor: hand;
+	font-family: Arial;
+	font-size: 11px;
+	xcolor: #666666;
+	xfont-weight: bold;
+	xpadding: 5px;
+	xpadding-left: 25px;
+	xborder-bottom: 1px solid #ffffff;
+}
+
+.trigger1 a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.trigger1 a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.height22 {
+	height: 22px;
+}
+
+.producerNumberActive {
+	background-color: #c5e4a5;
+}
+
+.producerNumberPending {
+	background-color: #a5cade;
+}
+
+.producerNumberClose {
+	background-color: #cccccc;
+}
+
+.NotImportingLicenses {
+	background-color: #F5DEB3;
+	width: 14px;
+}
+
+.NewAndImportingLicenses {
+	background-color: #d6f9e0;
+	width: 14px;
+}
+
+.OLDAndImportingLicenses {
+	background-color: #b6e0ff;
+	width: 14px;
+}
+
+.netTotal td {
+	font-weight: bold;
+}
+
+.innersection1 {
+	margin: 0px;
+	padding: 0px;
+	background-color: #999999;
+	height: 20px;
+	color: #fff;
+}
+
+.xmodifyAlign {
+	padding-right: 11px;
+	padding-top: 10px;
+}
+
+.paddingTop10 {
+	padding-top: 10px;
+}
+
+.commSchName td {
+	font-weight: bold;
+	background-color: #e6e6e6;
+}
+
+.subTotal td {
+	font-weight: bold;
+	background-color: #f7f7f7;
+}
+
+.commGrandTotal td {
+	font-weight: bold;
+	background-color: #e6e6e6;
+}
+
+.buttonwrapper4 {
+	/* Container you can use to surround a CSS button to clear float */
+	overflow: hidden; /*See: http://www.quirksmode.org/css/clearing.html */
+	xwidth: 100%;
+	float: right;
+	padding-right: 4px;
+	xpadding-top: 5px;
+	padding-bottom: 4px;
+}
+
+.inputArea {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.buttonwrapper13 {
+	overflow: hidden;
+	float: right;
+	padding-right: 13px;
+}
+
+.buttonwrapper15 {
+	overflow: hidden;
+	float: right;
+	padding-right: 15px;
+}
+
+.buttonwrapper16 {
+	overflow: hidden;
+	float: right;
+	padding-right: 16px;
+}
+
+.divFix83 {
+	height: auto;
+	max-height: 83px;
+	overflow: auto;
+	overflow-x: hidden;
+	border: 1px solid #cccccc;
+	background-color: #ffffff;
+}
+
+.paddingTop5 {
+	padding-top: 5px;
+}
+
+.hsButton {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 7px
+}
+
+.paddingLeft15 {
+	padding-left: 15px;
+}
+
+div.topFix300_x-y {
+	overflow-y: auto;
+	overflow-x: auto;
+	height: auto;
+	min-height: 60px !important;
+	max-height: 300px; /* must be greater than tbody*/
+	margin: 0 auto;
+	width: 1000px;
+	xmargin-top: 2px;
+}
+
+.amountRowReport, .amountRowAdmin, .amountRowCarrier {
+	text-align: right !important;
+	padding-right: 10px !important;
+}
+
+.amountHeaderReport, .amountHeaderAdmin, .amountHeaderCarrier {
+	text-align: right !important;
+	padding-right: 10px !important;
+}
+
+.gridValignTxt {
+	vertical-align: top;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.gridValignBtn {
+	vertical-align: top;
+	padding-top: 12px !important;
+}
+
+.radioButton2 td {
+	width: 75px;
+}
+
+.HeaderStyle2, .gridheading {
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #000000 !important;
+	font-family: Arial;
+	height: 10px;
+	background-color: #6bc2f8;
+	text-align: left !important;
+	xtext-decoration: none;
+	xborder-left: solid 1px #afdcfa;
+}
+
+.HeaderStyle2 a {
+	color: #0000ff;
+}
+
+.HeaderStyle2 a:link, a:visited, a:active {
+	color: #0000ff;
+}
+
+.HeaderStyle2 a:hover {
+	color: #ffffff;
+}
+
+.HeaderStyle2 br {
+	height: 0px;
+}
+
+.primaryEntity {
+	background-color: #e96c68;
+}
+
+.hierarchyLocation {
+	background-color: #EECF69;
+}
+
+.hierarchySuperProducer {
+	background-color: #fee972;
+}
+
+.hierarchyProducer {
+	background-color: #faf59d;
+}
+
+.hierarchySubProducer {
+	background-color: #fbf5d1;
+}
+
+.popupDivActiv {
+	width: 100%;
+	overflow-y: scroll;
+	min-height: 250px;
+	height: 300px;
+	color: #000000;
+	xborder-right: 1px solid #cccccc;
+}
+
+.listRowNoteCSS {
+	border-bottom: 1px solid #888b8c !important;
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2;
+	height: 24px;
+}
+
+.bgAccordionN {
+    xbackground-color: #fbfcd2;
+    background-color: #f7f7f7;
+    padding: 0px 10px;
+}
+
+.borderRow {
+	border-bottom: 1px solid #6bc2f8;
+	border-top: 1px solid #6bc2f8;
+	border-right: 1px solid #6bc2f8;
+	border-left: 1px solid #6bc2f8;
+	padding: 5px;
+	width: 99.1%;
+}
+
+.listRow1TitleCSS {
+	xbackground-color: #F3f3f3;
+	background-color: #ffffff;
+	xborder-top: solid 1px #f2f2f2;
+	height: 24px;
+	xborder-bottom: 1px solid #000000;
+	padding: 3px !important;
+}
+
+.listRow2TitleCSS {
+	background-color: #ffffff;
+	xborder-top: solid 1px #f2f2f2;
+	height: 24px;
+	padding: 3px !important;
+}
+
+.borderRow2 {
+	border: 0px !important;
+	xlist-style: circle;
+}
+
+.borderRow2 ul {
+	border: 0px !important;
+	list-style: circle !important;
+}
+
+.listhomeRow1CSS {
+	border-top: solid 1px #f2f2f2;
+	xheight: 24px;
+	padding: 3px !important;
+}
+
+.listhomeRow2CSS {
+	border-top: solid 1px #f2f2f2;
+	height: 5px !important;
+	padding: 3px !important;
+}
+
+.listRowRadio1CSS {
+	background-color: #ffffff;
+	xborder-top: solid 1px #f2f2f2;
+	xheight: 24px;
+	xborder-bottom: 1px solid #000000;
+	xpadding: 3px !important;
+}
+
+.listRowRadio2CSS {
+	background-color: #ffffff;
+	xborder-top: solid 1px #f2f2f2;
+	xheight: 5px !important;
+	xpadding: 3px !important;
+}
+.listRow2CSS td, .listRow1CSS td {
+	vertical-align:middle;
+	xheight:32px;
+}
+
+.border0 td{
+	height:auto;
+}
+
+.listRowChk1CSS {
+	font-size: 11px;
+	background-color: #ffffff;
+	color: #000000;
+	border-bottom: solid 1px #e0e3e5;
+	text-align: left;
+	padding: 5px !important;
+}
+
+.filterPlaceHolder  a {
+	background-color: #f3f3f3;
+	border: solid 1px #cccccc;
+	padding: 2px 5px;
+	display: block;
+	color: #666666;
+}
+
+.filterPlaceHolder a:hover, .filterPlaceHolder a.selectd {
+	background-color: #cccccc;
+	border: solid 1px #666666;
+	padding: 2px 5px;
+	display: block;
+	color: #000000;
+}
+
+.savedSearchDiv {
+	max-height: 57px;
+	overflow: scroll;
+	overflow-x: hidden;
+	border: solid 1px #dedede;
+	padding: 5px 0px;
+}
+
+.savedSearchRow {
+	margin: 0px 10px 5px;
+	border: solid 1px #ceeff2;
+	float: left;
+	width: 185px;
+	padding: 5px;
+}
+
+.savedSearchName {
+	float: left;
+	overflow: hidden;
+	width: 150px;
+	xpadding-right: 5px;
+}
+
+.divborder {
+	border: 1px solid #c8e8fc;
+}
+
+.paddingLeftError2 {
+	padding-left: 2px !important;
+}
+
+.app_Term_Comments {
+	padding: 5px 20px 5px 5px;
+	xheight: 200px;
+	vertical-align: top;
+}
+
+.popupContent1 {
+	padding: 10px 20px 20px 20px;
+	height: 200px;
+	vertical-align: top;
+}
+
+.buttonwrapper21 {
+	overflow: hidden;
+	xwidth: 100%;
+	float: right;
+	padding-right: 21px;
+}
+
+.buttonwrapper28 {
+	overflow: hidden;
+	xwidth: 100%;
+	float: right;
+	padding-right: 28px;
+}
+
+.listRowCSSSearchByProdNumber {
+	background-color: #FFD3E2;
+}
+
+.AdditionalAddress {
+	width: 450px;
+	float: left;
+	height: auto;
+}
+
+.producerNumberAdvanceClose {
+	background-color: #ffd3e2;
+}
+
+.icoSend a {
+	background-image: url(../images/icons/Invite_Active.png);
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icoSend a:hover {
+	background-image: url(../images/icons/invite_icon.png);
+	width: 16px;
+	height: 16px;
+}
+
+.popupContentEL {
+	padding: 10px;
+	height: 130px;
+	vertical-align: top;
+}
+
+.listRowChk3CSS {
+	font-size: 11px;
+	background-color: #ffffff;
+	color: #000000;
+	border-bottom: solid 1px #e0e3e5;
+	text-align: left;
+	xpadding: 5px !important;
+}
+
+.homebg {
+	color: #ffffff;
+	text-align: center;
+	background-color: #25688b;
+}
+
+.popupDivM {
+	width: 100%;
+	overflow-y: scroll;
+	min-height: 200px;
+	height: 522px;
+	color: #000000;
+	xborder-right: 1px solid #cccccc;
+}
+
+.popupDivMaxSmall {
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	xpadding: 40px 20px;
+	color: #000000;
+	border: 1px solid #CCC;
+	height: 165px;
+}
+
+.popupDivS {
+	width: 100%;
+	overflow-y: scroll;
+	min-height: 200px;
+	height: 413px;
+	color: #000000;
+	xborder-right: 1px solid #cccccc;
+}
+
+.fixcolumn {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 70px;
+	word-wrap: break-word;
+}
+
+.popupDivColNew {
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: auto;
+	xmin-height: 100px;
+	color: #000000;
+}
+
+.popupDivScroll {
+	width: 100%;
+	overflow-y: scroll;
+	min-height: 200px;
+	height: 330px;
+	color: #000000;
+	border: #1px solid #cccccc;
+	xborder-right: 1px solid #cccccc;
+}
+
+.fixcolumnHeader {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 14%;
+	word-wrap: break-word;
+	background: #ffffff;
+	color: #666;
+}
+
+.fixcolumnSearch {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 184px;
+	word-wrap: break-word;
+}
+
+.fixcolumnInput {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 274px;
+	word-wrap: break-word;
+}
+
+.formHeading {
+	background-color: #feecde;
+	border-top: solid 1px #ffffff;
+	outline: solid 1px #dedede;
+	border-bottom: 0px;
+	padding: 5px 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.formLabel {
+	line-height: 24px;
+	text-align: right;
+}
+
+.fixcolumntd {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 100px;
+	word-wrap: break-word;
+}
+
+.fixcolumntdSmall {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 50px;
+	word-wrap: break-word;
+}
+
+.divUL3 ul {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	xmargin-right: -2px;
+	border-bottom: 0px !important;
+	border-top: 0px !important;
+}
+
+.divUL3 {
+	padding-left: 0px !important;
+	float: right;
+	padding-right: 0px !important;
+	border-bottom: 0px !important;
+	border: 0px;
+}
+
+.divUL3 ul li a {
+	xmargin-right: 1px !important;
+}
+
+.divUL3 .noindent {
+	margin: 0px;
+	padding: 0px;
+}
+
+.divUL3 .noindent li {
+	margin-right: 1px;
+}
+
+.fixcolumnGrid {
+	xoverflow: hidden;
+	xtable-layout: fixed;
+	max-width: 1000px;
+	word-wrap: break-word;
+	text-align: center !important;
+}
+
+.searchWidth {
+	text-align: center;
+	width: 100% !important;
+}
+
+.divReport {
+	width: 449px;
+	float: left;
+}
+
+.xbgAccordionAdmin {
+	xbackground-color: #fbfcd2;
+    background-color: #f7f7f7;
+    xpadding: 0px 10px;
+}
+
+ul.noindent {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	xmargin-right: -2px;
+	border-bottom: 0px !important;
+	border-top: 0px !important;
+}
+
+.btmTabs .roundTab2 {
+	margin-left: 0px !important;
+}
+
+a.ovalbutton5 {
+	background-image: url(../images/oval-blue-left-5.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	/* Change 13px as desired */
+	line-height: 16px;
+	/* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 24px) */
+	height: 21px; /* Height of button background height */
+	padding-left: 11px; /* Width of left menu image */
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	cursor: pointer;
+	xmargin-right: 5px;
+}
+
+a:link.ovalbutton5, a:visited.ovalbutton5, a:active.ovalbutton5 {
+	color: #ffffff; /*button text color*/
+	margin-left: 2px;
+}
+
+a.ovalbutton5 span {
+	background-image: url(../images/oval-blue-right-5.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	display: block;
+	padding: 2px 13px 3px 1px;
+	/*Set 11px below to match value of 'padding-left' value above*/
+}
+
+a.ovalbutton5:hover { /* Hover state CSS */
+	background-position: bottom left;
+}
+
+a.ovalbutton5:hover span { /* Hover state CSS */
+	background-position: bottom right;
+	color: #ffffff;
+}
+
+.bucketHighlight {
+	color: maroon;
+	font-weight: bold;
+}
+
+.fixcolumnInputTd {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 250px;
+	word-wrap: break-word;
+}
+
+.menu-bar {
+	xposition: absolute;
+	xtop: 159px;
+	height: 40px;
+	xwidth: 200px;
+	xbackground-color: #fafafa;
+	z-index: 2;
+	margin-top: -14px;
+	float: right;
+}
+
+.menu-item {
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	xleft: 79px;
+	height: 40px;
+	text-align: center;
+	width: 20px;
+	xborder-right: dotted thin #000;
+	xborder-bottom: dotted thin #000;
+	xbackground-color: #64bef4;
+}
+
+.menu-item-hover {
+	border-bottom: none;
+}
+
+.menu-text {
+	display: table-cell;
+	vertical-align: middle;
+	height: 40px;
+	width: 172px;
+	position: relative;
+	xleft: 2px;
+	top: 1px;
+	text-align: center;
+	border-top-right-radius: 0px;
+	xmargin-left: 2px;
+	margin-top: 2px;
+	xmargin-right: 2px;
+}
+
+.menu-text-hover {
+	border-top-right-radius: 0px;
+	background-color: #429cd9;
+	color: #fff;
+	cursor: pointer;
+	width: 172px;
+}
+
+.sub-menu-items {
+	position: absolute;
+	display: inline-block;
+	top: 40px;
+	width: 172px;
+	background-color: #8ad0fa;
+	font-size: 12px;
+	z-index: 100;
+	left: -152px;
+	border: solid 1px #fff
+}
+
+.sub-menu-item {
+	background: url(../images/devider-horizontal.png) no-repeat center top;
+	display: block;
+	height: 40px;
+}
+
+.sub-menu-item:last {
+	background-image: none;
+	display: block;
+	height: 40px;
+}
+
+.border5 {
+	border: 1px solid #cccccc;
+	text-align: left;
+}
+
+.listRow1CSSBg {
+	border-top: solid 1px #f2f2f2;
+	height: 5px !important;
+	xborder-bottom: 1px solid #000000;
+	padding: 3px !important;
+}
+
+.listRow2CSSBg {
+	border-top: solid 1px #f2f2f2;
+	height: 5px !important;
+	padding: 3px !important;
+}
+
+/*------------------------------------------ On Bording ( pardeep ) -------------------------------------------------------------------------- */
+.frameData_onBording {
+	x-webkit-border-bottom-right-radius: 16px;
+	x-webkit-border-bottom-left-radius: 16px;
+	x-moz-border-radius: 0px 0px 16px 16px;
+	xborder-radius: 0px 0px 16px 16px;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eae9e8),
+		to(#fdf9ea));
+	background: -webkit-linear-gradient(#eae9e8, #fdf9ea);
+	background: -moz-linear-gradient(#eae9e8, #fdf9ea);
+	background: -ms-linear-gradient(#eae9e8, #fdf9ea);
+	background: -o-linear-gradient(#eae9e8, #fdf9ea);
+	background: linear-gradient(#eae9e8, #fdf9ea);
+	-pie-background: linear-gradient(#eae9e8, #fdf9ea);
+	xborder: solid 1px #cccccc;
+	behavior: url(css/htc/PIE.htc);
+}
+
+.frameSubHeader_onBording {
+	background-color: #c4c4c4;
+	height: 23px;
+}
+
+.triggerHome_onBording {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+	padding: 0px 0px 0px 6px;
+	float: left;
+	width: 97%;
+	font-weight: bold;
+	background: url(../images/arrow_OnBoarding.png) no-repeat right;
+}
+
+.triggerHome_onBording a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.triggerHome_onBording a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.branchHome2 {
+	text-align: left;
+	border-right: 1px solid #fff;
+	float: left;
+	width: 99%;
+	height: 164px;
+	margin: 0px;
+	padding: 0px 0px 0px 3px;
+}
+
+.home_page_tabs_subText_onBording {
+	font-size: 11px;
+	float: left;
+	width: 100%;
+	color: #000000;
+	font-weight: normal;
+	border-bottom: 1px dotted #5f6e7a;
+	line-height: 18px;
+	font-family: Arial;
+	height: 23px;
+}
+
+.home_page_tabs_subText_onBording a {
+	font-weight: normal;
+	xcolor: #5f6e7a;
+	color: #000000;
+	xpadding: 3px 0px 3px 15px;
+	float: left;
+	width: 100%;
+}
+
+.home_page_tabs_subText_onBording a:hover {
+	float: left;
+	color: #c6643f;
+	xbackground-color: #ccc;
+}
+
+.fix150_onBording {
+	height: 70px;
+	width: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+	margin-bottom: 16px;
+}
+
+.frameHeader_onBording {
+	x-webkit-border-top-right-radius: 16px;
+	x-webkit-border-top-left-radius: 16px;
+	x-moz-border-radius: 16px 16px 0px 0px;
+	xborder-radius: 16px 16px 0px 0px;
+	-webkit-text-shadow: #000 0px 1px 2px;
+	-moz-text-shadow: #000 0px 1px 2px;
+	text-shadow: #000 0px 1px 2px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#45a1e0),
+		to(#2b7fba));
+	background: -webkit-linear-gradient(#45a1e0, #2b7fba);
+	background: -moz-linear-gradient(#45a1e0, #2b7fba);
+	background: -ms-linear-gradient(#45a1e0, #2b7fba);
+	background: -o-linear-gradient(#45a1e0, #2b7fba);
+	background: linear-gradient(#45a1e0, #2b7fba);
+	-pie-background: linear-gradient(#45a1e0, #2b7fba);
+	behavior: url(css/htc/PIE.htc);
+	height: 30px;
+	padding-left: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.frameHeader_onBording a {
+	-webkit-text-shadow: transparent 0px 1px 2px;
+	-moz-text-shadow: transparent 0px 1px 2px;
+	text-shadow: transparent 0px 1px 2px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+.frameHeader_onBording a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.arrowIcon {
+	xheight: 20px;
+}
+
+.advanceSearchHide {
+	xdisplay: none;
+	xbackground: #f97914;
+	padding-top: 15px;
+	width: 166px;
+	text-align: right;
+}
+
+.advanceSearchHide a {
+	padding: 5px 10px;
+	xbackground: #f97914;
+	xbackground: #6BC2F8;
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.advanceSearchHide a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.advanceSearch {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	float: left;
+}
+
+.searchHeading {
+	width: 100%;
+	float: left;
+	display: none;
+}
+
+.searchHeading h1 {
+	padding: 4px 0px;
+	margin: 0px;
+	background: #30bae8;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.searchSectionWidth {
+	width: 15%;
+	xdisplay: none;
+	vertical-align: top;
+	padding-top: 20px;
+	display: none;
+}
+
+.searchDiv {
+	width: 33%;
+	xheight: 34px;
+	padding-top: 5px;
+	float: left;
+}
+
+.searchTable {
+	width: 90%;
+	text-align: left;
+}
+
+.searchFieldTD {
+	width: 90%;
+}
+
+.searchField {
+	width: 93%;
+	text-align: left;
+	background: #ffffff !important;
+	border: 1px solid #ffffff !important;
+	color: #000 !important;
+}
+
+.searchIcon {
+	width: 5%;
+	text-align: left;
+	padding-left: 0px;
+}
+
+.welcomeTopBg {
+	background: -webkit-gradient(linear, left 0, right 0, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(left, #ffffff, #ffffff);
+	background: -moz-linear-gradient(left, #ffffff, #ffffff);
+	background: -ms-linear-gradient(left, #ffffff, #ffffff);
+	background: -o-linear-gradient(left, #ffffff, #ffffff);
+	background: linear-gradient(left, #ffffff, #ffffff);
+	-pie-background: linear-gradient(left, #ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+}
+
+.welcomeTopBgRight {
+	background: #ffffff;
+	padding: 1px 26px 2px 0px;
+}
+
+.requiredFieldHide1 {
+	display: none;
+}
+
+.requiredFieldHide2 {
+	display: block;
+}
+
+.username {
+	xcolor: #0478ab !important;
+	font-weight: normal;
+}
+
+.tagline2 {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 30px 0px 0px;
+	width: 412px;
+	height: 14px;
+	background: url(../images/tagLineProduct.png) no-repeat bottom;
+	vertical-align: bottom;
+}
+
+.taglineSperator {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: url(../images/taglineSperator.png) no-repeat right center;
+	height: 55px;
+	vertical-align: bottom;
+}
+
+.taglineSperator1 {
+	padding-left: 15px;
+	xdisplay: none;
+}
+
+.labelAlign {
+	text-align: right !important;
+	xtext-align: left;
+}
+
+.tdInput {
+	padding-left: 6px !important;
+}
+
+.mendatoryInput {
+	xmargin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+.mendatoryInputLegend {
+	float:left;
+	padding-left: 0px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+.mendatoryInput1 {
+	margin: 5px 0px;
+	padding-left: 7px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+fieldset legend span.mendatoryAsterisk {
+	margin: 5px 0px;
+	padding-left: 2px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+.fixcolumnSearchM {
+	xoverflow: hidden;
+	table-layout: fixed;
+	max-width: 145px;
+	word-wrap: break-word;
+}
+
+.mendatoryAsterisk2 {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	xcolor: #ff0000;
+	width: 10px;
+	text-align: right;
+	xheight: 22px;
+	height: 22px;
+}
+
+.taglineBottom {
+	margin: 0px;
+	padding: 0px 20px 0px 0px;
+}
+
+.homeActionHeader .topDetails, .homeActionHeader .breadcrumb {
+	display: none;
+}
+
+.searchResults .topDetails {
+	height: 2px;
+	line-height: 2px;
+}
+
+.searchBarHide1 {
+	display: none;
+}
+
+.searchBarHide2 {
+	xdisplay: none;
+}
+
+.requiredFieldHide1 {
+	display: none;
+}
+
+.requiredFieldHide2 {
+	xdisplay: none;
+}
+
+/*----------------------------22,Aug-2014----------------------------------------------*/
+#fl_menu {
+	position: absolute;
+	top: 150px;
+	left: 7px;
+	z-index: 9999;
+	width: 110px;
+	height: 30px;
+}
+
+#fl_menu .label {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	xbackground: #940001;
+	color: #fff;
+}
+
+#fl_menu .menu {
+	display: none;
+}
+
+#fl_menu .menu .menu_item {
+	display: block;
+	background: #000;
+	color: #bbb;
+	border-top: 1px solid #333;
+	padding: 10px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#fl_menu .menu a.menu_item:hover {
+	background: #333;
+	color: #fff;
+}
+
+.AlertHeading {
+	width: 110px;
+	xbackground: #44a0df;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 0px;
+	color: #ffffff;
+	height: 30px;
+	text-decoration: none;
+}
+
+.AlertBranch {
+	background-color: #ffffff;
+	border: #44a0df 1px solid;
+	margin: 0px;
+	xwidth: 100%;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#d4e7f4));
+	background: -webkit-linear-gradient(#ffffff, #d4e7f4);
+	background: -moz-linear-gradient(#ffffff, #d4e7f4);
+	background: -ms-linear-gradient(#ffffff, #d4e7f4);
+	background: -o-linear-gradient(#ffffff, #d4e7f4);
+	background: linear-gradient(#ffffff, #d4e7f4);
+	-pie-background: linear-gradient(#ffffff, #d4e7f4);
+	behavior: url(css/htc/PIE.htc);
+}
+
+.AlertTrigger {
+	height: 30px;
+	cursor: pointer;
+	cursor: hand;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.AlertTrigger a {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.AlertTrigger a:hover {
+	color: #c6643f;
+	text-decoration: none;
+}
+
+.AlertReadmore {
+	padding: 0px;
+}
+
+.AlertReadmore a {
+	background: #44a0df;
+	padding: 4px 8px;
+	color: #ffffff;
+}
+
+.ReportLink {
+	height: 25px;
+	padding: 2px;
+}
+
+.ReportLink a {
+	padding-left: 12px;
+	background: url(../images/report_bullet.png) no-repeat;
+	background-position: 0px 50%;
+}
+
+.btmTabs .roundTab4 {
+	margin-left: 1px !important;
+}
+
+.border10 {
+	xborder: 1px solid #6bc2f8;
+	padding: 10px;
+}
+
+.dashboardHeading {
+	xfont-family: 'Denk One', sans-serif;
+	xfont-family: 'Seymour One', sans-serif;
+	xfont-family: 'Bad Script', cursive;
+	xfont-weight: bolder;
+	xfont-style: italic;
+	font-family: 'ErasDemiITCRegular';
+	font-size: 26px;
+	color: #ffffff;
+	padding-bottom: 5px;
+}
+
+.carrierDashboardLeft {
+	background: url(../images/dashboardLeft.png) repeat-x;
+	margin: 4px 0px 0px 5px;
+}
+
+.branchHome3 {
+	xtext-align: left;
+	background-color: #FDF9EA;
+	border-bottom: solid 1px #d2d1d1;
+	width: 100%;
+	xpadding: 0px 0px 0px 26px !important;
+}
+
+.branchHome3 a {
+	color: #000;
+}
+
+.branchHome3 a:hover {
+	color: #c6643f;
+}
+
+.tdBorder {
+	border-bottom: #077ccc 1px solid;
+	padding-bottom: 5px;
+}
+
+.popupDivM_4 {
+	xwidth: 100%;
+	overflow-y: scroll;
+	height: 100px;
+	color: #000000;
+	border: 1px solid transparent;
+}
+
+.reportRoundBg {
+	background: url(../images/report/reportsRoundBg.png) no-repeat;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	height: 18px;
+	width: 18px;
+	color: #ffffff;
+}
+
+.reportRoundBg div {
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.customLabel200 input[type=text] {
+	width: 240px;
+}
+
+.searchBlock {
+	float: left;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.searchBlockWidth {
+	width: 135px;
+}
+
+.searchBlockWidthDetail {
+	width: 124px;
+}
+
+.searchBlockWidthLicense {
+        width: 160px;
+}
+
+
+
+.searchBlockWidthReference {
+	width: 122px;
+}
+
+.searchBlockWidthContact {
+	width: 115px;
+}
+
+.searchBlockWidthContactLicense {
+	width: 115px;
+}
+
+.searchBlockWidthContactPerson {
+	width: 135px;
+}
+
+.homeActionBlockMain {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.homeActionBlock {
+	float: left;
+	width: 49%;
+	margin: 0px;
+	padding: 5px;
+}
+
+.homeActionBlockHeight {
+	height: 250px;
+}
+
+.homeActionBlock2 {
+	float: left;
+	width: 99%;
+	margin: 0px;
+	padding: 5px;
+}
+
+.errorGroup {
+	text-align: center;
+}
+
+.lookupBlocksOuter {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.lookupBlocks {
+	float: left;
+	width: 31%;
+	margin: 0px;
+	padding: 5px;
+	height: 18px;
+}
+
+.lookupWidth {
+	xwidth: 135px;
+}
+
+.lookupImg {
+	width: 20px;
+}
+
+.docfieldset {
+	margin-top: 10px !important;
+}
+
+.bgAccordionN .docfieldset {
+	margin-bottom: 10px !important;
+}
+
+.BankInformBlocksOuter {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.BankInformBlocks {
+	float: left;
+	width: 48%;
+	margin: 0px;
+	xpadding: 5px;
+}
+
+.BankInformBlocks2 {
+	float: left;
+	width: 96%;
+	margin: 0px;
+	xpadding: 5px;
+}
+
+.BankInformWidth {
+	width: 183px;
+}
+
+.massAttachmentBlocksOuter {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.massAttachmentBlocks {
+	float: left;
+	width: 48%;
+	margin: 0px;
+	xpadding: 5px;
+}
+
+.massAttachmentBlocks2 {
+	float: left;
+	width: 96%;
+	margin: 0px;
+	xpadding: 5px;
+}
+
+.massAttachmentWidth {
+	width: 104px;
+}
+
+.buttonwrapper14 {
+	xwidth: 100%;
+	float: right;
+	padding-right: 11px;
+	padding-top: 10px
+}
+
+.bg4 {
+	background-color: #808285;
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 2px;
+	height: 20px;
+	xpadding-left: 10px;
+	margin: 15px;
+}
+
+.iconpdp1 {
+	vertical-align: bottom;
+}
+
+#adminBrokerageDetailsStep5_list_mom_1 .listRow2CSS td,
+	#adminBrokerageDetailsStep5_list_mom_1 .listRow1CSS td {
+	border-bottom: none;
+}
+
+.addressType3 .mendatoryInput, .addressType2 .mendatoryInput {
+	margin: 5px 0px;
+	padding-left: 10px !important;
+	background: none;
+}
+
+.addressType3 .mendatoryInput_address, .addressType2 .mendatoryInput_address
+	{
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+.mendatoryInput_address {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+#progressBarDiv {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	xopacity: 0.1;
+	xfilter: alpha(opacity =   100);
+	xbackground-color: #000000;
+	z-index: 1000000;
+	width: 100%;
+	background: url(../images/indicator.gif) no-repeat center top;
+	background-position: 50% 300px;
+}
+
+.dobNotRequired .mendatoryInput_address {
+	margin: 5px 0px;
+	padding-left: 10px !important;
+	background: none;
+}
+
+.ssnNotRequired .mendatoryInput_address {
+	margin: 5px 0px;
+	padding-left: 10px !important;
+	background: none;
+}
+
+.tdInput_address {
+	margin: 5px 0px;
+	padding-left: 10px !important;
+	background: none;
+}
+
+.emailRequired .tdInput_address {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+.yrsOfOwnershipRequired .tdInput_address {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+.licRequired .tdInput_address {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+
+.freeFormDiv {
+	clear: both;
+}
+
+.freeFormList {
+	display: table;
+	width: auto;
+}
+
+.freeFormListTr {
+	display: table-row;
+	width: auto;
+	clear: both;
+}
+
+.freeFormListTd {
+	display: table-cell;
+	padding: 0px 0px;
+}
+
+.freeFormListTdError {
+	display: table-cell;
+	padding-left:9px!important;
+}
+
+.freeFormListTdError h6 {
+	line-height: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.mendatoryAsteriskDiv {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: transparent;
+	width: 10px;
+	text-align: right;
+	height: 19px;
+	visibility: hidden;
+}
+
+.tdPaddingLeft {
+	padding-left: 5%;
+}
+
+.freeFormDiv ul.split-list {
+	border-bottom: medium none;
+	float: left;
+	margin-left: 0;
+	padding: 0;
+	width: 100%;
+}
+.freeFormDiv ul.split-list ul {
+	float: left;
+	width: 48%;
+}
+
+.freeFormDiv ul.sub-list {
+	width: 42%;
+    float: left;
+    border: none;
+}
+
+
+.freeFormDiv ul.split-list li {
+	float: none;
+	line-height: 1.5em;
+	padding-right: 0;
+	padding: 1px 0px;
+}
+
+.freeFormLabelWidth_60 {
+	width: 60px;
+}
+
+.freeFormLabelWidth_80 {
+	width: 80px;
+}
+
+.freeFormLabelWidth_100 {
+	width: 100px;
+}
+
+.freeFormLabelWidth_120 {
+	width: 120px;
+}
+
+.freeFormLabelWidth_140 {
+	width: 140px;
+}
+
+.freeFormLabelWidth_160 {
+	width: 160px;
+}
+
+.freeFormLabelWidth_180 {
+	width: 180px;
+}
+
+.freeFormLabelWidth_200 {
+	width: 200px;
+}
+
+.clearDiv {
+	clear: both;
+}
+
+.borderNone {
+	border: none;
+	padding: 0px;
+}
+
+.borderNone li {
+	float: left;
+	margin: 0px;
+}
+
+.width1 {
+	width: 1%;
+}
+
+.width3 {
+	width: 3%;
+}
+
+.width4 {
+	width: 4%;
+}
+
+.width5 {
+	width: 5%;
+}
+
+.width10 {
+	width: 10%;
+}
+
+.width15 {
+	width: 15%;
+}
+
+.width16 {
+	width: 16%;
+}
+
+.width20 {
+	width: 20%;
+}
+
+.width25 {
+	width: 25%;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.width35 {
+	width: 35%;
+}
+
+.width40 {
+	width: 40%;
+}
+
+.width45 {
+	width: 45%;
+}
+
+.width49 {
+	width: 49%;
+}
+
+.width50 {
+	width: 50%;
+}
+
+.width55 {
+	width: 55%;
+}
+
+.width60 {
+	width: 60%;
+}
+
+.width90 {
+	width: 90%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.width84 {
+	width: 84%;
+}
+
+.width95 {
+	width: 95%;
+}
+
+.width97 {
+	width: 97%;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.width33 {
+	width: 33%;
+}
+
+.padding2_TopBottom {
+	padding: 2px 0px;
+}
+
+.HeaderStyleheading {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 3px;
+	color: #000000 !important;
+	font-family: Arial;
+	height: 34px;
+	background-color: #dbdbdb;
+	text-align: left !important;
+	xtext-decoration: none;
+	xborder-left: solid 1px #afdcfa;
+	line-height: 30px;
+	border-bottom:1px solid #8e8c8d;
+}
+
+.HeaderStyleheading a {
+	color: #0000ff;
+}
+
+.HeaderStyleheading a:link, a:visited, a:active {
+	color: #0000ff;
+}
+
+.HeaderStyleheading a:hover {
+	color: #ffffff;
+}
+.mom_List_BorderNone .listRow2CSS td,
+	.mom_List_BorderNone .listRow1CSS td {
+	border-bottom: none;
+	padding:0px !important;
+}
+
+.eoSectionRequired .tdInput_address1 {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 3px;
+}
+
+.eoSectionRequired .tdInput_address {
+	margin: 5px 0px;
+	padding-left:6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 3px;
+}
+
+.ssnRequired .mendatoryInput_address {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+.userIDRequired .tdInput {
+	margin: 5px 0px;
+	padding-left:6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+.payemntRequired .tdInput {
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+.dobRequired .mendatoryInput_address{
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;
+}
+.mendatoryInput_W9LegalName{
+	margin: 5px 0px;
+	padding-left: 6px !important;
+	background: none;
+}
+
+
+/*css for design change*/
+input[type=text], input[type=password],input[type=file] , select{
+	height:25px !important;
+	font-size:14px !important;
+}
+input[type=text], input[type=password],input[type=file], textarea {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#e9e9e9 ), to(#ffffff)) !important;
+	background: -webkit-linear-gradient(#e9e9e9 , #ffffff) !important;
+	background: -moz-linear-gradient(#e9e9e9 , #ffffff) !important;
+	background: -ms-linear-gradient(#e9e9e9 , #ffffff) !important;
+	background: -o-linear-gradient(#e9e9e9 , #ffffff) !important;
+	background: linear-gradient(#e9e9e9 , #ffffff) !important;
+	-pie-background: linear-gradient(#e9e9e9 , #ffffff) !important;
+	behavior: url(css/htc/PIE.htc);
+	border: #bababa 1px solid;
+
+}
+select{
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#eaeaea)) !important;
+	background: -webkit-linear-gradient(#ffffff, #eaeaea) !important;
+	background: -moz-linear-gradient(#ffffff, #eaeaea) !important;
+	background: -ms-linear-gradient(#ffffff, #eaeaea) !important;
+	background: -o-linear-gradient(#ffffff, #eaeaea) !important;
+	background: linear-gradient(#ffffff, #eaeaea) !important;
+	-pie-background: linear-gradient(#ffffff, #eaeaea) !important;
+	behavior: url(css/htc/PIE.htc);
+	border: #bababa 1px solid;
+	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+
+}
+.footer-buttons{
+	xpadding-top:60px;
+}
+.footer-buttons .buttonwrapper{
+	float:none;
+}
+
+.public-2-left-common{
+	xmin-height: 530px !important;
+}
+.public-form-common{
+	min-height: 650px !important;
+}
+.paddingBottom0{
+	padding-bottom:0px !important;
+}
+.public-tag-line h1{
+	font-size:16pt !important;
+}
+
+a.save_next_btn, a.next_btn, a.finish_btn {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#13ba00), to(#15a205));
+	background: -webkit-linear-gradient(#13ba00, #15a205) ;
+	background: -moz-linear-gradient(#13ba00, #15a205) ;
+	background: -ms-linear-gradient(#13ba00, #15a205) ;
+	background: -o-linear-gradient(#13ba00, #15a205) ;
+	background: linear-gradient(#13ba00, #15a205) ;
+	-pie-background: linear-gradient(#13ba00, #15a205) ;
+	behavior: url(css/htc/PIE.htc);
+	xbackground:#3892d1;
+	display: block;
+	float: right;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding: 4px 30px; /* Width of left menu image */
+	text-decoration: none;
+	text-transform: inherit;
+	color: #ffffff;
+	cursor: pointer;
+	height: 18px;
+}
+
+a:link .save_next_btn, a:visited .save_next_btn, a:active .save_next_btn{
+	color: #ffffff; /*button text color*/
+	margin-left: 2px;
+}
+
+a.save_next_btn span, a.next_btn span, a.finish_btn span{
+	xbackground: url(../images/icons/next_icon.png) no-repeat 92% 45%;
+	xpadding:0px;
+	/*Set 11px below to match value of 'padding-left' value above*/
+}
+
+a.save_next_btn:hover, a.next_btn:hover, a.finish_btn:hover { /* Hover state CSS */
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#15a205), to(#13ba00));
+	background: -webkit-linear-gradient(#15a205, #13ba00) ;
+	background: -moz-linear-gradient(#15a205, #13ba00) ;
+	background: -ms-linear-gradient(#15a205, #13ba00) ;
+	background: -o-linear-gradient(#15a205, #13ba00) ;
+	background: linear-gradient(#15a205, #13ba00) ;
+	-pie-background: linear-gradient(#15a205, #13ba00) ;
+	behavior: url(css/htc/PIE.htc);
+	display: block;
+	xbackground:#3088c6;
+}
+
+a. save_next_btn:hover span, a.finish_btn span { /* Hover state CSS */
+	background: none;
+	color: #ffffff;
+}
+a.save_next_btn:after, a.next_btn:after {
+    content: " ";
+    background: url(../images/icons/next_icon.png) no-repeat;
+    position: absolute;
+    width: 8px;
+    height: 9px;
+    margin-left: 58px;
+    margin-top: -13px;
+}
+a.next_btn:after{margin-left: 31px;}
+
+a.reset_btn, a.back_btn, a.save_exit_btn, a.modify_btn, a.cancel_btn, a.save_btn{
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff), to(#eaeaea));
+	background: -webkit-linear-gradient(#ffffff, #eaeaea) ;
+	background: -moz-linear-gradient(#ffffff, #eaeaea) ;
+	background: -ms-linear-gradient(#ffffff, #eaeaea) ;
+	background: -o-linear-gradient(#ffffff, #eaeaea) ;
+	background: linear-gradient(#ffffff, #eaeaea) ;
+	-pie-background: linear-gradient(#ffffff, #eaeaea) ;
+	behavior: url(css/htc/PIE.htc);
+	display: block;
+	float: left;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	/* Change 13px as desired */
+	text-align:center;
+	padding: 4px 30px; /* Width of left menu image */
+	text-decoration: none;
+	text-transform: inherit;
+	color: #000;
+	cursor: pointer;
+	border: 1px solid #8c8c8c;
+	text-transform: uppercase;
+	height: 18px;
+}
+a.reset_btn span, a.back_btn span, a.save_exit_btn span, a.modify_btn span, a.cancel_btn span, a.save_btn span{
+	color:#000 !important;
+}
+a:link .reset_btn, a:visited .reset_btn, a:active .reset_btn{
+	color: #000; /*button text color*/
+	margin-left: 2px;
+}
+
+a.back_btn span {
+	xbackground: url(../images/icons/back_icon.png) no-repeat 8% 45% !important;
+	xpadding:0px;
+	color:#000;
+	/*Set 11px below to match value of 'padding-left' value above*/
+}
+
+a.reset_btn:hover, a.back_btn:hover, a.save_exit_btn:hover, a.modify_btn:hover, a.cancel_btn:hover, a.save_btn:hover { /* Hover state CSS */
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eaeaea), to(#ffffff));
+	background: -webkit-linear-gradient(#eaeaea, #ffffff) ;
+	background: -moz-linear-gradient(#eaeaea, #ffffff) ;
+	background: -ms-linear-gradient(#eaeaea, #ffffff) ;
+	background: -o-linear-gradient(#eaeaea, #ffffff) ;
+	background: linear-gradient(#eaeaea, #ffffff) ;
+	-pie-background: linear-gradient(#eaeaea, #ffffff) ;
+	behavior: url(css/htc/PIE.htc);
+	display: block;
+	
+}
+a.reset_btn span{
+	background:none;
+}
+a.reset_btn span, a.save_exit_btn span, a.save_btn span, a.cancel_btn span, a.modify_btn span{
+	color:#000;
+}
+
+a.reset_btn:hover span, a.back_btn:hover span { /* Hover state CSS */
+	background: none;
+	color: #000;
+}
+a.save_exit_btn, a.modify_btn, a.cancel_btn, a.save_btn{
+	border-radius: 14px;
+	margin-left: 10px;
+
+}
+
+a.back_btn:before {
+    content: " ";
+    background: url(../images/icons/back_icon.png) no-repeat;
+    position: absolute;
+    width: 8px;
+    height: 9px;
+    margin-left: -46px;
+    margin-top: 4px;
+}
+
+
+
+
+.free-form, .list-grid, .grid-list{
+	padding-bottom:30px;
+}
+.free-form .sectionInner, .list-grid .sectionInner, .grid-list .sectionInner{padding-bottom:40px;}
+.footerTxt label{
+	color:#000;
+}
+.main-step-box{
+	display:block !important;
+}
+.five-cell{
+	display:none !important;
+}
+
+
+@media ( min-width : 768px) {
+	.form-inline .ext-control {
+	    width: 50px !important;
+	}
+}
+img[alt=calendar]{
+	width:18px;
+	height:18px;
+}
+input[type=checkbox], input[type=radio]{
+	xheight:20px;
+	xwidth:20px;
+	
+}
+.grid-width input[type=checkbox]{
+	margin-top:0px !important;
+}
+
+.gridTopPadding4{
+	padding-top:10px;
+}
+.select-states-width .chkbox tr td.spacerTd{
+	display:none;
+}
+.select-states-width  .listRow2CSS td, .select-states-width  .listRow1CSS td{height:15px;border-bottom:0px;}
+
+.paddingTopEO{
+	padding-top:10px;
+}
+.gridtopPadding4{
+	padding-top:00px;	
+}
+
+.step-box-inner h1{
+	font-size:14px !important;
+}
+.step-box-inner ul li{
+	font-size:12px !important;
+	line-height: 18px !important;
+}
+.step-box-active{
+	height: 132px !important;
+}
+.scroll-box{
+	height:170px !important;
+}
+.step-box-inner{
+	height: 180px !important;
+}
+.headingMain{
+	font-size: 18pt !important;
+}
+.premiuml-lob-width #block_field_next3year_premium, .premiuml-lob-width #block_field_percentage_total{
+	white-space:nowrap;
+}
+.public_step5_width .width33 .labelAlign{
+	width:auto;
+}
+.public_step5_width .paddingTopEO .tdInput {
+	xpadding-left:118px!important;
+}
+.public_step5_width .width33 .mendatoryAsteriskDiv,
+.public_step5_width .paddingTopEO  .mendatoryAsteriskDiv {display:none!important;}
+
+.ext-label{
+	xwidth:79px;
+	display:inline-block;
+}
+
+.public-form-left-top-padding{padding-top:26px;min-height:0px!important}
+.public-2-left-top-padding{padding-top:26px;min-height:0px!important}
+.subTabBorder{border-top:solid 1px #cccccc;padding-top:0px!important;margin-top:10px;}
+
+.step2Design .gridBorder{
+                border:none;
+}
+.step2Design .freeFormLabelWidth{
+                width:250px !important;
+}
+.public-2-right-form .freeFormLabelWidth{width:170px!important}
+.step2Design .public-2-right-form{
+                margin-top:0px !important;
+}
+.tableWithoutBorder .listRow2CSS td, .tableWithoutBorder .listRow1CSS td{border:0px;height:15px; padding: 1px}
+.footer-buttons{border-top:solid 2px #888888;padding-top:40px;}
+.selectChkBx {width:100px;}
+.selectChkBx span{display:block;float:left;}
+.padding0{padding:0px;}
+.generate-new-business-width .data-cell td{padding:0px;}
+.generate-new-business-width .listRow2CSS td, .generate-new-business-width .listRow1CSS td{border:0px;}
+
+.addBankInfoStep1 #AjaxDiv{padding-top:15px;}
+
+section .subTabBorder{border: none;margin-top:0px;}
+section .subTabBorder .public-form-left, section .subTabBorder .public-2-left-form{width: 100%; padding-top: 0px;}
+
+section .subTabBorder .public-2-left-form{margin-bottom:10px;float:left;}
+
+section .subTabBorder .public-form-right, section .subTabBorder .public-2-right-form{width: 100%; margin-bottom: 30px;}
+
+section .subTabBorder .public-form-right .round-menu-section, section .subTabBorder .public-2-right-form .round-menu-section{
+	clear: both;
+	border-bottom: solid 2px #999999;
+	height: 40px;
+	margin-bottom: 25px;
+}
+section .subTabBorder .public-form-right .round-menu-section .roundSubTab1{
+	float: left;
+	margin-left:0px !important;
+	width: 21.4%;
+}
+section .subTabBorder .public-2-right-form .round-menu-section .roundSubTab1{
+	float: left;
+	margin-left:0px !important;
+	xwidth: 21.4%;
+}
+section .subTabBorder .split-list{border:none;padding: 0px;}
+section .subTabBorder .split-list li {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    width: 49%;
+}
+
+section .form-full-width li{width:100%!important;}
+section .subTabBorder .public-form-right .freeFormLabelWidth, section .subTabBorder .public-2-right-form .freeFormLabelWidth{width: 230px !important;}
+section .subTabBorder .public-form-common, section .subTabBorder .public-2-left-common{min-height: auto !important;}
+
+@media ( min-width : 768px) {
+	
+	.form-inline .form-control {
+		xwidth: 236px;
+	}
+	.form-inline select.form-control {
+		xwidth: 240px;
+	}
+	.form-inline textarea.form-control {
+		xwidth: 238px;
+	}
+	.form-control-250{width:250px}
+	.form-control-200{width:200px;}
+	.form-control-150{width:150px;}
+	.form-control-date{width:123px;}
+	.form-control-100{width:100px;}
+	.form-control-50{width:50px!important;}
+	.selectWidth{height:27px!important;max-width:250px;min-width:auto;}
+	.textareaWidth{width:99.5%}
+	ul.freeFormsControls li{padding:1px 0px!important;}
+}
+
+.tableWithoutPadding td, .generate-new-business-width td{ padding:0px!important;}
+.tableWithoutPadding #mom_child_data td{ padding:3px 8px 3px 0px!important;}
+.tableWithoutPadding #mom_child_data td input[type=radio], 
+.tableWithoutPadding #mom_child_data td input[type=checkbox]{margin:0px;}
+.txtAlignCenter{text-align:center;}
+.gridTable .listRow1CSS  select, .gridTable .listRow2CSS  select {
+	height:27px!important
+}
+.uploadDownloadDocumentDiv .listRow1CSS, .uploadDownloadDocumentDiv .listRow2CSS{padding:0px!important;}
+.uploadDownloadDocumentDiv .listRow1CSS  select,.uploadDownloadDocumentDiv .listRow2CSS  select{height:27px!important}
+
+.icons{
+	height: 22px;
+	width: 18px;
+	background-size: 22px;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.delete_ico{
+	background-image: url(../images/SVG/icon_delete_p.svg);
+	width:60px; 												/*------------Delete------------*/
+}
+.edit_ico{
+	background-image: url(../images/SVG/icon_edit_p.svg);		/*------------Edit------------*/
+	width: 60px;
+}
+
+.add_ico{
+	background-image: url(../images/SVG/ico_Add.svg) !important;		/*------------Add------------*/
+	width: 60px;
+}
+
+.free-form-padding-top{padding-top: 20px;}
+
+.textarea_bottom{padding-bottom: 20px !important;}
+
+.buttonsLeft{float: left;}
+.buttonsRight{float: right;}
+
+.buttons{clear: both}
+.step8Freeform .borderNone .width49{width: 500px;}
+.step8Freeform .step8buttons{xwidth: 858px; padding: 0px; mmargin-right: -13px;}
+.step6Freeform_1 .step6buttons_1{padding-right: 8px; margin-top: -24px;}
+.step6Freeform_1 .step6buttons_1a{width: 88.5%; }
+.step6Freeform_2 .freeFormDiv .inlineBlock li{padding-right: 25px;}
+.step6Freeform_2 .step6buttons_2{width: 1173px;}
+.step6Freeform_3 .freeFormDiv .inlineBlock li{padding-right: 9px;}
+.step6Freeform_3 .step6buttons_3{width: 1203px;}
+.step6Freeform_4 .freeFormDiv .inlineBlock li{padding-right: 25px;}
+.step6Freeform_4 .step6buttons_4{width: 817px;}
+.step1Freeform .inlineBlock li{width: 49%;}
+.step6Freeform_5 .freeFormDiv .inlineBlock li{padding-right: 25px;}
+.step6Freeform_5 .step6buttons_2{width: 1202px;}
+
+.edit_delete_width{width: 60px; text-align: center}
+
+.column_hide{display: none;}
+.paddingTop20{padding-top: 20px;}
+
+.premiuml-lob-width{width: 1000px; border: none}
+.premiuml-lob-width td {
+	background: none !important;
+	border: none !important;
+	white-space: nowrap;
+	height: auto;
+}
+
+.premiuml-lob-width td.HeaderStyle,
+.premiuml-lob-width td.gridheading {
+	text-align:left!important;
+}
+.premiuml-lob-width td.data-cell input[type=text]{width:180px!important}
+
+.freeFormDiv .inlineBlock .tdInput, .freeFormDiv .inlineBlock .mendatoryInput{padding: 1px 0px;}
+.borderRemove td{border: none;}
+.questions-width{width: 80% !important;}
+.questions-width td{padding: 0px !important;}
+.selectAll{text-align: right; margin-top: -23px; margin-bottom: 12px;}
+a.selectLocation {
+    color: #337ab7;
+    text-decoration: none;
+}
+a.selectLocation:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+.freeFormListTd .chkbox .EmptyRowStyle{line-height: 17px !important; text-align: left !important;}
+
+.dynamicCheckbox_Rater{width: 331px;}
+.dynamicCheckbox_Rater, .dynamicCheckbox_Association{margin-top: -3px;}
+.dynamicCheckbox_Association .dynamicCheckbox_Width_Association, .dynamicCheckbox_Rater .dynamicCheckbox_Width_Rater{width: 20%; float: left}
+
+tr.listRow2CSS:nth-last-child(1) td, tr.listRow1CSS:nth-last-child(1) td{border-bottom: solid 0px #cccccc;}
+
+
+
+.marginTop5{margin-top:5px!important;}
+.marginRight0{margin-right:0px!important}
+
+.paddingLeft2{
+	padding-left:11px;
+	
+}
+
+
+
+.step6Freefor_2 .inlineBlock_3{width: 38.8%;}
+.step6Freefor_2 .inlineBlock_3 .freeFormLabelWidth_180{width: 273px;}
+
+
+
+
+ul.markInfof li.col1{width:47%!important;}
+ul.markInfof li.col2{width:50%!important;}
+
+.freeFormLabelWidthCol1{width:353px;}
+.freeFormLabelWidthCol2{width:264px;}
+
+.step2Design .col-sm-6 .freeFormLabelWidth{width: 284px !important;}
+
+.contract-grid, .documents-grid {border:0x!important;}
+.contract-grid .HeaderStyle,
+.documents-grid .HeaderStyle{display:none;}
+.contract-grid .listRow1CSS td,
+.contract-grid .listRow2CSS td,
+.documents-grid .listRow1CSS td,
+.documents-grid .listRow2CSS td{padding:0px 0px!important;height:24px!important;}
+.contract-grid .listRow1CSS td a,
+.contract-grid .listRow2CSS td a{background:url(../images/icons/icon_document.jpg) left top no-repeat;padding-left:22px;}
+.documents-grid .listRow1CSS td a,
+.documents-grid .listRow2CSS td a {background:url(../images/icons/icon_document.jpg) left top no-repeat;padding-left:22px;}
+
+#public_step6_summary_security{display: none;}
+.calender_ico{
+	background-image: url(../images/SVG/icon_calender.svg);	/*------------Calendar------------*/
+	background-size: 16px;
+}
+.search_ico{
+	xbackground-image: url(../images/SVG/icon_search.svg);	/*------------Search------------*/
+	background-image: url(../images/icons/search.png);
+	width: 13px;
+	height: 14px;
+	background-size: 13px;
+	margin-right: 2px;
+}
+.freeFormLabelWidth_350{width:350px;}
+.checkbox_4{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+.checkbox_4 li{
+	width: 22%;
+	float: left;
+	border:none !important;
+	padding: 6px !important;
+}
+
+.freeFormLabelWidth_210
+{
+	width:210px;
+}
+.sectionHealth .listRow2CSS, .sectionHealth .listRow1CSS {
+    margin-right: 20px;
+    width: 180px;
+    float: left;
+    border-top: none;
+}
+.healthLab {
+    border: #ccc 1px solid;
+    border-right: none;
+    padding: 5px;
+    float: left;
+    margin: 0px;
+    height: 20px;
+    width: 100px;
+    text-align: right;
+    line-height: 20px;
+}
+.healthChk {
+    background: #eee;
+    border: #ccc 1px solid;
+    padding: 5px;
+    height: 20px;
+    float: left;
+}
+.paddingTop10{padding-top: 10px}
+.healthSec{
+	margin-right:20px;
+	width:180px;
+	float:left;
+}
+.healthLab{
+	border:#ccc 1px solid;
+	border-right:none;
+	padding:5px;
+	float:left;
+	margin:0px;
+	height:20px;
+	width:100px;
+	text-align:right;
+	line-height:20px;
+}
+.healthChk{
+	background:#eee;
+	border:#ccc 1px solid;
+	padding:5px;
+	height:20px;
+	float:left;
+}
+.healthChk input{
+	
+	padding:0px;
+	margin:0px auto;
+	margin-top:4px;
+}
+.no-borders .listRow2CSS td, .no-borders .listRow1CSS td{
+	border-bottom: none !important;
+    padding: 2px !important;
+    height: auto;
+}
+.paddingLeft_17{
+	padding-left: 19%;
+}
+
+.paddingLeft_21{
+	padding-left: 21%;
+}
+.paddingLeft_12_p{padding-left: 12%;}
+.checkboxMargins_0{margin: 0px !important;}
+.freeFormLabelWidth_220{width: 220px;}
+
+.inlineBlock_div{display: inline-block;}
+.inlineBlock_1{width: 99% !important;}
+.inlineBlock_2{width: 49% !important;}
+.inlineBlock_3{width: 32.8%}
+.inlineBlock_4{width: 25%}
+.inlineBlock_5{width: 10%}
+.inlineBlock_6{width: 20%}

@@ -1,0 +1,339 @@
+#xmlMenuTree1 ul {
+	border:none !important;
+	clear:both;	
+}
+#xmlMenuTree1 ul li{
+	clear:both ;
+	color:#000;
+}
+#xmlMenuTree1 ul li a{
+	color:#000;
+}
+#xmlMenuTree1 ul li a:hover{
+	color:#000;
+	text-decoration:none !important;
+}
+#xmlMenuTree1 a:link, a:visited, a:active{
+	color:#000;
+}
+#xmlMenuTree1 ul, #xmlMenuTree1 ul ul {
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	font-size: 11px; 
+	font-weight: normal;
+	color:#000;
+}
+#xmlMenuTree1 ul ul { 
+	margin-left: 0px;
+}
+
+#xmlMenuTree1 ul li { 
+	margin: 0px; 
+	padding: 0px; 
+	line-height: 16px; 
+	xbackground: url(../images/icons/node.png) no-repeat; 
+	font-weight: normal;
+	position:relative;
+}
+
+ul.HierarchyULClass1
+{
+	background: url(../images/icons/li-level-0.png) 0px 0px no-repeat; 
+	padding-left:20px;
+	
+	}
+	
+	
+	
+	
+	
+	
+#xmlMenuTree1 ul li.last { 
+	xbackground: url(../images/icons/lastnode.png) no-repeat; 
+}
+#xmlMenuTree1 span {
+	margin-left: 3px;
+	cursor: pointer;
+	float:left;
+}
+#xmlMenuTree1 span:hover {
+	xbackground: #CCCCCC;
+}
+
+#xmlMenuTree1 li span a:hover {
+	text-decoration: underline;
+}
+#xmlMenuTree1 .toggleIcon {
+	margin-top: 3px; 
+	margin-right: 5px; 
+	width:9px;
+	height:19px; 
+	float: left; 
+	cursor: pointer;
+}
+#xmlMenuTree1 .parentIcon {
+	width: 16px;
+	height: 19px; 
+	float: left; 
+	cursor: pointer;
+}
+#xmlMenuTree1 .childIcon {
+	width: 16px;
+	height: 22px; 
+	float: left; 
+	cursor: pointer;
+}
+/*
+#xmlMenuTree1 .company{
+	width: 16px;
+	height: 16px; 
+	float: left;  
+	cursor: pointer;
+}
+#xmlMenuTree1 .validation{
+	width: 16px;
+	height: 16px; 
+	float: left;  
+	cursor: pointer;
+}
+#xmlMenuTree1 .appointment{
+	width: 16px;
+	height: 16px; 
+	float: left;  
+	cursor: pointer;
+}*/
+/**
+	End Define the xmlMenuTree1 style
+**/
+/*
+Define toggle Icon
+*/
+#xmlMenuTree1 .toggleIconDown {background: url(../images/icons/toggle_minus.png) no-repeat;}
+#xmlMenuTree1 .toggleIconUp {background: url(../images/icons/toggle_plus.png) no-repeat;}
+
+
+
+.HierarchyULClass1 .toggleIconDown, .HierarchyULClass2 .toggleIconDown, .HierarchyULClass3 .toggleIconDown {padding-right:3px;}
+.HierarchyULClass1 .toggleIconUp, .HierarchyULClass2 .toggleIconUp, .HierarchyULClass3 .toggleIconUp {padding-right:3px;}
+
+/*
+Specify the parent Icon
+*/
+/*
+#xmlMenuTree1 .homeIcon {background: url(../images/ico_location.png) no-repeat 0px 2px;margin-top:3px}
+#xmlMenuTree1 .computerIcon {background: url(../images/ico_agency-code.png) no-repeat  0px 3px;margin-top:3px}
+#xmlMenuTree1 .lectureIcon {background: url(../images/bookmark_book_open.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .tutorialIcon {background: url(../images/group.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .assignmentIcon {background: url(../images/disk.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .testsIcon {background: url(../images/nuclear.png) no-repeat 0px 3px;}
+*/
+/*
+Specify the child Icon
+*/
+/*
+#xmlMenuTree1 .pdfIcon {background: url(../images/doc_pdf.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .powerPointer {background: url(../images/page_white_powerpoint.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .docIcon {background: url(../images/page_white_word.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .cPlusPlusIcon {background: url(../images/page_white_cplusplus.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .javaIcon {background: url(../images/page_white_cup.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .contactUs {background: url(../images/ico_contact.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .discussion {background: url(../images/ico_state.png) no-repeat 0px 3px;margin-top:3px}
+#xmlMenuTree1 .winning {background: url(../images/award_star_bronze_1.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .company {background: url(../images/ico_company.png) no-repeat 0px 3px;margin-top:3px}
+#xmlMenuTree1 .validation {background: url(../images/ico_product.png) no-repeat 0px 2px;}
+#xmlMenuTree1 .appointment {background: url(../images/ico_appointment.png) no-repeat 0px 3px;}
+#xmlMenuTree1 .termination {background: url(../images/ico_termination.png) no-repeat 0px 3px;}
+*/
+#xmlMenuTree1 .companyIcon {
+	background: url(../images/icons/ico_primary.png) no-repeat 0px 2px;
+	margin-top: 1px;
+	float: left;
+	margin-right: 2px;
+	
+}
+#xmlMenuTree1 .directorIcon {background: url(../images/icons/ico_p_Director.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .marketingHeadIcon {background: url(../images/icons/ico_p_Marketing-Head.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .lineManagerIcon {background: url(../images/icons/ico_p_Line-Manager.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .departmentManagerIcon {background: url(../images/icons/ico_p_Department-Manager.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .divisionHeadIcon {background: url(../images/icons/ico_p_Division-Head.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .sectionHeadIcon {background: url(../images/icons/ico_p_Section-Head.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .unitManagerIcon {background: url(../images/icons/ico_p_Unit-Manager.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .agentIcon {background: url(../images/icons/ico_p_Agent.png) no-repeat 0px 2px;margin-top:1px;float:left;}
+#xmlMenuTree1 .locationIcon {background: url(../images/icons/ico_Locations.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .appointmentIcon {background: url(../images/icons/ico_appointment.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .terminationIcon {background: url(../images/icons/ico_termination.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .producerNumberIcon {background: url(../images/icons/ico_AgencyCode.png) no-repeat 0px 2px;margin-top:1px;float:left;}
+#xmlMenuTree1 .primaryIcon {background: url(../images/icons/icon_primary.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .superProducerNumberIcon {background: url(../images/icons/ico_p_superProducer.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .nationalCodeIcon {background: url(../images/icons/ico_National.png) no-repeat 0px 2px;margin-top:1px; float:left}
+#xmlMenuTree1 .combinedCodeIcon {background: url(../images/icons/ico_Combined.png) no-repeat 0px 2px;margin-top:1px; float:left}
+
+.manageTamplateTree{
+                overflow-y:scroll;
+                height:400px;
+                padding:10px;
+}
+.manageTamplateTree div.parentIcon{
+                width: 1px !important;  
+}
+.manageTamplateTree div.childIcon{
+                width: 1px !important;  
+}
+.manageTamplateTree div.toggleIcon{
+                margin-right: 0px !important;     
+}
+.manageTamplateTree ul li{
+                padding-left:12px !important;    
+}
+
+
+/*  @@@@@@@@@@@@@@@@@@@@   NEW CSS FOR HIERARCHY STRUCTURE @@@@@@@@@@@@  */
+ 
+#xmlMenuTree1 ul .HierarchyLIClassParent { 
+	 	
+	background: none; 
+	padding-left:0px!important; 
+}
+#xmlMenuTree1 ul li.HierarchyLIClassParent{margin-left:12px;}
+ul.HierarchyULClass1
+{
+	margin-left:0px;
+}
+#xmlMenuTree1 ul ul.HierarchyULClass1,
+#xmlMenuTree1 ul ul.HierarchyULClass2,
+#xmlMenuTree1 ul ul.HierarchyULClass3,
+#xmlMenuTree1 ul ul.HierarchyULClass4,
+#xmlMenuTree1 ul ul.HierarchyULClass5,
+#xmlMenuTree1 ul ul.HierarchyULClass6
+{
+	xmargin-left:0px;
+}
+.HierarchyULClass0 span{width:97%}
+.HierarchyULClass0 li{width:100%;}
+.HierarchyULClass0 li span{width:94.5%}
+
+.HierarchyULClass0 li.HierarchyLIClassParent span{width:96.8%}
+
+.HierarchyULClass2 span{width:91%!important}
+.HierarchyULClass1 span{width:92%!important}
+.HierarchyULClass1 li li span{width:93%}
+
+.HierarchyTableClass0,
+.HierarchyTableClass1,
+.HierarchyTableClass2,
+.HierarchyTableClass3,
+.HierarchyTableClass4
+{width:100%}
+
+
+.xmlHeaderStyle{
+	font-weight: bold;
+	font-size: 11px;
+	padding: 3px;
+	color: #000000 !important;
+	font-family: Verdana, Arial;
+	background-color: #6bc2f8;
+	text-align: left !important;
+	xtext-decoration: none;
+	xborder-left: solid 1px #afdcfa;
+	xline-height:26px;
+	min-height:30px;
+	xdisplay:block;
+	xfloat:left;
+}
+
+
+.HierarchyTableClass0 td,
+.HierarchyTableClass1 td,
+.HierarchyTableClass2 td,
+.HierarchyTableClass3 td,
+.HierarchyTableClass4 td
+{
+xdisplay:block;xfloat:left;
+}
+
+
+.HierarchyTableClass0 .HierarchyColumnName{width:54.5%}
+.HierarchyTableClass1 .HierarchyColumnName{width:52.9215%}
+.HierarchyTableClass2 .HierarchyColumnName{width:53%}
+.HierarchyTableClass3 .HierarchyColumnName{width:52.5}
+.HierarchyTableClass4 .HierarchyColumnName{width:380px}
+
+ul.HierarchyULClass1 .HierarchyTableClass1 .HierarchyColumnName{width:54%}
+
+ul.HierarchyULClass1 .HierarchyTableClass2 .HierarchyColumnName{width:53%}
+ul.HierarchyULClass2 .HierarchyTableClass2 .HierarchyColumnName{width:53.5%}
+ul.HierarchyULClass2 .HierarchyTableClass3 .HierarchyColumnName{width:52.5%}
+
+
+
+.HierarchyTableClass0 .HierarchyColumnCode,
+.HierarchyTableClass1 .HierarchyColumnCode,
+.HierarchyTableClass2 .HierarchyColumnCode,
+.HierarchyTableClass3 .HierarchyColumnCode,
+.HierarchyTableClass4 .HierarchyColumnCode
+{width:11%}
+ul.HierarchyULClass1 .HierarchyTableClass2 .HierarchyColumnCode{width:11.2346%}
+ul.HierarchyULClass2 .HierarchyTableClass3 .HierarchyColumnCode{width:11.3346%}
+.HierarchyTableClass0 .HierarchyColumnState,
+.HierarchyTableClass1 .HierarchyColumnState,
+.HierarchyTableClass2 .HierarchyColumnState,
+.HierarchyTableClass3 .HierarchyColumnState,
+.HierarchyTableClass4 .HierarchyColumnState
+{width:7.5%}
+.HierarchyTableClass0 .HierarchyColumnCity,
+.HierarchyTableClass1 .HierarchyColumnCity,
+.HierarchyTableClass2 .HierarchyColumnCity,
+.HierarchyTableClass3 .HierarchyColumnCity,
+.HierarchyTableClass4 .HierarchyColumnCity
+{width:14%}
+ul.HierarchyULClass1 .HierarchyTableClass1 .HierarchyColumnCity{width:14.4%}
+ul.HierarchyULClass1 .HierarchyTableClass2 .HierarchyColumnCity{width:14.5%}
+ul.HierarchyULClass2 .HierarchyTableClass2 .HierarchyColumnCity{width:14.7%}
+.HierarchyTableClass0 .HierarchyColumnNPN,
+.HierarchyTableClass1 .HierarchyColumnNPN,
+.HierarchyTableClass2 .HierarchyColumnNPN,
+.HierarchyTableClass3 .HierarchyColumnNPN,
+.HierarchyTableClass4 .HierarchyColumnNPN
+{width:7%}
+.HierarchyTableClass0 .HierarchyColumnImg,
+.HierarchyTableClass1 .HierarchyColumnImg,
+.HierarchyTableClass2 .HierarchyColumnImg,
+.HierarchyTableClass3 .HierarchyColumnImg,
+.HierarchyTableClass4 .HierarchyColumnImg
+{width:2.5%;text-align:right}
+
+
+
+
+
+
+/*  @@@@@@@@@@@@@@@@@@@@   NEW CSS FOR manage template @@@@@@@@@@@@  */
+.manageTamplateTree .toggleIconUp, .manageTamplateTree .toggleIconDown{padding-right:3px!important;}
+.manageTamplateTree  span{float:none!important;margin-left:0px!important;}
+.manageTamplateTree  li{float:none!important;padding-bottom:5px;}
+
+
+.HierarchyClassLeftBorder	
+	{
+		background:url(../images/icons/li-left-border.png) 0px 0px no-repeat;
+		width:20px;
+		float:left;
+		height:20px;
+		}
+.HierarchyClassArrow	
+	{
+		background:url(../images/icons/li-level-0.png) 0px 0px no-repeat;
+		width:20px;
+		float:left;
+		height:20px;
+		}
+		li.last .HierarchyClassArrow         
+                {
+                                background:url(../images/icons/li-level-last.png) 0px 0px no-repeat;
+                                width:20px;
+                                float:left;
+                                height:20px;
+                                }
+		

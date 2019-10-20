@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link
+	data-th-href="@{//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css}"
+	rel="stylesheet">
+<link data-th-href="@{/css/bootstarp.css}" rel="stylesheet">
+<link data-th-href="@{/css/common.css}" rel="stylesheet">
+<link data-th-href="@{/css/base.css}" rel="stylesheet">
+<link data-th-href="@{/css/fixHeader.css}" rel="stylesheet">
+<link data-th-href="@{/css/font-awesome.css}" rel="stylesheet">
+<link data-th-href="@{/css/ionicons.css}" rel="stylesheet">
+<link data-th-href="@{/css/jquery-ui.css}" rel="stylesheet">
+<link data-th-href="@{/css/publicBootstrap.css}" rel="stylesheet">
+<link data-th-href="@{/css/publicStyle.css}" rel="stylesheet">
+<link data-th-href="@{/css/style.color.css}" rel="stylesheet">
+<link data-th-href="@{/css/style.css}" rel="stylesheet">
+<link data-th-href="@{/css/style.color.css}" rel="stylesheet">
+<link data-th-href="@{/css/style.layout.css}" rel="stylesheet">
+<link data-th-href="@{/css/tabelizer.css}" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid bootstrap-node-29">
+		<div class="tableWidth no-sidebar">
+			<header>
+				<!--  include header here -->
+
+				 <div th:replace="fragments/header :: header">>
+
+			</header>
+			<div class="bgmain">
+				<article class="content sidebar-content">
+					<div class="panel-body-wraper">
+						<section class="free-form">
+							<fieldset class="fieldset_Level_1">
+								<legend>
+									<span>Cases Filters</span>
+								</legend>
+
+								<div class="gridTopPadding4">
+									<div class="freeFormDiv form-inline agencyAgentList_2">
+										<div class="padding-left-form row">
+											<div class="col-sm-10">
+												<ul class="inlineBlock">
+													<li class="inlineBlock_2">
+														<div class="freeFormList form-group">
+															<div class="freeFormListTr">
+																<div class="freeFormListTdError">
+																	<h6></h6>
+																</div>
+																<div class="freeFormListTdError paddingLeft3">
+																	<div class="error" />
+																</div>
+															</div>
+															<div class="freeFormListTr">
+																<div class="freeFormListTd labelAlign text-nowrap">
+																	<span>Subject</span> :
+																</div>
+																<div class="freeFormListTd tdInput">
+																	<input type="text" name="producersearch_producer_name"
+																		class="form-control form-control-100" />
+																</div>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+											<div class="col-sm-2">
+												<div class="buttonwrapper">
+													<a class="btn btn-primary"> <span>Go</span>
+													</a> <a class="btn btn-default"> <span
+														id="producerNumbersListresetlabel">Reset</span>
+													</a>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</fieldset>
+						</section>
+
+
+						<section class="list-grid">
+							<fieldset class="fieldset_Level_1">
+								<legend>
+									<span>Listing Grid</span>
+
+								</legend>
+								<div class="gridTopPadding4">
+									<div class="divButton row">
+										<div class="buttonwrapper paddingBottom10">
+											<a class="btn btn-primary"> <span>Add New Case</span>
+											</a>
+										</div>
+									</div>
+
+									<div class="table-responsive">
+										<table class="gridTable" border="0" cellpadding="0"
+											cellspacing="0" width="100%">
+											<thead>
+												<tr>
+													<td class="HeaderStyle" width="10%"><span> <label>Subject</label>
+													</span></td>
+													<td class="HeaderStyle" width="10%"><span> <label>Resolution</label>
+													</span></td>
+												</tr>
+											</thead>
+											<tbody>
+												<tr data-th-each="cases : ${cases}">
+													<td>[[${cases.subject}]]</td>
+													<td>[[${cases.resolution}]]</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+								</div>
+							</fieldset>
+						</section>
+
+
+
+
+
+
+
+
+					</div>
+				</article>
+			</div>
+
+			<footer>
+				<!--  include footer here -->
+			</footer>
+		</div>
+	</div>
+
+	<script type="text/javascript" th:src="@{/js/jquery-1.11.1.min.js}"></script>
+	<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
+</body>
+</html>

@@ -1,0 +1,686 @@
+table.controller {
+	border-collapse: collapse;
+	padding: 0px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font: 14px/18px 'Roboto', sans-serif;
+}
+
+table.controller .control {
+	font: 14px 'Open Sans';
+}
+
+table.controller td {
+	padding: 0px;
+	border: 0px solid red;
+}
+
+/*Update the height of the line per your needs*/
+table.controller .line {
+	position: relative;
+	height: 20px;
+	width: 8px;
+	float: left;
+}
+
+table.controller .line .vert {
+	width: 1px;
+	height: 100%;
+}
+
+table.controller .line .horz {
+	position: absolute;
+	top: 50%;
+	width: 10px;
+	height: 1px;
+}
+
+/*Change the colors to match your color scheme*/
+table.controller .line.level1 .vert {
+	margin-Left: 5px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .childNotExist .level1 .vert{background:none!important}
+
+table.controller .line.level1 .horz {
+	display: none !important;
+}
+
+table.controller .line.level2 .vert {
+	margin-Left: 20px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level2 .horz {
+	xbackground-color: #2BC6CC;
+}
+
+table.controller .line.level3 .vert {
+	margin-Left: 35px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level3 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller .line.level4 .vert {
+	margin-Left: 50px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level4 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller .line.level5 .vert {
+	margin-Left: 65px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level5 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller .line.level6 .vert {
+	margin-Left: 57px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level6 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller .line.level7 .vert {
+	margin-Left: 72px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level7 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller .line.level8 .vert {
+	margin-Left: 87px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level8 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller .line.level9 .vert {
+	margin-Left: 103px;
+	xbackground: url(../images/icons/li-left-border.png) 0px 0px no-repeat;opacity:0.2
+}
+
+table.controller .line.level9 .horz {
+	xbackground-color: #098EE7;
+}
+
+table.controller tr.hidden {
+	display: none;
+}
+
+table.controller .expander {
+	margin-right: 4px;
+}
+
+table.controller .l1 .control {
+	width: 0px;
+	min-height: 100%
+}
+
+table.controller .l2 .control, table.controller .l17 .control {
+	width: 24px;
+	min-height: 100%
+}
+
+table.controller .l3 .control, table.controller .l18 .control {
+	width: 29px;
+	min-height: 100%
+}
+
+table.controller .l4 .control, table.controller .l19 .control {
+	width: 60px;
+	min-height: 100%
+}
+
+table.controller .l5 .control, table.controller .l20 .control {
+	width: 75px;
+	min-height: 100%
+}
+
+table.controller .l6 .control, table.controller .l21 .control {
+	width: 90px;
+	min-height: 100%
+}
+
+table.controller .l7 .control, table.controller .l22 .control {
+	width: 99px;
+	min-height: 100%
+}
+
+table.controller .l8 .control, table.controller .l23 .control {
+	width: 172px;
+	min-height: 100%
+}
+
+table.controller .l9 .control, table.controller .l24 .control {
+	width: 191px;
+	min-height: 100%
+}
+
+.l1-first .ChildExist .control .level1 {
+	width: 0px;
+}
+
+table.controller .l1.contracted .control .line.level1 {
+	display: none;
+}
+
+table.controller .l2.contracted .control .line.level2 {
+	display: none;
+}
+
+table.controller .l2.expanded .control .line.level2 {
+	display: none;
+}
+
+table.controller .l3.contracted .control .line.level3 {
+	display: none;
+}
+
+table.controller .l4.contracted .control .line.level4 {
+	display: none;
+}
+
+table.controller .l10 .expander {
+	display: none;
+}
+
+table.controller .label {
+	xmargin-right: 30px;
+}
+
+table.controller td.data {
+	text-align: center;
+	min-width: 90px;
+}
+
+table.controller .control, table.controller .expander, table.controller .label
+	{
+	float: left;
+}
+
+table.controller .contracted .expander {
+	width: 10px;
+	height: 20px;
+}
+
+table.controller .expanded .expander {
+	width: 10px;
+	height: 20px;
+}
+
+table.controller .childless .expander {
+	display: none;
+}
+
+table.controller .control .line.level1 .horz {
+	display: none;
+}
+
+table.controller .l1-first .control .line.level1 .horz {
+	display: block;
+}
+
+table.controller .l1-last .control .line.level1 .horz {
+	display: block;
+	width: 10px;
+	height: 1px;
+}
+
+table.controller .l1-first .control .line.level1 .vert {
+	bottom: 0px;
+	position: absolute;
+	width: 1px;
+	height: 50%;
+}
+
+table.controller .l1-last .control .line.level1 .vert {
+	width: 1px;
+	height: 100%;
+}
+
+table.controller .l1-last .control .line.level1 .horz {
+	
+}
+
+table.controller .control .line.level2 .horz {
+	display: none;
+}
+
+table.controller .l2-first .control .line.level2 .horz {
+	display: block;
+}
+
+table.controller .l2-last .control .line.level2 .horz {
+	display: block;
+	width: 10px;
+	height: 1px;
+}
+
+table.controller .l2-first .control .line.level2 .vert {
+	bottom: 0px;
+	position: absolute;
+	width: 1px;
+	height: 50%;
+}
+
+table.controller .l2-last .control .line.level2 .vert {
+	width: 1px;
+	height: 100%;
+}
+
+table.controller .control .line.level3 .horz {
+	display: none;
+}
+
+table.controller .l3-first .control .line.level3 .horz {
+	display: block;
+}
+
+table.controller .l3-last .control .line.level3 .horz {
+	display: block;
+	width: 10px;
+	height: 1px;
+}
+
+table.controller .l3-first .control .line.level3 .vert {
+	bottom: 0px;
+	position: absolute;
+	width: 1px;
+	height: 50%;
+}
+
+table.controller .l3-last .control .line.level3 .vert {
+	width: 1px;
+	height: 50%;
+}
+
+/*----------------------------hierarchy-----------------------*/
+.headerHierarchy td, .headerHierarchy th {
+	font-weight: bold;
+	padding: 3px !important;
+	color: #000000 !important;
+	height: 30px;
+	background-color: #e4e4e3;
+	text-align: left !important;
+	xtext-decoration: none;
+	xborder-left: solid 1px #afdcfa;
+}
+
+.hierarchyPadding td.RowStyle {
+	padding: 0px !important;
+	padding-left: 3px !important;
+	xwhite-space: nowrap;
+}
+
+.HeaderStyle_City, .HeaderStyle_State, .HeaderStyle_Code {
+	width: 10%;
+}
+
+.HeaderStyle_RelationShip {
+	width: 9%;
+}
+
+.hierarchyListIconHeader {
+	width: 1.5%;
+}
+
+.nationalCodeIcon {
+	background-image: url(../images/icons/ico_National.png);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 24px; 
+}
+
+.combinedCodeIcon {
+	background-image: url(../images/icons/ico_Combined.png);
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding-left: 13px;
+}
+
+.primaryIcon {
+	background-image: url(../images/icons/icon_primary.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 13px;
+	padding-top:3px
+}
+
+.locationIcon {
+	background-image: url(../images/icons/ico_Locations.png);
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding-left: 15px;
+	padding-top:3px
+}
+
+.superProducerNumberIcon {
+	    background-image: url(../images/icons/ico_p_Section-Head.png);
+        background-repeat: no-repeat;
+        background-position: 0px 3px;
+        padding-left: 20px;
+
+}
+
+.producerNumberIcon {
+	background-image: url(../images/icons/ico_AgencyCode.png);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 13px;
+}
+
+.agentIcon {
+	background-image: url(../images/icons/ico_p_Agent.png);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 13px;
+}
+
+.appointmentIcon {
+	background-image: url(../images/icons/ico_appointment.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.terminationIcon {
+	background-image: url(../images/icons/ico_termination.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.authorizationIcon {
+	background-image: url(../images/icons/ico_authorization.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.iconAddNewEntity img {
+	width: 9px;
+	height: 17px;
+}
+
+.iconAddNewObjectCode img {
+	width: 11px;
+	height: 16px;
+}
+
+table.controller .contracted td.ChildExist div.expander {
+	background: url(../images/plus.gif) 1px 7px no-repeat;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+table.controller .expanded td.ChildExist div.expander {
+	background: url(../images/minus.gif) 1px 7px no-repeat;
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+#level_1_1 .ChildExist .level1 {
+	display: none;
+}
+
+td.ChildNotExist div.expander {
+	xbackground: none !important;
+	background: url(../images/icons/li-level-0.png) 0px 0px no-repeat; opacity:0.2;
+	width: 20px;
+	xfloat: left;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.lastNode {
+	xbackground: url(../images/icons/li-level-0.png) 0px 0px no-repeat
+		!important;
+	xopacity:0.2;
+	xwidth: 20px;
+	xheight: 20px;
+}
+
+.l1 .ChildExist .level1 .vert, .l2 .ChildExist .level2 .vert {
+	background: none !important;
+}
+
+.l3 .ChildExist .expander, .l18 .ChildExist .expander {
+	margin-left: 17px !important;
+}
+
+.l3 td.ChildNotExist div.expander, .l18 td.ChildNotExist div.expander {
+	margin-left: 22px;
+}
+
+.l3 td.ChildExist .level2 .vert {
+	xbackground: url(../images/icons/li-level-0.png) 0px 0px no-repeat
+		!important;opacity:0.2
+	width: 20px !important;
+	height: 20px !important;
+}
+
+.l3 td.ChildExist .level3 .vert {
+	background: none !important;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.l4 td.ChildExist div.expander {
+	margin-left: 11px !important;
+}
+
+.l4 td.ChildNotExist div.expander {
+	margin-left: 12px;
+}
+
+.l4 .level4 .vert {
+	background: none !important;
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.l5 td.ChildNotExist div.expander {
+	margin-left: 22px;
+}
+
+.l5 td.ChildExist div.expander {
+	margin-left: 18px !important;
+}
+
+.l5 td.ChildExist .level5 .vert {
+	background: none !important;
+	width: 20px;
+	height: 20px;
+	display: none;
+}
+
+.l6 td.ChildNotExist div.expander {
+	margin-left: 36px;
+}
+
+.l6 td.ChildExist div.expander {
+	margin-left: 32px !important;
+}
+
+.l7 td.ChildNotExist div.expander {
+	margin-left: 51px !important;
+}
+
+.l7 td.ChildExist div.expander {
+	margin-left: 49px !important;
+}
+
+.l2 .ChildExist .level1 .vert {
+	xbackground: url(../images/icons/li-level-0.png) 0px 0px no-repeat
+		!important;opacity:0.2
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+}
+
+.l1-last .level3 .vert {
+	xbackground: url(../images/icons/li-level-last.png) 0px 0px no-repeat
+		!important;xopacity:0.2;
+	xpadding-left: 15px;
+}
+
+.LastNode .expander {
+	background: url(../images/icons/li-level-last.png) 0px 0px no-repeat
+		!important;opacity:0.2
+}
+
+.HeaderStyle_Code, .HeaderStyle_State {
+	width: 5%;
+}
+
+.HeaderStyle_City {
+	width: 11%;
+}
+
+.HeaderStyle_NPN {
+	width: 6%;
+}
+
+.HeaderStyle_Combined {
+	width: 9%;
+}
+
+.HeaderStyle_Operating {
+	width: 11%;
+}
+
+.producerCodeHierarchy .HeaderStyle_Operating {
+	width: 20%;
+}
+
+.readmore_hierarchy .label {
+	xfloat: right !important;
+}
+
+.spacerIcon {
+	background-image: url(../images/Spacer.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 6px;
+	padding-left: 15px;
+}
+
+.corporateIcon {
+	background-image: url(../images/icons/ico_corporate.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.branchIcon {
+	background-image: url(../images/icons/ico_branch.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.territoryIcon {
+	background-image: url(../images/icons/ico_territory.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.territoryManagerIcon {
+	background-image: url(../images/icons/ico_territoryManager.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.marketingAssistantIcon {
+	background-image: url(../images/icons/ico_marketingAasst.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.npnIcon {
+	background-image: url(../images/icons/ico_npnIcon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-left: 15px;
+}
+
+.hierarchyDashboard .HeaderStyle_City {
+	width: 11%;
+}
+
+.controller .RowStyle:nth-child(1) {
+	line-height: inherit;
+}
+
+.controller .RowStyle {
+	line-height: 13px
+}
+.relationShipHierarchy .territoryManagerIcon{padding-left: 20px;}
+.relationShipHierarchy .hierarchyPadding .headerHierarchy{display: none;}
+.relationShipHierarchy .hierarchyPadding .RowStyle{background: transparent}
+.relationShipHierarchy .hierarchyPadding .RowStyle .agentIcon{padding-left: 18px; padding-top: 5px;}
+.relationShipHierarchy .agentIcon a{color: #0000ff;}
+.relationShipHierarchy .agentIcon a:hover{color: #c6643f;}
+
+.iconCreateOrChangeHierarchyAtAgencyLevel
+{
+ margin-right:5px;
+ padding-right:15px !important;
+}
+
+.l1 .nationalCodeIcon{margin-top: 4px;}
+#agency_nipr_report_section_security .bgmain, #agent_nipr_report_section_security .bgmain{min-height: 580px;}
+
+.masterProducerNumberIcon {
+	background-image: url(../images/icons/ico_agency-code.png);
+	background-repeat: no-repeat;
+	background-position: -1px 3px;
+	padding-left: 16px;
+}
+span.superProducerNumberIcon{padding-left: 16px;}
+
+
+.l16 .line, .l17 .line, .l18 .line, .l19 .line, .l20 .line, .l21 .line{display: none;}
+.l17 .line.level1, .l17 .line.level2{display: block;}
+.l18 .line.level1, .l18 .line.level2, .l18 .line.level3{display: block;}
+.l19 .line.level1, .l19 .line.level2, .l19 .line.level3, .l19 .line.level4{display: block;}
+.l20 .line.level1, .l20 .line.level2, .l20 .line.level3, .l20 .line.level4, .l20 .line.level5{display: block;}
+.l21 .line.level1, .l21 .line.level2, .l21 .line.level3, .l21 .line.level4, .l21 .line.level5, .l21 .line.level6{display: block;}
+#xmlMenuTree .label{
+	position: relative;
+}
+#xmlMenuTree .label a {
+    padding-left: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 900px;
+    position: relative;
+    padding-right: 15px;
+}
+.currentObject {
+    position: absolute;
+    right: -5px;
+    top: 2px;
+}

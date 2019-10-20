@@ -1,0 +1,1758 @@
+@import url("common.css");
+@import url("style.layout.css");
+@import url("style.color.css");
+
+td {
+	color: #000000;
+}
+div.mendatoryInput{
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 7px;
+}
+td.mendatoryInput{
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 10px;
+}
+.listReportRow1CSS, .listReportRow1CSS td {
+	background-color: #ffffff;
+	border-bottom: solid 1px #f2f2f2;
+}
+.listReportRow2CSS, .listReportRow2CSS td {
+	background-color: #ffffff;
+	border-bottom: solid 1px #f2f2f2;
+}
+.suggest_link_over {
+	background-color: #F3f3f3;
+}
+.listRowCSSRowColorForCopiedFromWithinSystem {
+	background-color: #c9f6c9;
+}
+
+.listRowColorForRetrievedFromNIPRAndImported {
+	background-color: #92d050;
+}
+
+.listRowColorForRetrievedFromNIPRbutnotImported {
+	background-color: #bc8f8f;
+}
+
+.listRowCSSAppointmentWithNIPR {
+	background-color: #f5deb3;
+}
+
+.listRowCSSAppointmentWithoutNIPR {
+	background-color: #fee98d;
+}
+
+.listRowCSSAuthorize {
+	background-color: #f9eebb;
+}
+
+.listRowCSSTerminationWithNIPR {
+	background-color: #fc605c;
+}
+
+.listRowCSSTerminationWithoutNIPR {
+	background-color: #e99e9c;
+}
+
+.listRowCSSUnauthorize {
+	background-color: #e96b68;
+}
+
+.listRowCSSUnassigned {
+	background-color: #ffffff;
+}
+.listRow2CSS td table tbody tr td, .listRow1CSS td table tbody tr td {
+	border: 0px;
+}
+.listRowCSSPrimary {
+	background-color: rgb(197, 220, 252);
+	BORDER-BOTTOM: #f3f3f3 1px solid;
+	COLOR: #000000;
+}
+.listRowCSSLocation {
+	background-color: rgb(228, 239, 254);
+	BORDER-BOTTOM: #f3f3f3 1px solid;
+	COLOR: #000000;
+	xbackground-color: #FFFFff;
+}
+.listRowCSSOthers {
+	BORDER-BOTTOM: #f3f3f3 1px solid;
+	COLOR: #000000;
+	xbackground-color: #FFFFff;
+}
+.listRowCSSPrimary td, .listRowCSSLocation td, .listRowCSSOthers td {
+	border-bottom: solid 1px #f3f3f3;
+}
+.listRowCSSProducer {
+	background-color: rgb(250, 239, 157);
+}
+
+.listRowCSSSuperProducer {
+	background-color: rgb(254, 235, 114);
+}
+
+.listRowCSSSubProducer {
+	background-color: rgb(251, 245, 209);
+}
+
+.listRowCSSProduct {
+	background-color: rgb(254, 233, 125);
+}
+
+.listRowCSSRequest {
+	background-color: #f5deb3;
+}
+.welcome {
+	color: #ffffff;
+}
+.note {
+	color: #666666;
+}
+input, select, textarea {
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow
+		ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
+		.15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+input:focus, select:focus, textarea:focus {
+	border-color: #66afe9;
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgba(102, 175, 233, .6);
+}
+.frameBody {
+	background-color: #f3f3f3;
+	color: #000000;
+	border: 2px solid #3892d1;
+}
+.frameSubHeader td {
+	color: #000;
+}
+.frameData {
+	background:transparent;
+}
+.bgLeftTD {
+	background-image: url(../images/middleLeftBg.jpg)
+}
+.bgLeft {
+	border: 1px solid #6bc2f8;
+}
+.bgCenterTD {
+	background-color: #ffffff;
+}
+.trigger {
+	border-bottom: 1px solid #ffffff;
+}
+.trigger a {
+	color: #0265a8;
+}
+.trigger a:hover {
+	color: #c6643f
+}
+.branch {
+	background-color: #f3f3f3;
+	border: solid 1px #d2d1d1;
+}
+.triggerHome {
+	color: #000000;
+	border-bottom: 1px solid #ffffff;
+}
+.triggerHome a {
+	color: #000000;
+}
+.frameData .triggerHome a{
+	color: #000000;
+}
+.triggerHome a:hover {
+	color: #c6643f;
+}
+.branchHome {
+	background-color: #f7f7f7;
+	border-bottom: solid 1px #d2d1d1;
+}
+.bgBranch {
+	background-color: #fff0c6;
+}
+.subTabArea {
+	border: 1px solid #0478ab !important;
+}
+.modalBackground {
+	background-color: Gray;
+}
+.popupTop {
+	background-color: #23769c;
+	color: #ffffff;
+}
+.popupBody {
+	background-color: #ffffff;
+	border: 1px solid #23769c;
+}
+.req {
+	color: #FF0000;
+}
+.bgmain {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+	background-color: #ffffff;
+}
+/* @@@@@@@@@@@@@@@@   LOGIN PAGE WHITE BACKGROUND       @@@@@@@@@@@@@@@@@@@@@ */
+.loginBg {
+	-webkit-box-shadow: #061d2e 0px 0px 20px;
+	-moz-box-shadow: #061d2e 0px 0px 20px;
+	box-shadow: #061d2e 0px 0px 20px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+}
+.borderScoreCard {
+	border-bottom: solid 1px #333333;
+}
+.HeaderStyleNormal {
+	color: #000000 !important;
+	background-color: #6bc2f8;
+}
+/*   add new classes for New Dashboard page */
+.homeActionGridBg {
+	background: url(../images/headerBgHome.jpg) repeat-x;
+    color: #ffffff !important;
+}
+.homeBorder {
+	border: 1px solid #007bc3;
+	background-color: #FFF;
+}
+.headings {
+	background-color: #6bc2f8;
+	border-left: solid 1px #ffffff;
+}
+.headings_2 {
+	color: #ffffff !important;
+	background-color: #007bc3;
+}
+.headings_3 {
+	background-color: #6bc2f8;
+	border-top: solid 1px #ffffff;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Add new CSS - 10-July, 2012 @@@@@@@@@@@@@@@@@@@@@@@@ */
+.dashboardTop1 {
+	display: none;
+}
+
+.dashboardTop2 {
+	padding: 20px 25px 0px;
+	background-color: #25688b;
+}
+
+.dashboardTop3 {
+	display: none;
+}
+.paddingLeftError2 {
+	padding-left: 2px;
+}
+
+.branchNone {
+	background-color: #ffffff;
+	margin: 0px 15px;
+}
+
+.branchAdvSearch {
+	background-color: #ffffff;
+	margin: 0px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   report section   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+.frameData .seprator {
+	background-image: url(../images/report_seprator.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.frameData h2 {
+	border-bottom: solid 1px #ffd457;
+}
+.frameData ul li {
+	background-image: url(../images/icons/arrow.png);
+	background-position: 0px 2px;
+	background-repeat: no-repeat;
+}
+.frameData ul li a:hover {
+	xcolor: #0000ff;
+}
+.frameData .readmore {
+	background-image: url(../images/report_seprator_more.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.frameData .readmore a {
+	xcolor: #0000ff;
+}
+.frameData .readmore a:hover {
+	color: #c6643f;
+}
+.innersection {
+	background-color: #989899;
+	color: #FFF;
+}
+.trigger1 a {
+	color: #0000ff;
+}
+.trigger1 a:hover {
+	color: #0000ff;
+}
+.listRowNoteCSS {
+	border-bottom: 1px solid #888b8c !important;
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2;
+}
+.borderRow {
+	border-bottom: 1px solid #6bc2f8;
+	border-top: 1px solid #6bc2f8;
+	border-right: 1px solid #6bc2f8;
+	border-left: 1px solid #6bc2f8;
+}
+.listhomeRow1CSS {
+	border-top: solid 1px #f2f2f2;
+}
+.listhomeRow2CSS {
+	border-top: solid 1px #f2f2f2;
+}
+.listRowRadio1CSS {
+	background-color: #ffffff;
+}
+
+.listRowRadio2CSS {
+	background-color: #ffffff;
+}
+.listRowChk1CSS {
+	background-color: #ffffff;
+	color: #000000;
+	border-bottom: solid 1px #e0e3e5;
+}
+.filterPlaceHolder  a {
+	background-color: #f3f3f3;
+	border: solid 1px #cccccc;
+	color: #666666;
+}
+.filterPlaceHolder a:hover, .filterPlaceHolder a.selectd {
+	background-color: #cccccc;
+	border: solid 1px #666666;
+	color: #000000;
+}
+.savedSearchDiv {
+	border: solid 1px #dedede;
+}
+.savedSearchRow {
+	border: solid 1px #ceeff2;
+}
+
+.divborder {
+	border: 1px solid #c8e8fc;
+}
+.listRowCSSSearchByProdNumber {
+	background-color: #FFD3E2;
+}
+.producerNumberAdvanceClose {
+	background-color: #ffd3e2;
+}
+.listRowChk3CSS {
+	background-color: #ffffff;
+	color: #000000;
+	border-bottom: solid 1px #e0e3e5;
+}
+.homebg {
+	color: #ffffff;
+	background-color: #25688b;
+}
+.listRow1CSSBg {
+	border-top: solid 1px #f2f2f2;
+}
+.listRow2CSSBg {
+	border-top: solid 1px #f2f2f2;
+}
+.advanceSearchHide a {
+	color: #ffffff;
+}
+.advanceSearchHide a:hover {
+	color: #ffffff;
+}
+.searchHeading h1 {
+	background: #30bae8;
+	color: #ffffff;
+}
+.searchField {
+	background: #ffffff !important;
+	border: 1px solid #ffffff !important;
+	color: #000 !important;
+}
+.welcomeTopBg {
+	background: -webkit-gradient(linear, left 0, right 0, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(left, #ffffff, #ffffff);
+	background: -moz-linear-gradient(left, #ffffff, #ffffff);
+	background: -ms-linear-gradient(left, #ffffff, #ffffff);
+	background: -o-linear-gradient(left, #ffffff, #ffffff);
+	background: linear-gradient(left, #ffffff, #ffffff);
+	-pie-background: linear-gradient(left, #ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+}
+.welcomeTopBgRight {
+	background: #ffffff;
+}
+.tagline2 {
+	background: url(../images/tagLineProduct.png) no-repeat bottom;
+}
+.taglineSperator {
+	background: url(../images/taglineSperator.png) no-repeat right center;
+}
+/*----------------------------22,Aug-2014----------------------------------------------*/
+#fl_menu .label, #fl_menu2 .label {
+	color: #fff;
+}
+#fl_menu .menu .menu_item, #fl_menu2 .menu .menu_item {
+	background: #000;
+	color: #bbb;
+	border-top: 1px solid #333;
+}
+#fl_menu .menu a.menu_item:hover, #fl_menu2 .menu a.menu_item:hover {
+	background: #333;
+	color: #fff;
+}
+.AlertHeading {
+	color: #ffffff;
+}
+.AlertBranch {
+	background-color: #ffffff;
+	border: #81ba59 1px solid;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#d4e7f4));
+	background: -webkit-linear-gradient(#ffffff, #d4e7f4);
+	background: -moz-linear-gradient(#ffffff, #d4e7f4);
+	background: -ms-linear-gradient(#ffffff, #d4e7f4);
+	background: -o-linear-gradient(#ffffff, #d4e7f4);
+	background: linear-gradient(#ffffff, #d4e7f4);
+	-pie-background: linear-gradient(#ffffff, #d4e7f4);
+	behavior: url(css/htc/PIE.htc);
+}
+.AlertTrigger a {
+	color: #0000ff;
+}
+.AlertReadmore a {
+	background: #3e98d6;
+	color: #ffffff !important;
+}
+.ReportLink a {
+	background: url(../images/report_bullet.png) no-repeat;
+	background-position: 0px 50%;
+}
+.carrierDashboardLeft .strip{
+	background: -webkit-gradient(linear, right 0, right 0, from(transparent),
+		to(#d8d8d8));
+	background: -webkit-linear-gradient(right, transparent, #d8d8d8);
+	background: -moz-linear-gradient(right, transparent, #d8d8d8);
+	background: -ms-linear-gradient(right, transparent, #d8d8d8);
+	background: -o-linear-gradient(right, transparent, #d8d8d8);
+	background: linear-gradient(right, transparent, #d8d8d8);
+	-pie-background: linear-gradient(right, transparent, #d8d8d8);
+	behavior: url(css/htc/PIE.htc);
+}
+/*  @@@@@@@@@@@@@@@@@  end css  @@@@@@@@@@@@@@@@@@@@ */
+
+/*-------------------------------------4,Sep 2014 -- New Login Css-------------------------------*/
+.Privileges ul li {
+	color: #ffffff;
+}
+.Privileges ul li div.left {
+	color: fff;
+	border-bottom: 1px solid #0684b6;
+}
+.Privileges ul li div.right {
+	border-bottom: 1px solid #0684b6;
+}
+.header_Login {
+	background: #0098d4;
+	color: #ffffff;
+}
+.RowStyle_Login td {
+	color: #000000;
+	background: #fff;
+}
+.altRowStyle_Login {
+	margin: 0px;
+}
+.altRowStyle_Login td {
+	color: #000000;
+	background: #f1f2f3;
+}
+.subcontent {
+	background: #0098d4;
+	border: 5px solid #0684b6;
+}
+#progressBarDiv {
+	background: url(../images/indicator.gif) no-repeat center top;
+	background-position: 50% 300px;
+}
+.triggerHome1 {
+	color: #000000;
+	border-bottom: 1px solid #ffffff;
+}
+.triggerHome1 a {
+	color: #000000;
+}
+.triggerHome1 a:hover {
+	color: #0000ff;
+}
+.attachRow td, .attachRow {
+	background: #ffffff;
+}
+.headingHeight {
+	border-bottom: 1px solid #0478ab;
+}
+.borderBottomIncentive {
+	border-bottom: solid 1px #d1d1d1;
+}
+.borderBottomGrid {
+	border-bottom: solid 1px #d1d1d1 !important;
+	border-top: solid 1px #d1d1d1 !important;
+	border-right: solid 1px #d1d1d1 !important;
+	border-left: solid 1px #d1d1d1 !important;
+}
+.gridHeader {
+	border-bottom: #d1d1d1 1px solid;
+	border-right: #d1d1d1 1px solid;
+}
+.listStyle_GRF tr.listRow2CSS, .listStyle_GRF tr.listRow1CSS {
+	background: none !important;
+}
+.listStyle_GRF tr.listRow2CSS td, .listStyle_GRF tr.listRow1CSS td {
+	background: none !important;
+}
+.addressDetailBorder_1 {
+	border: none;
+}
+.addressDetailBorder_2 {
+	border: 1px solid #0478ab;
+}
+.icoDeleteMini a {
+	background-image: url(../images/icons/icon_DeleteMini.png);
+	background-repeat: no-repeat;
+}
+.templateBuilderDiv ul {
+	border: 1px solid #dddddd;
+	background: #ffffff;
+}
+.templateBuilderDiv ul li {
+	border-bottom: solid 1px #dddddd;
+}
+.templateTypeTable .gridTable {
+	border: solid 1px #dddddd;
+}
+.templateTypeGridTable {
+	border: solid 1px #dddddd;
+}
+.templateBuilderDecisionTable {
+	border: solid 0px #cccccc;
+	background-color: #dddddd;
+}
+.templateTypeDecisionTableField, .templateTypeDecisionTable {
+	background: #dddddd;
+}
+.templateTypeDecisionTable .gridTable {
+	background: #ffffff;
+}
+.homeActionBlockInner {
+	border: 1px solid #6bc2f8;
+}
+.homeActionBlockInner2 {
+	border: 1px solid #6bc2f8;
+}
+#dashboardRecentAgencies_list_1 .listRow2CSS td, .homeActionBlockInner tr.listRow2CSS td,
+	.homeActionBlockInner tr.listRow1CSS td, .homeActionBlockInner tr.listRow2CSS,
+	.homeActionBlockInner tr.listRow1CSS {
+	background: transparent !important;
+	background-color: transparent !important;
+}
+.bottomColor tbody.listRow2CSS td {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2 !important;
+}
+.buliten_1 .dashboardGird{padding: 0px;}
+.dashboardGird td.HeaderStyle {
+	background: #f1f1f1;
+}
+.dashboardGird table.gridTable {
+	border: 1px solid #c4c4c4;
+}
+.dashboardGird table.paginationHome {
+	background: none;
+}
+.RecentChanges tr.listRow2CSS td a, .RecentChanges tr.listRow1CSS td a {
+	color: #000;
+}
+.RecentChanges tr.listRow2CSS td a:hover, .RecentChanges tr.listRow1CSS td a:hover
+	{
+	color: #c6643f;
+}
+.dashboardGird th.HeaderStyle {
+	background: #f1f1f1;
+}
+.bottomColor2 tbody.listRow2CSS td, .bottomColor2 tbody.listRow1CSS td {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2 !important;
+}
+.borderIncentive {
+	border: 1px solid #0478ab !important;
+}
+/*  @@@@@@@@@@@@@@@@@@@@@@@ add new class for home action	 @@@@@@@@@@@@@@ */
+.bgmain2 {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+	background-color: #ffffff;
+}
+.labelAlign {
+	color: #000;
+}
+.tabDiv {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+	border-bottom: 4px solid #0478ab;
+}
+.gridTableAccordian {
+	border: 1px solid #e5e5e5;
+}
+.gridTableAccordian tr.listRow2CSS td, .gridTableAccordian tr.listRow1CSS td
+	{
+	border: none;
+}
+/*-------------HTML-5-Grid-----------------------*/
+.table {
+	display: table;
+	width: 100%;
+}
+
+.table .row {
+	display: table-row;
+}
+
+.table .row .col {
+	display: table-cell;
+	vertical-align: middle;
+	border-bottom: solid 1px #cccccc;
+}
+
+.table .rowHeading {
+	display: table-row;
+}
+
+.table .rowHeading .col {
+	display: table-cell;
+	background: #6bc2f8;
+	color: #000;
+	text-align: left;
+	font-weight: bold;
+	vertical-align: middle;
+	height: 30px
+}
+
+.table .row .col span, .table .rowHeading .col span {
+	padding: 3px;
+	display: block;
+}
+
+.table .rowEdit {
+	display: list-item;
+	width: 100%;
+	xbackground: #FFC;
+	background: #f7f7f7
+}
+
+.paginationUL {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+ul.grid {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: none;
+}
+
+ul.grid li {
+	list-style-type: none;
+	width: 100%;
+	border-bottom: solid 1px #f3f3f3;
+	float: left;
+	border: none;
+}
+
+ul.grid li div {
+	float: left
+}
+
+ul.grid li div span {
+	padding: 3px;
+	display: block;
+}
+
+ul.grid li.gridRowEdit {
+	xbackground: #FFC;
+	background: #f7f7f7
+}
+
+ul.grid li.listRow1CSS {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2;
+	height: auto !important;
+	padding: 0px !important;
+}
+
+ul.grid li.listRow2CSS {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2;
+	height: auto !important;
+	padding: 0px !important;
+}
+
+ul.listRow1CSS {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2 !important;
+	height: auto !important;
+	padding: 0px !important;
+	border: none;
+	width: 100%;
+	float: left;
+}
+
+ul.listRow2CSS {
+	background-color: #ffffff;
+	border-top: solid 1px #f2f2f2 !important;
+	height: auto !important;
+	padding: 0px !important;
+	border: none;
+	width: 100%;
+	border: none;
+	float: left;
+}
+
+ul.listRow1CSS li, ul.listRow2CSS li {
+	list-style-type: none;
+	width: 100%;
+	border-bottom: solid 1px #f3f3f3;
+	float: left;
+	border: none;
+}
+
+ul.listRow1CSS li div.gridRowCol, ul.listRow2CSS li div.gridRowCol {
+	float: left
+}
+
+ul.listRow1CSS li div.gridRowCol span, ul.listRow2CSS li div.gridRowCol span
+	{
+	padding: 3px;
+	display: block;
+}
+
+ul.listRow1CSS li.gridRowEdit, ul.listRow2CSS li.gridRowEdit {
+	xbackground: #FFC;
+	background: #f7f7f7;
+}
+
+.gridBorderN {
+	border: 1px solid #CEEFF2;
+	xfloat: left;
+}
+
+#flip {
+	width: 100%;
+	text-align: center;
+	background-color: #e5eecc;
+	border: solid 1px #c3c3c3;
+	z-index: 9999;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	height: 20px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@    SPLIT VIEW  @@@@@@@@@@@@@@@@@@@@@ */
+table tr.sorting-row td {
+	background-color: #ededed;
+}
+table#table1 tr.sorting-row td {
+	background-color: #ededed;
+}
+table#table1.sorting-table {
+	outline: 1px solid #333;
+}
+table#table1.sorting-table tbody tr:not (.sorting-row ) td {
+	color: #bbb;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+table#table2 tr.sorting-row td {
+	background-color: #ededed;
+}
+table#table2.sorting-table {
+	outline: 1px solid #333;
+}
+table#table2.sorting-table tbody tr:not (.sorting-row ) td {
+	color: #bbb;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+.bodyColor {
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#ffffff),
+		to(#ffffff));
+	background: -webkit-linear-gradient(#ffffff, #ffffff);
+	background: -moz-linear-gradient(#ffffff, #ffffff);
+	background: -ms-linear-gradient(#ffffff, #ffffff);
+	background: -o-linear-gradient(#ffffff, #ffffff);
+	background: linear-gradient(#ffffff, #ffffff);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+	behavior: url(css/htc/PIE.htc);
+}
+.icoPrintCheck, .icoPrintCheck a {
+	background-image: url(../images/icons/icon_printCheck.png);
+}
+.emailRequired div.tdInput_address, .addressType1 div.mendatoryInput_address, .agencyAddressType2 div.mendatoryInput_address,
+.emailRequired div.tdInput_Emailaddress, 
+.fieldsRequired div.tdInput_producerDetail,
+.fieldsRequired div.tdInput_sendForReviewPopupComment,
+.termReasonRequired div.tdInput_address,
+.businessPhoneRequired div.mendatoryPhoneInput_address,
+.mailingRequired div.mendatoryMailingInput_address,
+.addressType1 div.tdInput_Emailaddress,
+div.mendatoryInput_zip,
+.makeTypeofOrgMendatory div.typeofOrgNonMendatory{background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 7px;}
+
+.emailRequired td.tdInput_address, .addressType1 td.mendatoryInput_address, .agencyAddressType2 td.mendatoryInput_address, 
+.emailRequired td.tdInput_Emailaddress, 
+.fieldsRequired td.tdInput_producerDetail,
+.fieldsRequired td.tdInput_sendForReviewPopupComment,
+.termReasonRequired td.tdInput_address,
+.businessPhoneRequired td.mendatoryPhoneInput_address,
+.mailingRequired td.mendatoryMailingInput_address,
+.addressType1 td.tdInput_Emailaddress,
+td.mendatoryInput_zip,
+.makeTypeofOrgMendatory td.typeofOrgNonMendatory{background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 10px;}
+
+.emailRequired .tdInput_address, .emailRequired .tdInput_Emailaddress, .fieldsRequired .tdInput_producerDetail, .fieldsRequired .tdInput_sendForReviewPopupComment,
+.termReasonRequired .tdInput_address, .businessPhoneRequired .mendatoryPhoneInput_address, .mailingRequired .mendatoryMailingInput_address, .fieldsRequired .tdInput_producerDetailDBA,
+.makeTypeofOrgMendatory .typeofOrgNonMendatory, .addressType1 .tdInput_Emailaddress, .ssnRequired .mendatoryInput, .payemntRequired .tdInput,
+.addressType1 .tdInput_address, .agencyAddressType2 .tdInput_Emailaddress, .tdInput_w9_legal_name, .addressType1 .mendatoryInput_agent_zip, .mendatoryInput_zip{
+	background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 5px;
+}
+.none .bgAccordionN .listRow2CSS tr td, .none .bgAccordionN .listRow1CSS tr td {
+	border-bottom: 1px solid #f2f2f2;
+}
+.admin_accordian_bg {
+	padding: 5px;
+}
+.oldValue {
+	color: #1F8DD0;
+}
+.editField {
+	background: #f7f7f7;
+}
+.bgAccordionMerger {
+	background-color: #f5f5f5;
+}
+.tableLeft1 table {
+	border-left: none !important;
+}
+.upload{
+	border:solid 1px #f2f2f2;
+}
+.no-borders .listRow2CSS, .no-borders .listRow1CSS{background: transparent !important;}
+.no-borders .listRow2CSS td, .no-borders .listRow1CSS td{border-bottom: none !important;}
+.listRow2CSS tr.padding0 td .tdPadding3_grid .listRow2CSS td, 
+.listRow2CSS tr.padding0 td .tdPadding3_grid .listRow1CSS td, 
+.listRow1CSS tr.padding0 td .tdPadding3_grid .listRow1CSS td,
+.listRow1CSS tr.padding0 td .tdPadding3_grid .listRow2CSS td,
+.listRow1CSS tr.padding0 td .tdPadding3_grid .HeaderStyle,
+.listRow2CSS tr.padding0 td .tdPadding3_grid .HeaderStyle,
+.listRow2CSS tr.padding0 td .tdPadding3_grid .netTotal td, 
+.listRow1CSS tr.padding0 td .tdPadding3_grid .netTotal td
+{	
+	border-bottom: solid 1px #f2f2f2 !important;
+}
+.netTotal td{
+	background: transparent;	
+	border-top:solid 1px #CEEFF2!important;
+}
+.accGrid tbody .listRow2CSS td,
+.accGrid tbody .listRow2CSS td{background: transparent!important;}
+.bgAccordion .accordionGrid tbody.listRow1CSS tr td,
+.bgAccordion .accordionGrid tbody.listRow2CSS tr td{background: transparent!important;}
+.bgAccordion .accordionGrid tbody.listRow1CSS,
+.bgAccordion .accordionGrid tbody.listRow2CSS{background: transparent!important;}
+.advSearchLeftDivAuto1{color: #000000;}
+.advSearchLeftDivAuto2{color: #000000;}
+.fieldsetMandatory .mendatoryLegend{
+    background: url(../images/icons/mendatory_Icon.png) no-repeat 4px 2px;
+}
+#graph_div2, #graph_div3{color: #ff0000;}
+.no-borders .divFix83{background: none; border: none;}
+.whiteBg tbody .listRow2CSS td, .whiteBg tbody .listRow2CSS td, .whiteBg tbody .netTotal td{background: #ffffff !important;}
+.header-outer{width: 100%}
+.header-inner{padding: 0px 20px;}
+.header-top-block{
+	background:transparent;
+}
+ul.progress-tracker .progressLine{
+      border-bottom:2px solid #000;
+}
+.healthLab {
+    border: #ccc 1px solid;
+    border-right: none;
+}
+.healthChk {
+    background: #eee;
+    border: #ccc 1px solid;
+}
+.termAndCondition {
+	background: #f7f7f7;
+	border: 1px solid #e6e6e6;
+}
+.dashboardHeading_outer{
+	background: #fff;
+}
+#welcomeBg {
+	color: #ffffff;
+}
+.welcomeTxt {
+	color: #000000;
+}
+#welcomeBg label {
+	color: blue;
+}
+.topLineBg {
+	background: #ffffff;
+}
+.logo {
+	background-image: url(../images/p1Logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.headerLeft {
+	background: #ffffff;
+}
+.headerRight {
+	background: #ffffff;
+}
+.headerBg {
+	background: #ffffff;
+}
+.tagLine {
+	background: url(../images/taglineSperator.png) no-repeat left;
+}
+.topLinkBg {
+	color: #000000;
+}
+.breadcrumb .listRow1CSS, .breadcrumb .listRow2CSS {
+	background-color: Transparent;
+}
+.breadcrumb .listRow1CSS span, .breadcrumb .listRow2CSS span {
+	color: #ffffff;
+}
+.roundTab2 li span.active2 a , .roundTab2 li div.active2 a{
+	color: #0478ab;
+	border-bottom: 4px solid #0478ab;
+}
+.searchLabelInner {
+	color: #ffffff !important;
+}
+
+.borderBottom a:hover {
+	color: #000000;
+}
+.tabLeft {
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.tabRight {
+	background-repeat: no-repeat;
+	background-position: top Right;
+}
+.required {
+	color: #ff0000;
+}
+
+.tabRoundLeft_WithoutTab {
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.tabRoundRight_WithoutTab {
+	background-repeat: no-repeat;
+	background-position: top Right;
+}
+
+.tabRoundLeft_WithoutTab1 {
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.tabRoundRight_WithoutTab1 {
+	background-repeat: no-repeat;
+	background-position: top Right;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@  second level tab  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+ul.roundTab2 {
+	border-bottom: 1px solid #e7e7e7;
+	background: #f4f4f4;
+}
+
+.roundTab2 li {
+	background: url(../images/icons/tab2Icon.png) no-repeat right;
+}
+.roundTab2 li a {
+	color: #5e605f;
+}
+.roundTab2 li a:hover {
+	color: #0478ab;
+	border-bottom: 4px solid #0478ab;
+}
+.roundTab2 li.active2 a {
+	color: #0478ab;
+	border-bottom: 4px solid #0478ab;
+}
+.rmm-toggled ul li {
+	border-bottom: 0px !important;
+}
+
+.rmm-toggled ul li:hover {
+	background-color: #e3f3ff;
+}
+.title {
+	color: #ffffff;
+	background-color: #42454a;
+}
+.titleAgent {
+	color: #f3f3f3;
+}
+.asterisk {
+	color: transparent;
+}
+a:link .ovalbutton, a:visited .ovalbutton, a:active .ovalbutton {
+	margin-left: 2px;
+}
+.popupDiv {
+	color: #000000;
+}
+.popupDivSelection {
+	color: #000000;
+}
+.popupDivNew {
+	color: #000000;
+}
+.popupDivSmall {
+	color: #000000;
+}
+.borderBtm {
+	border-bottom: solid 1px #f3f3f3;
+}
+.bg1 {
+	background-color: #808285;
+	color: #FFFFFF;
+}
+.loginBtm {
+	background-color: #f3f3f3;
+	border-top: solid 1px #cccccc;
+}
+.mendatoryAsterisk {
+	color: transparent;
+}
+.mendatoryAsterisk2 {
+	color: #ff0000;
+}
+h3 {
+	color: #2e7399;
+}
+.borderBtm {
+	border-bottom: solid 1px #6bc2f8;
+}
+.conformationMsg {
+	color: #369300 !important;
+}
+.gridLegendTxt {
+	padding-left: 5px;
+	color: #666666;
+}
+#mandatoryDOBForLicense{padding-left: 0px !important;}
+#mandatorySsnForLicense{padding-left: 5px !important;}
+#mandatoryDOBForLicense{xpadding: 2px 0px 2px 5px;}
+.paddingLeft3 {
+	padding-left: 3px !important;
+}
+.border1 listRow1CSS td, .border1 listRow2CSS td {
+	padding: 0px;
+}
+
+.listRow2CSS td.none tr.listRow2CSS td, .listRow2CSS td.none tr.listRow1CSS td,
+	.listRow1CSS td.none tr.listRow2CSS td, .listRow1CSS td.none tr.listRow1CSS td,
+	.listRow1CSS td.none td.HeaderStyle, .listRow2CSS td.none td.HeaderStyle,
+	.listRow1CSS td.none tr.commSchName td, .listRow2CSS td.none tr.commSchName td,
+	.listRow1CSS td.none tr.subTotal td, .listRow2CSS td.none tr.subTotal td,
+	.listRow1CSS td.none tr.commGrandTotal td, .listRow2CSS td.none tr.commGrandTotal td,
+	.listRow1CSS td.none tr.commGrandTotal td, .listRow2CSS td.none tr.commGrandTotal td
+	{
+	padding: 5px 3px !important;
+}
+
+.listRow2CSS td.none, .listRow2CSS td.none td, .listRow1CSS td.none,
+	.listRow1CSS td.none td {
+	padding: 0px;
+}
+
+.listRow2CSS tr.padding0 td, .listRow1CSS tr.padding0 td {
+	padding: 0px !important;
+}
+
+.listRow2CSS tr.border0 td, .listRow1CSS tr.border0 td {
+	border: 0px;
+}
+
+.listRow2CSS td, .listRowCSSOthers td, .listRow1CSS td,
+	.listRowCSSAppointmentWithoutNIPR td,
+	.listRowCSSRowColorForCopiedFromWithinSystem td,
+	.listRowColorForRetrievedFromNIPRAndImported td,
+	.listRowColorForRetrievedFromNIPRbutnotImported td,
+	.listRowCSSAppointmentWithNIPR td, .listRowCSSAppointmentWithoutNIPR td,
+	.listRowCSSAuthorize td, .listRowCSSTerminationWithNIPR td,
+	.listRowCSSTerminationWithoutNIPR td, .listRowCSSUnauthorize td,
+	.listRowCSSPrimary td, .listRowCSSLocation td, .listRowCSSProducer td,
+	.listRowCSSSuperProducer td, .listRowCSSSubProducer td,
+	.listRowCSSProduct td, listRowCSSUnassigned td {
+	padding: 5px 3px;
+}
+.listRow1CSS .branchHome3, .listRow2CSS .branchHome3{padding:0px 3px;}
+.formLabel2 {
+	text-align: left;
+	xpadding: 5px 5px 5px 0px;
+	height: 21px;
+}
+
+.listRowCSSPrimary td span, .listRowCSSLocation td span,
+	.listRowCSSOthers td span, .listRowCSSPrimary td span img,
+	.listRowCSSLocation td span img, .listRowCSSOthers td span img,
+	.listRowCSSPrimary td a, .listRowCSSLocation td a, .listRowCSSOthers td a
+	{
+	float: left
+}
+.listRowCSSPrimary td a, .listRowCSSLocation td a, .listRowCSSOthers td a
+	{
+	margin-left: 3px;
+	line-height: 17px;
+}
+.listRowCSSRequest td {
+	xpadding: 3px;
+}
+.divUL ul, .divUL0 ul {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	border-bottom: 0px !important;
+	border-top: 0px !important;
+}
+.divUL {
+	padding-left: 0px !important;
+	float: left;
+	padding-right: 0px !important;
+	border-bottom: 0px !important;
+	border: 0px;
+}
+.divUL ul li a {
+	margin-right: 0px !important;
+}
+.divUL .noindent {
+	margin: 0px;
+	padding: 0px;
+}
+
+.divUL .noindent li {
+	margin-right: 2px;
+}
+
+.divUL0 {
+	float: left;
+}
+
+.divUL0 .noindent li {
+	margin-right: 0px;
+}
+
+.tab2 li div {
+	margin-right: 0px;
+}
+
+/*-------------------------------common-------------------------------------*/
+.tableHeight {
+	height: 275px;
+}
+
+.paddingLeft3 .error{padding-left: 5px !important;}
+
+
+
+
+/*  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  New css for new page look    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
+.tableWidth {
+	xwidth: 995px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.tableWidthHome {
+	xwidth: 1100px;
+	width: 100%;
+}
+.agencyCodesDiv {
+	width: 50%;
+	float: left;
+}
+
+.agencyCodesDivWidth {
+	width: 217px;
+}
+
+.detailsInnerTD {
+	vertical-align: top;
+	width: 570px;
+}
+.icoDeleteMiniHeaderStyle {
+	font-weight: bold !important;
+}
+.templateBuilderDiv {
+	width: 98%;
+	float: left;
+	clear: both;
+	position: relative;
+	padding: 1%;
+	margin-bottom: 0px;
+}
+.templateBuilderDiv h3 {
+	margin: 0px;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.templateBuilderDiv ul li span {
+	float: left;
+	margin-right: 2px;
+}
+.templateBuilderDiv ul li span a {
+	margin-top: 3px;
+}
+.templateBuilderDiv  .icoDelete {
+	position: absolute;
+	top: 33px;
+	right: 10px;
+}
+.TemplateTypeNewColIcon {
+	width: 5%;
+	text-align: center;
+}
+.TemplateTypeNewColIcon a {
+	margin-top: 3px;
+}
+.templateTypeTable {
+	clear: both;
+	padding: 1%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+/*-------------------------------------------HTML-5-----------------------------------------------*/
+.assignToMutliselect {
+	width: 100%;
+	height: 80px;
+}
+
+.Show_Calendar .taskCalander {
+	width: 100%;
+	border: none;
+}
+
+.popupDivLarge {
+	width: 850px;
+	overflow-y: scroll;
+	min-height: 200px;
+	height: 470px;
+	color: #000000;
+}
+#graph_div1, #graph_div {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+#graph_div1 div, #graph_div div {
+	margin: 0px auto;
+}
+#graph_div1 rect {
+	background: transparent !important;
+}
+.hideNoRecordFound .EmptyRowStyle {
+	display: none;
+}
+.reportsDivBlockMain .split-list {
+	border-bottom: medium none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.reportsDivBlockMain .split-list ul {
+	border-bottom: medium none;
+	float: left;
+	margin-left: 0;
+	padding: 0;
+}
+.reportsDivBlockMain .split-list ul.sub-list {
+	width: 33%;
+}
+
+.reportsDivBlockMain .split-list li {
+	float: none;
+	line-height: 1.5em;
+	padding-right: 0;
+	width: 100%;
+}
+
+.branchAdvSearch .transparent {
+	width: 227px !important;
+}
+
+.mendatoryInput_address, .addressType3 .mendatoryInput_address, .agencyAddressType3 .mendatoryInput_address, .tdInput_address, .tdInput_producerDetail,
+.tdInput_Emailaddress, .tdInput_sendForReviewPopupComment, .typeofOrgNonMendatory, .legalFormNotRequired .mendatoryInput, .billingAddressEmailRequired .mendatoryInput, .docContractContactRequired .mendatoryInput,
+.agencyAddressType2 .mendatoryPhoneInput_address, .producerNumberNotRequired .mendatoryInput, .agencyAddressType3 .mendatoryInput_zip,
+.licenseNumberNotRequired .mendatoryInput, .classificationCodeIdNotRequired .mendatoryInput, .pnAppointmentDateIdNotRequired .mendatoryInput,
+.addressType1 .mendatoryCounty, .tdInput_producerDetailDBA {
+	margin: 5px 0px;
+	padding-left: 5px !important;
+	background: none;
+}
+
+.popupEntityList {
+	left: 20% !important
+}
+.bgInquiery {
+	width: 113px;
+	white-space: nowrap;
+}
+.dobNotRequired .mendatoryInput, .ssnNotRequired .mendatoryInput {
+	padding-left: 5px !important;
+	background: none;
+}
+.detailLeftLableWidth3 {
+	width: 215px;
+}
+.mom_List_BorderNone .listRow2CSS td, .mom_List_BorderNone .listRow1CSS td
+	{
+	border-bottom: none;
+	padding: 0px !important;
+}
+
+.fname, .lname {
+	width: 53px;
+}
+
+.mname {
+	width: 53px;
+}
+
+.suffix {
+	width: 35px;
+}
+.pipeLine{display:none;}
+
+.contactInfoSelf .detail_Split_List .split-list .sub-list .detailLeftLableWidth2{width: 188px;}
+.disabledU .sub-list{width: 442px !important;}
+.inlineBlock{float: none;width: 100%;}
+
+.inlineBlockUL li{width: 40%; float: none; display: inline-block}
+.inlineBlock_div{display: inline-block;}
+.inlineBlock_1{width: 99%}
+.inlineBlock_2{width: 49%}
+.inlineBlock_3{width: 32.8%}
+.inlineBlock_4{width: 25%}
+.inlineBlock_5{width: 10%}
+.inlineBlock_6{width: 20%}
+/* Fix width */
+.inlineBlock_1_fix{width: 1000px;}
+.inlineBlock_2_fix{width: 500px}
+
+.statusBar{padding: 13px 20px 10px 20px;}
+.pendingTask li{height:24px;}
+.pendingTask li label{padding-left:4px}
+.text-center{text-align: center !important;}
+.add-cell{padding: 4px 3px 4px 0px;}
+.bgAccordionN fieldset{margin-top:5px !important;}
+.paddingBottom10{padding-bottom: 10px !important;}
+.premium_padding tr td{padding-right: 4px !important;}
+.paddingBottom0{padding-bottom: 0px !important;}
+.paddingLeft3Td{padding-left: 5px !important;}
+.listRow2CSS tr.border0 td .checkboxDyanmicPadding tr td, .listRow1CSS tr.border0 td .checkboxDyanmicPadding tr td{padding: 1px !important;}
+.listRow2CSS tr.padding0 td.paddingLeft3Td,
+.listRow1CSS tr.padding0 td.paddingLeft3Td{padding-left: 5px !important;}
+td.labelAlignCol-2{width:190px!important}
+.tabs_detail{padding-top: 20px;}
+.tabs_detail .addressDetailBorder_2{border: none; border-top: 1px solid #cccccc; padding-top: 20px;}
+#ssnencryption, #notssnencryption, .inline_d{display: inline-block;}
+.contact_1 .detailsInnerTD{width: 574px;}
+.advSearchFieldset{padding-top:12px}
+.paddingRight3{padding-right: 3px !important;}
+.homeActionBlockSidebarLeft .homeActionBlockHeight{height: 192px;}
+.homeActionBlock_75 .homeActionBlockHeight{height: 182px; vertical-align: top; padding-top: 10px;}
+.mostActive .homeActionBlockHeight, .leastActive .homeActionBlockHeight{height: 139px;}
+.homeActionBlockSidebarLeft {height: auto !important; width: 25%;}  
+.homeActionBlockSidebarLeftInner{margin: 0px 10px 0px 0px !important;}
+.homeActionBlock_75{width: 75%}
+.mostActive, .leastActive{width: 100%;}
+.homeActionBlock_35{width: 37.5%;}
+.scroll_Active{width: 305px; overflow-x:scroll; height: 173px;}
+.homeActionBlockHeightGraph{height: 388px; background: #ffffff;}
+.label_width_MA3{width: 159px;}
+.label_width_MA2{width: 153px;}
+.label_width_MA{width: 150px; display: inline-block; text-align: right; margin-right: 5px;}
+.label_center_MA{text-align: left;}
+.transfer_1 .label_width_MA3{width: 205px;}
+.transfer_1 .label_width_MA2{width: 201px;}
+.transfer_1 .label_width_MA{width: 200px;}  
+.contractSection .split-list ul.sub-list{width: 50%;} 
+.spacerTd430{width:430px !important;} 
+.inlineBlockUL3 li{width: 45% !important;}    
+.header-top-block .header-inner{padding-top: 0px; padding-bottom: 4px;}
+.logo-app {padding-left: 0%;}
+.logo-app a{display: block; padding-top: 11px}
+.right-menus{padding-right: 15px; float: right}
+.tag-line{width: 10%;}
+.welcome-top{padding-bottom: 20px;}
+.welcome-top, .menu-bottom{float: right;}
+.header-outer .topDetails{padding-left: 0px;}
+.header-outer .topDetails .lineHeight_topdetails{line-height: 35px;}
+.header-outer .breadcrumb{padding-left: 0px;}
+.header-outer .breadcrumb span{font-weight: bold;}
+.widthTabs1_top4{padding-top: 4px;}
+.widthTabs1_115{width: 115px;}
+.widthTabs1_100{width: 100px;}
+.widthTabs1_80{width: 80px;}
+.widthTabs1_50{width: 50px;}
+.widthTabs1_70{width: 70px;}
+.widthTabs1_60{width: 60px;}
+.roundTab1 li ul li{margin-right: 0px;}
+.mandatory:before{
+	content:url('../images/icons/mendatory_Icon.png');;
+	position: absolute;
+	margin-left: -5px;
+	margin-top: 6px;
+}
+.txtright {
+	text-align: right !important;
+}
+.history_scroll{width: 1270px; overflow-x: scroll; }
+.history_scroll table td{padding-right: 15px;}
+.history_scroll table {border: none !important;}
+.paddingGridTD table td{width: 5%;}
+
+.sidebarHierarchy #isSideBarHiereachyExistsForProduct{display: none;}
+
+.prospectRelationship .inlineBlock li{width: 43.5%;}
+.welcome-top, .menu-bottom{float: right; clear:both !important;}
+.report_multiCheck{
+	width: 93.8%;
+	margin:3px 0px 3px 3px !important;
+}
+.primary_Beneficiary, .primary_Beneficiary2{padding-left: 2%;}
+.primary_Beneficiary .freeFormLabelWidth_350{width: 200px;}
+.primary_Beneficiary .freeFormLabelWidth_350_beneficiary{width: 350px}
+
+.primary_Beneficiary2 .freeFormLabelWidth_350{width: 206px;}
+.primary_Beneficiary2 .freeFormLabelWidth_350_beneficiary{width: 350px}
+.claendar_advance .date{width: 80px !important;}
+
+@media ( min-width : 768px) {
+	.form-inline .date .form-control {
+		display: inline-block;
+		width: 230px;
+		vertical-align: middle;
+	}
+	.form-inline .date .input-group-addon + .form-control {
+		display: inline-block;
+		width: 201px;
+	    vertical-align: middle;
+	}
+}
+.date .input-group-addon + input, .date .input-group-addon + span input{
+	margin-left: 0px !important;
+}
+.date .input-group-addon + span{
+	padding-left: 0px !important;
+}
+.hidenorecord .EmptyRowStyle{display: none}
+.termAndCondition h3{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px 0px 5px 0px;
+	text-align: center;
+}
+.termAndCondition ol{
+	margin:0px;
+}
+.termAndCondition ol li{
+	float: none;
+	list-style-type: upper-alpha;
+	padding: 4px 
+}
+.termAndCondition ol li.lastLi{
+	float: none;
+	list-style-type: none;
+	text-align: center;
+}
+ul.documents li {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    width: 48%;
+    padding-bottom: 7px;
+    background: url(../images/icons/icon_document.jpg) left top no-repeat;
+    padding-left: 22px;
+}
+.radioStep1 h3 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0px;
+    background: #e6e6e6;
+    margin-right: 10px;
+    padding: 5px;
+}
+.searchFieldTD .searchField{
+	height: 18px;
+}
+.radioStep1 ul li {
+    float: none
+}
+.date {
+    display: inline-table !important;
+}
+.tdInput, .mendatoryCounty {
+    xmargin: 0px 0px;
+    xpadding-left: 5px !important;
+}
+.calender_none{display: none;}
+.mendatoryInput .nonMandatory, .tdInput .mendatoryInput{padding-left: 0px !important;}
+.nonMandatory, .mendatoryInput{padding-left: 5px !important; margin: 0px 0px;}
+.mendatoryInput{background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 9px;}
+span.mendatoryInput {background: url(../images/icons/mendatory_Icon.png) no-repeat 0px 3px !important;}
+.date input{margin-left: 3px !important;}
+.producer-block-input .suffix {
+    width: 36px !important;
+}
+.ext-label {
+    width: 61px !important;
+    display: inline-block;
+}
+.dobNotRequired{
+	display: table-row;
+    width: auto;
+    clear: both;
+}
+@media (min-width: 768px){
+	.form-inline .phone-control {
+		width: 98px !important;
+	}
+	.form-inline .ext-control {
+		width: 45px !important;
+	}
+}
+.tab1_Width100 {
+	width: 100px;
+}
+#entity_background_inquiry_security .freeFormLabelWidth{width: 254px;}
+
+#acraScheduler {
+	display: none;
+	position: absolute;
+	z-index: 1001;
+	padding: 0px;
+}
+
+.td_padding0 .tdInput, .td_padding0 .mendatoryInput, .td_padding0 .nonMandatory{padding-top: 3px; padding-bottom: 3px;}
+
+#associatedAgencyIdDiv
+{
+	display: none;
+}
+.homeActionAgencyProfileBlockHeight {
+	height: 283px;
+}
+
+.clrGrey .listRow2CSS td, .clrGrey .listRow1CSS td, .clrGrey .HeaderStyle{
+    color: #7d7d7d !important;
+}
+@media ( min-width : 500px) and (max-width: 1180px) {
+	.roundTab1 li a{
+		font-size: 11px;
+		padding: 4px 9px;
+	}
+	.dropdown-menu li, .topDetails label, .topDetails span  {
+	    font-size: 11px;
+	}
+}
+@media (min-width: 1050px) and (max-width: 1336px){
+	.header-inner .header-top-block{
+		width: 31%;
+	}
+	.logo-app img{
+		width: 80%;
+	}
+	.searchGroupList .searchField{
+		width: 185px;
+	}
+	.topSearch {
+	    padding-left: 1% !important;
+	}
+	.searchGroup_advanceSearch{
+	    text-align: right !important;
+    	float: none !important;
+	}
+}
+.header-inner .topSearch {
+    padding-left: 1% !important;
+}
+@media (min-width: 988px) and (max-width: 1049px){
+	.header-inner .header-top-block{
+		width: 30%;
+	}
+	.searchGroupList .searchField{
+		width: 150px;
+	}
+	.searchGroupList .fixcolumnHeaderHome{
+		width: 147px !important;
+	}
+	.topSearch .searchGroup_advanceSearch a{
+	    margin-top: 0px;
+	}
+	.right-menus{
+		padding-right: 0px; 
+	}
+	.roundTab1 li a{
+		padding: 4px 6px;
+	}
+	.topSearch{
+		padding-left: 1% !important;
+	}
+	.searchGroup_advanceSearch {
+	    text-align: right;
+	    float: none;
+	    padding-right: 5px;
+	}
+}
+@media (min-width: 800px) and (max-width: 987px){
+	.searchGroupList .searchField{
+		width: 100px;
+	}
+	.header-inner .col-sm-7{
+		width: 68%;
+	}
+	.header-inner .header-top-block{
+		width: 31%;
+		min-height: 30px !important;
+	}
+	.menu-Bottom-new a {
+	    padding: 23px 5px;
+	}
+	.right-menus {
+	    padding-right: 0px;
+	}
+	.topSearch{
+		padding-left: 1% !important;
+	}
+	.searchGroup_advanceSearch {
+	    text-align: right;
+	    float: none;
+	    padding-right: 5px;
+	}
+}
+@media (min-width: 700px) and (max-width: 1100px){
+	.detailLeftLableWidth{width: 183px;}	
+	.valignTop_li.text-nowrap{white-space: normal;}
+}
+.searchGroupList > div.nonMandatory{
+	padding-left: 0px !important;
+}
+.sub-menu-2 a{ 
+	position: relative;
+    margin-left: 15px; 
+}
+.sub-menu .sub-menu-2 a:before{
+	content: '-';
+    position: absolute;
+    left: -13px;
+    top: 5px;
+    color: #fff;
+}
+#general_information_security .freeFormLabelWidth{
+	width: 254px !important;
+}
+.gridBorder tr.ng-scope td {
+    height: 31px;
+}
+.loginBg .l2{
+	padding-left: 24px;
+}
+.loginBg .l3{
+	padding-left: 48px;
+}
+.loginBg .striped td{
+	margin: 0px;
+    padding: 0px 0px;
+    color: #000000;
+    background: #f1f2f3;
+}
+.loginBg  .l1, .loginBg  .l2, .loginBg  .l3{position: relative; margin-left: 25px;}
+.loginBg  .l1:before, .loginBg  .l2:before, .loginBg  .l3:before{
+	top: -3px;
+	content: '';
+    height: 30px;
+    width: 20px;
+    position: absolute;
+	margin-left: -25px;
+}
+.gridBorder tr.ng-scope td {height: 31px;}
+.loginBg  .l1:before{background: url(../images/Login_arrowBorder.png) no-repeat;}
+.loginBg  .l2:before, .l3:before{background: url(../images/Login_arrow.png) no-repeat;}
+.loginBg  .l1.last:before{background: url(../images/Login_arrow.png) no-repeat;}
+.slideMenu .block1{
+	width: 14% !important;
+}
+.menuTop_full{padding-right: 10px !important; padding-top: 25px !important;}
+.p-t-80 { padding-top:120px !important;}
+.p-10 { padding:10px !important;}
+.block-element { display:block !important; width:100%:}
