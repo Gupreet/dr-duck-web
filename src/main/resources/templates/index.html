@@ -23,12 +23,13 @@
 <link data-th-href="@{/css/tabelizer.css}" rel="stylesheet">
 </head>
 <body>
+<!-- <form action="#" data-th-action="@{/}" data-th-object="${model}" method="post"> -->
 	<div class="container-fluid bootstrap-node-29">
 		<div class="tableWidth no-sidebar">
 			<header>
 				<!--  include header here -->
 
-				 <div th:replace="fragments/header :: header">>
+				 <div th:replace="fragments/header :: header">
 
 			</header>
 			<div class="bgmain">
@@ -60,7 +61,7 @@
 																	<span>Subject</span> :
 																</div>
 																<div class="freeFormListTd tdInput">
-																	<input type="text" name="producersearch_producer_name"
+																	<input type="text" name="case_name"
 																		class="form-control form-control-100" />
 																</div>
 															</div>
@@ -70,10 +71,7 @@
 											</div>
 											<div class="col-sm-2">
 												<div class="buttonwrapper">
-													<a class="btn btn-primary"> <span>Go</span>
-													</a> <a class="btn btn-default"> <span
-														id="producerNumbersListresetlabel">Reset</span>
-													</a>
+													<button type="submit" name="action" value="filter">Go</button>
 												</div>
 											</div>
 
@@ -142,4 +140,5 @@
 	<script type="text/javascript" th:src="@{/js/jquery-1.11.1.min.js}"></script>
 	<script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
 </body>
+<!-- </form> -->
 </html>

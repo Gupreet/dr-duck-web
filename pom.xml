@@ -51,8 +51,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
-      
-	
+		<dependency>
+			<groupId>com.duckcreek</groupId>
+			<artifactId>dr-duck-db</artifactId>
+			<version>1.0.0.2</version>
+		</dependency>      
+		 <dependency>
+		    <groupId>commons-codec</groupId>
+		    <artifactId>commons-codec</artifactId>
+		    <version>1.2</version>
+		</dependency> 		
 	</dependencies>
 
 	<build>
