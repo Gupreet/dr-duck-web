@@ -41,7 +41,6 @@ public class CasesController {
 		String q ="process";
 		
 
-		
 		String uri = "";
 		if(wsurl != null)
 			uri = wsurl;
